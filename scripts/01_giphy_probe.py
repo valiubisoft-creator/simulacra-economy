@@ -147,7 +147,7 @@ def probe_all_keywords():
     results["metadata"]["total_keywords"] = total_keywords
 
     # Save results
-    out_path = "data/giphy_results.json"
+    out_path = "data/datasets.json"
     with open(out_path, "w") as f:
         json.dump(results, f, indent=2)
 

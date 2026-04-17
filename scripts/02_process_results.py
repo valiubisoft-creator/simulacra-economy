@@ -66,7 +66,7 @@ def classify_keyword(term: str, theory_anchors: dict) -> str:
     return "neutral"
 
 def process():
-    raw = load_json("data/giphy_results.json")
+    raw = load_json("data/datasets.json")
     keywords_meta = load_json("data/keywords.json")
     theory_anchors = keywords_meta.get("theory_anchors", {})
 

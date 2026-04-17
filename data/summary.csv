@@ -1,0 +1,56 @@
+phase,phase_label,years,term,category,giphy_total_count,codification_score,density_label,classification
+pre_covid,Before the Fall,2018–Feb 2020,selfie,culture,500,50.0,medium,simulacra
+pre_covid,Before the Fall,2018–Feb 2020,influencer,culture,500,50.0,medium,simulacra
+pre_covid,Before the Fall,2018–Feb 2020,viral,culture,500,50.0,medium,simulacra
+pre_covid,Before the Fall,2018–Feb 2020,scrolling,behaviour,500,50.0,medium,medium
+pre_covid,Before the Fall,2018–Feb 2020,fake news,political,500,50.0,medium,neutral
+pre_covid,Before the Fall,2018–Feb 2020,meme,culture,500,50.0,medium,simulacra
+pre_covid,Before the Fall,2018–Feb 2020,boredom,emotional,500,50.0,medium,neutral
+pre_covid,Before the Fall,2018–Feb 2020,anxiety,emotional,500,50.0,medium,neutral
+pre_covid,Before the Fall,2018–Feb 2020,loneliness,emotional,500,50.0,medium,cage
+pre_covid,Before the Fall,2018–Feb 2020,attention,culture,500,50.0,medium,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,coronavirus,epidemiological,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,covid,epidemiological,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,pandemic,epidemiological,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,social distancing,policy,500,100.0,deep,medium
+lockdown,The Cage Opens,Mar 2020–Dec 2020,stay home,policy,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,flatten the curve,policy,173,34.37,shallow,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,work from home,behaviour,500,100.0,deep,medium
+lockdown,The Cage Opens,Mar 2020–Dec 2020,zoom,behaviour,500,100.0,deep,medium
+lockdown,The Cage Opens,Mar 2020–Dec 2020,isolation,emotional,500,100.0,deep,cage
+lockdown,The Cage Opens,Mar 2020–Dec 2020,fear,emotional,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,panic,emotional,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,hope,emotional,500,100.0,deep,respite
+lockdown,The Cage Opens,Mar 2020–Dec 2020,together,emotional,500,100.0,deep,respite
+lockdown,The Cage Opens,Mar 2020–Dec 2020,quarantine life,cultural/humour,99,0.0,shallow,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,zoom memes,cultural/humour,125,14.34,shallow,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,doomscrolling,meta-digital,273,62.55,medium,cage
+lockdown,The Cage Opens,Mar 2020–Dec 2020,cabin fever,meta-digital,153,26.79,shallow,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,essential worker,political,274,62.78,medium,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,lockdown,event,500,100.0,deep,neutral
+lockdown,The Cage Opens,Mar 2020–Dec 2020,quarantine,event,500,100.0,deep,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,vaccine,epidemiological,500,100.0,deep,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,variant,epidemiological,173,64.72,medium,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,depression,emotional,500,100.0,deep,cage
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,hopeless,emotional,500,100.0,deep,cage
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,zoom fatigue,meta-digital,24,0.0,shallow,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,pandemic fatigue,meta-digital,500,100.0,deep,cage
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,loneliness,emotional,500,100.0,deep,cage
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,mental health,emotional,500,100.0,deep,respite
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,burnout,emotional,500,100.0,deep,cage
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,self care,coping,500,100.0,deep,respite
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,cope,coping,500,100.0,deep,respite
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,conspiracy,political,500,100.0,deep,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,misinformation,political,453,96.71,deep,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,censorship,political,219,72.55,deep,neutral
+deep_lockdown,The Simulation Deepens,Jan 2021–Jun 2021,protest,political,500,100.0,deep,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,new normal,cultural,167,43.27,medium,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,return to office,behaviour,500,100.0,deep,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,metaverse,meta-digital,500,100.0,deep,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,AI,technology,500,100.0,deep,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,surveillance,technology,462,95.9,deep,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,reality,philosophical,500,100.0,deep,simulacra
+post_covid,The New Normal (Hyperreal),2022–2024,simulation,philosophical,500,100.0,deep,simulacra
+post_covid,The New Normal (Hyperreal),2022–2024,disconnected,emotional,293,72.33,deep,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,long covid,health,72,0.0,shallow,neutral
+post_covid,The New Normal (Hyperreal),2022–2024,deepfake,tech,144,35.63,medium,simulacra
