@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "project": "Gaze Economy",
+    "description": "Keyword dataset extracted from Perplexity deep research. Sources: IEEE COV19Tweets, TweetsCOV19/GESIS, Twitter COVID-19 Stream (590 keywords, May 2020), Oyebode et al. 47M tweet study, Chen mental health subset, Koh loneliness tweet study, Skórka meme study.",
+    "last_updated": "2026-04-17"
+  },
+
+  "phases": {
+    "pre_covid": {
+      "label": "Before the Fall",
+      "years": "2018–Feb 2020",
+      "narrative": "Baseline cultural vocabulary. The internet as playground.",
+      "keywords": [
+        { "term": "selfie",        "category": "culture",    "source": "cultural baseline" },
+        { "term": "influencer",    "category": "culture",    "source": "cultural baseline" },
+        { "term": "viral",         "category": "culture",    "source": "cultural baseline" },
+        { "term": "scrolling",     "category": "behaviour",  "source": "gif-city original set" },
+        { "term": "fake news",     "category": "political",  "source": "gif-city original set" },
+        { "term": "meme",          "category": "culture",    "source": "cultural baseline" },
+        { "term": "boredom",       "category": "emotional",  "source": "cultural baseline" },
+        { "term": "anxiety",       "category": "emotional",  "source": "cultural baseline" },
+        { "term": "loneliness",    "category": "emotional",  "source": "Koh et al. 2022" },
+        { "term": "attention",     "category": "culture",    "source": "gif-city original set" }
+      ]
+    },
+
+    "lockdown": {
+      "label": "The Cage Opens",
+      "years": "Mar 2020–Dec 2020",
+      "narrative": "First lockdown. The internet becomes the only window to reality.",
+      "keywords": [
+        { "term": "coronavirus",   "category": "epidemiological", "source": "IEEE COV19Tweets; COVIDSenti freq: 156,668" },
+        { "term": "covid",         "category": "epidemiological", "source": "IEEE COV19Tweets dataset" },
+        { "term": "pandemic",      "category": "epidemiological", "source": "TweetsCOV19/GESIS" },
+        { "term": "lockdown",      "category": "policy",          "source": "IEEE COV19Tweets; COVIDSenti top keyword" },
+        { "term": "quarantine",    "category": "policy",          "source": "IEEE COV19Tweets; Oyebode et al." },
+        { "term": "social distancing", "category": "policy",     "source": "IEEE COV19Tweets; COVIDSenti" },
+        { "term": "stay home",     "category": "policy",          "source": "COVIDSenti; Twitter COVID stream" },
+        { "term": "flatten the curve", "category": "policy",     "source": "IEEE COV19Tweets" },
+        { "term": "work from home","category": "behaviour",       "source": "IEEE COV19Tweets" },
+        { "term": "zoom",          "category": "behaviour",       "source": "cultural observation; Giphy spike data" },
+        { "term": "isolation",     "category": "emotional",       "source": "Koh et al. 2022; Chen 2022" },
+        { "term": "fear",          "category": "emotional",       "source": "Chen mental-health keyword subset 2022" },
+        { "term": "panic",         "category": "emotional",       "source": "Chen mental-health keyword subset 2022" },
+        { "term": "hope",          "category": "emotional",       "source": "Giphy Cares channel; Adweek 2020" },
+        { "term": "together",      "category": "emotional",       "source": "Giphy usage report April 2020" },
+        { "term": "quarantine life","category": "cultural/humour","source": "Oyebode et al. #QuarantineLife" },
+        { "term": "zoom memes",    "category": "cultural/humour", "source": "Wikipedia COVID social media; 500k+ group" },
+        { "term": "doomscrolling", "category": "meta-digital",   "source": "UF study 2022; coined ~2018, peak 2020" },
+        { "term": "cabin fever",   "category": "meta-digital",   "source": "cultural observation; emotional keyword" },
+        { "term": "essential worker","category": "political",    "source": "Twitter COVID stream vocabulary" }
+      ]
+    },
+
+    "deep_lockdown": {
+      "label": "The Simulation Deepens",
+      "years": "Jan 2021–Jun 2021",
+      "narrative": "Second wave. Vaccine politics. Fatigue sets in. The cage is familiar now.",
+      "keywords": [
+        { "term": "vaccine",       "category": "epidemiological", "source": "IEEE COV19Tweets" },
+        { "term": "variant",       "category": "epidemiological", "source": "cultural observation 2021" },
+        { "term": "depression",    "category": "emotional",       "source": "Chen 2022; Koh et al. 2022" },
+        { "term": "hopeless",      "category": "emotional",       "source": "Chen mental-health keyword subset 2022" },
+        { "term": "zoom fatigue",  "category": "meta-digital",   "source": "Kircaburun doomscrolling study 2022" },
+        { "term": "pandemic fatigue","category": "meta-digital", "source": "cultural observation; emotional keyword" },
+        { "term": "loneliness",    "category": "emotional",       "source": "Koh et al. 2022 — 4,492 loneliness tweets" },
+        { "term": "mental health", "category": "emotional",       "source": "Chen 2022 top-frequency cluster" },
+        { "term": "burnout",       "category": "emotional",       "source": "Chen mental-health keyword subset 2022" },
+        { "term": "self care",     "category": "coping",          "source": "Abidin et al. TikTok study 2023; Chen 2022" },
+        { "term": "cope",          "category": "coping",          "source": "Skórka meme coping study 2022" },
+        { "term": "conspiracy",    "category": "political",       "source": "Twitter COVID misinformation research" },
+        { "term": "misinformation","category": "political",       "source": "gif-city original set + research" },
+        { "term": "censorship",    "category": "political",       "source": "gif-city original set" },
+        { "term": "protest",       "category": "political",       "source": "gif-city original set + 2021 context" }
+      ]
+    },
+
+    "post_covid": {
+      "label": "The New Normal (Hyperreal)",
+      "years": "2022–2024",
+      "narrative": "What remained. What dissolved into meme. The simulacra completes itself.",
+      "keywords": [
+        { "term": "new normal",    "category": "cultural",        "source": "cultural observation post-2021" },
+        { "term": "return to office","category": "behaviour",     "source": "cultural observation 2022" },
+        { "term": "long covid",    "category": "epidemiological", "source": "cultural observation 2022" },
+        { "term": "metaverse",     "category": "meta-digital",   "source": "gif-city original set" },
+        { "term": "AI",            "category": "technology",      "source": "gif-city original set" },
+        { "term": "deepfake",      "category": "technology",      "source": "gif-city original set" },
+        { "term": "surveillance",  "category": "technology",      "source": "Elahi net art; Baudrillard hyperreal subject" },
+        { "term": "reality",       "category": "philosophical",   "source": "Baudrillard simulacra thesis" },
+        { "term": "simulation",    "category": "philosophical",   "source": "Baudrillard simulacra thesis" },
+        { "term": "disconnected",  "category": "emotional",       "source": "post-pandemic social research" }
+      ]
+    }
+  },
+
+  "theory_anchors": {
+    "baudrillard": ["simulation", "reality", "deepfake", "viral", "meme", "influencer", "selfie"],
+    "mcluhan": ["scrolling", "zoom", "social distancing", "work from home", "doomscrolling"],
+    "cage_keywords": ["isolation", "loneliness", "doomscrolling", "depression", "hopeless", "burnout", "pandemic fatigue"],
+    "respite_keywords": ["together", "hope", "self care", "cope", "mental health", "support"]
+  }
+}
