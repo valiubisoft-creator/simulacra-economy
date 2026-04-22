@@ -106,15 +106,8 @@
       aria-label="Pre-COVID — Sunlight streams for us"
       aria-hidden="true"
     >
-      <video
-        class="narrative-video"
-        src="assets/mp4/Video_02.mp4"
-        autoplay muted loop playsinline preload="none"
-        aria-hidden="true"
-      ></video>
-      <div class="narrative-overlay" aria-hidden="true"></div>
-
       <div class="narrative-content">
+
         <div class="narrative-text">
           <span class="narrative-eyebrow">01 / Pre-COVID</span>
           <h2 class="narrative-headline">
@@ -127,12 +120,20 @@
             We scrolled not to survive — but to play.
           </p>
         </div>
+
         <div class="narrative-media">
-          <canvas
-            aria-label="Pixel-art illustration of a couple on a sofa watching television — warm domestic scene, pre-pandemic"
-            role="img"
-          ></canvas>
+          <!-- Video plays here in the column. Canvas overlays for pixelated reveal. -->
+          <div class="narrative-media-inner">
+            <video
+              autoplay muted loop playsinline preload="none"
+              aria-label="Pixel-art animation of a couple watching television in a warm domestic interior"
+            >
+              <source src="assets/mp4/Video_02.mp4" type="video/mp4" />
+            </video>
+            <canvas aria-hidden="true"></canvas>
+          </div>
         </div>
+
       </div>
 
       <button class="screen-arrow prev" aria-label="Previous screen">←</button>
@@ -146,16 +147,9 @@
       aria-label="COVID Enters — The white boxes drown me in"
       aria-hidden="true"
     >
-      <video
-        class="narrative-video"
-        src="assets/mp4/Video_03.mp4"
-        autoplay muted loop playsinline preload="none"
-        aria-hidden="true"
-      ></video>
-      <div class="narrative-overlay" aria-hidden="true"></div>
-
+      <!-- CSS direction:rtl on .narrative-content swaps column order -->
       <div class="narrative-content">
-        <!-- CSS direction:rtl swaps column order; content uses direction:ltr -->
+
         <div class="narrative-text">
           <span class="narrative-eyebrow">02 / COVID Enters</span>
           <h2 class="narrative-headline">
@@ -164,18 +158,25 @@
           </h2>
           <p class="narrative-body">
             Then the world stopped. And the internet filled every gap.
-            The GIF was no longer play — it became signal. The only way to say
-            <em>I feel this too</em> without speaking. The white rectangle.
-            The looping image. The thing that stood in for everything
-            we couldn't say out loud.
+            The GIF was no longer play — it became signal. The only way
+            to say <em>I feel this too</em> without speaking. The white
+            rectangle. The looping image. The thing that stood in for
+            everything we couldn't say out loud.
           </p>
         </div>
+
         <div class="narrative-media">
-          <canvas
-            aria-label="Pixel-art illustration of a figure sinking underwater — blue, heavy, disorienting"
-            role="img"
-          ></canvas>
+          <div class="narrative-media-inner">
+            <video
+              autoplay muted loop playsinline preload="none"
+              aria-label="Pixel-art animation of a figure sinking through deep blue water"
+            >
+              <source src="assets/mp4/Video_03.mp4" type="video/mp4" />
+            </video>
+            <canvas aria-hidden="true"></canvas>
+          </div>
         </div>
+
       </div>
 
       <button class="screen-arrow prev" aria-label="Previous screen">←</button>
@@ -189,18 +190,10 @@
       aria-label="COVID Prevails — The network is the message"
       aria-hidden="true"
     >
-      <video
-        class="narrative-video"
-        src="assets/mp4/Video_04.mp4"
-        autoplay muted loop playsinline preload="none"
-        aria-hidden="true"
-      ></video>
-      <div class="narrative-overlay" aria-hidden="true"></div>
-
       <div class="narrative-content">
+
         <div class="narrative-text">
           <span class="narrative-eyebrow">03 / COVID Prevails</span>
-          <!-- "network" span is targeted by the glitch animation in JS -->
           <h2 class="narrative-headline hl-100">
             The <span id="network-word">network</span> is the message.
           </h2>
@@ -212,12 +205,19 @@
             reality. The simulation had begun.
           </p>
         </div>
+
         <div class="narrative-media">
-          <canvas
-            aria-label="Pixel-art illustration of a crowd of people on their phones, surrounded by floating digital UI elements"
-            role="img"
-          ></canvas>
+          <div class="narrative-media-inner">
+            <video
+              autoplay muted loop playsinline preload="none"
+              aria-label="Pixel-art animation of a crowd of people illuminated by their phone screens"
+            >
+              <source src="assets/mp4/Video_04.mp4" type="video/mp4" />
+            </video>
+            <canvas aria-hidden="true"></canvas>
+          </div>
         </div>
+
       </div>
 
       <button class="screen-arrow prev" aria-label="Previous screen">←</button>
