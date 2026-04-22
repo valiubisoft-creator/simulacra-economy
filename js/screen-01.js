@@ -364,10 +364,10 @@ export function initScreen01() {
 
   // Initial activation (screen 0 is already active on page load)
   enterScreen();
-  // Open a11y modal if never acknowledged
-  if (!acknowledged) {
-    a11yModal.open();
-  }
+  // Always surface the warning on a fresh page load — it's part of the
+  // experience. If the user has previously acknowledged, the nav stays
+  // unlocked so they can dismiss quickly (Escape or Continue).
+  a11yModal.open();
 
   // ---- Screen change events (re-entry / exit) ----
   const unsub = onScreenChange((next, prev) => {

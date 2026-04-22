@@ -6,8 +6,8 @@
 import { DISTRICTS } from './districts-data.js';
 import { setDistrictModalOpener, restoreDistrictCards } from './screen-05.js';
 import { setNavLocked } from './nav.js';
-import { getDistrictData, fetchGiphyGif } from './data.js';
-import { playSFX } from './audio.js';
+import { getDistrictData, getCachedData, fetchGiphyGif, fetchGiphyGifs } from './data.js';
+import { trapFocus } from './a11y.js';
 
 const PHASE_LABELS = ['Pre-COVID', 'Onset', 'Peak', 'Aftermath'];
 
@@ -26,6 +26,9 @@ let orbitRaf = null;
 let orbitNodes = [];   // [{el, angle, radius, speed}]
 let orbitActive = false;
 
+/* Keyword → {still, src} cache so re-opens skip the network */
+const _orbitGifCache = {};
+
 /* ============================================================
    initDistrictModal
    ============================================================ */
@@ -38,6 +41,7 @@ export function initDistrictModal() {
   if (!modal) { console.warn('modal-district: #district-modal not found'); return; }
 
   let currentDistrictId = 1;
+  let _releaseTrap = null;
 
   /* Wire opener into screen-05 */
   setDistrictModalOpener((id) => openModal(id));
@@ -60,9 +64,11 @@ export function initDistrictModal() {
     renderModal(districtId);
     modal.classList.add('modal-open');
     modal.removeAttribute('hidden');
+    modal.removeAttribute('hidden');
     modal.setAttribute('aria-hidden', 'false');
+    document.getElementById('modal-overlay')?.classList.add('open');
     setNavLocked(true);
-    document.getElementById('modal-close')?.focus();
+    _releaseTrap = trapFocus(modal);
     startOrbitAnimation();
     animateScoreBar();
   }
@@ -70,10 +76,12 @@ export function initDistrictModal() {
   /* ---- Close ---- */
   function closeModal() {
     stopOrbitAnimation();
+    _releaseTrap?.(); _releaseTrap = null;
     modal.classList.remove('modal-open');
     modal.setAttribute('aria-hidden', 'true');
+    modal.setAttribute('hidden', '');
+    document.getElementById('modal-overlay')?.classList.remove('open');
     setNavLocked(false);
-    playSFX.districtClose();
     restoreDistrictCards();
   }
 
@@ -193,55 +201,94 @@ function buildOrbit(district) {
   }
   svgEl.appendChild(symG);
 
-  /* --- Keyword nodes --- */
-  const keywords   = district.keywords;
-  const orbitR     = Math.min(cx, cy) * 0.72;  /* orbit radius */
-  const nodeW      = 80;
-  const nodeH      = 26;
+  /* --- Keyword nodes (GIF thumbnail + label) --- */
+  const keywords = district.keywords;
+  const orbitR   = Math.min(cx, cy) * 0.74;
+  const NODE     = 52;               // thumbnail size (px in SVG user units)
+  const HALF     = NODE / 2;
 
   orbitNodes = keywords.map((kw, i) => {
     const startAngle = (i / keywords.length) * Math.PI * 2;
-    const speed      = (0.8 + Math.random() * 0.4) * (Math.PI * 2 / 30); /* ~30s/rev */
+    const speed      = (0.8 + Math.random() * 0.4) * (Math.PI * 2 / 30);
 
     const g = document.createElementNS(ns, 'g');
     g.setAttribute('class', 'orbit-node');
     g.style.cursor = 'pointer';
 
-    const rect = document.createElementNS(ns, 'rect');
-    rect.setAttribute('width', nodeW);
-    rect.setAttribute('height', nodeH);
-    rect.setAttribute('x', -nodeW / 2);
-    rect.setAttribute('y', -nodeH / 2);
-    rect.setAttribute('rx', '2');
-    rect.setAttribute('fill', 'rgba(255,255,255,0.05)');
-    rect.setAttribute('stroke', `${district.colour}66`);
-    rect.setAttribute('stroke-width', '1');
+    /* Background rect (visible while GIF is loading) */
+    const bg = document.createElementNS(ns, 'rect');
+    bg.setAttribute('x', -HALF);
+    bg.setAttribute('y', -HALF);
+    bg.setAttribute('width', NODE);
+    bg.setAttribute('height', NODE);
+    bg.setAttribute('rx', '2');
+    bg.setAttribute('fill', `${district.colour}14`);
+    g.appendChild(bg);
 
+    /* GIF thumbnail — populated asynchronously */
+    const img = document.createElementNS(ns, 'image');
+    img.setAttribute('x', -HALF);
+    img.setAttribute('y', -HALF);
+    img.setAttribute('width', NODE);
+    img.setAttribute('height', NODE);
+    img.setAttribute('preserveAspectRatio', 'xMidYMid slice');
+    img.style.opacity = '0';
+    img.style.transition = 'opacity 420ms ease';
+    g.appendChild(img);
+
+    /* Border rect — sits on top of the image */
+    const border = document.createElementNS(ns, 'rect');
+    border.setAttribute('x', -HALF);
+    border.setAttribute('y', -HALF);
+    border.setAttribute('width', NODE);
+    border.setAttribute('height', NODE);
+    border.setAttribute('rx', '2');
+    border.setAttribute('fill', 'none');
+    border.setAttribute('stroke', `${district.colour}66`);
+    border.setAttribute('stroke-width', '1');
+    border.style.pointerEvents = 'none';
+    g.appendChild(border);
+
+    /* Keyword label below thumbnail */
     const text = document.createElementNS(ns, 'text');
     text.setAttribute('text-anchor', 'middle');
-    text.setAttribute('dominant-baseline', 'middle');
-    text.setAttribute('y', '1');
+    text.setAttribute('y', HALF + 12);
     text.style.fontFamily = 'var(--font-mono)';
-    text.style.fontSize   = '8px';
-    text.style.fill       = 'var(--color-text-muted)';
+    text.style.fontSize   = '9px';
+    text.style.letterSpacing = '0.08em';
+    text.style.fill       = 'rgba(255,255,255,0.7)';
+    text.style.pointerEvents = 'none';
     text.textContent      = kw;
-
-    g.appendChild(rect);
     g.appendChild(text);
+
     svgEl.appendChild(g);
 
-    /* Find real count from cached data */
+    /* Async GIF fetch — cache by keyword across modal opens */
+    const applyGif = (gif) => {
+      if (!gif?.still && !gif?.src) return;
+      const href = gif.still || gif.src;
+      img.setAttribute('href', href);
+      img.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', href);
+      img.style.opacity = '1';
+    };
+    if (_orbitGifCache[kw]) {
+      applyGif(_orbitGifCache[kw]);
+    } else {
+      fetchGiphyGif(kw)
+        .then(gif => { if (gif) { _orbitGifCache[kw] = gif; applyGif(gif); } })
+        .catch(() => {});
+    }
+
+    /* Tooltip / hover */
     const realKw = district._realKeywords?.find(k => k.term === kw);
     const count  = realKw ? realKw.total_count : '—';
     const score  = realKw ? Math.round(realKw.codification_score) : '—';
-
-    /* Tooltip on hover */
     g.addEventListener('mouseenter', (e) => showTooltip(e, kw, count, score, district));
     g.addEventListener('mousemove',  (e) => moveTooltip(e));
     g.addEventListener('mouseleave', hideTooltip);
 
-    /* GIF fetch on click */
-    g.addEventListener('click', () => showGifForKeyword(kw, g, svgEl));
+    /* Multi-GIF panel on click */
+    g.addEventListener('click', () => showGifsForKeyword(kw, district, svgEl));
 
     return { el: g, angle: startAngle, radius: orbitR, speed };
   });
@@ -303,41 +350,83 @@ function showTooltip(e, kw, count, score, district) {
   tip.classList.add('visible');
 }
 
-/* ---- GIF panel on node click ---- */
-async function showGifForKeyword(keyword, nodeEl, svgEl) {
-  /* Remove any existing gif panel */
-  svgEl.parentElement?.querySelector('.orbit-gif-panel')?.remove();
+/* ---- Multi-GIF panel on keyword click ----
+   Count scales with codification score (3 min → 25 max).
+   Panel overlays the orbit inside the left panel and has an explicit close button.
+---- */
+function _scoreToGifCount(score) {
+  return Math.max(3, Math.min(25, Math.round((score / 100) * 25)));
+}
 
-  const gif = await fetchGiphyGif(keyword);
-  if (!gif) return;
+async function showGifsForKeyword(keyword, district, svgEl) {
+  const container = svgEl.parentElement;
+  if (!container) return;
 
+  /* Remove any existing panel */
+  container.querySelector('.orbit-gif-panel')?.remove();
+
+  /* Figure out count from cached codification score */
+  const cache = getCachedData()?.keywords || {};
+  const score = cache[keyword]?.codification_score ?? 50;
+  const count = _scoreToGifCount(score);
+
+  /* Build panel scaffolding first (shows while fetch is in flight) */
   const panel = document.createElement('div');
   panel.className = 'orbit-gif-panel';
-  panel.style.cssText = 'position:absolute;bottom:24px;left:24px;z-index:2;background:rgba(8,8,8,0.9);border:1px solid rgba(255,255,255,0.1);padding:8px;';
+  panel.innerHTML = `
+    <div class="orbit-gif-panel-header">
+      <div class="orbit-gif-panel-meta">
+        <span class="orbit-gif-panel-keyword">${keyword}</span>
+        <span class="orbit-gif-panel-sub">${count} gifs · codification ${Math.round(score)}</span>
+      </div>
+      <button class="orbit-gif-panel-close" type="button" aria-label="Close GIFs">
+        <i class="ph ph-x"></i>
+      </button>
+    </div>
+    <div class="orbit-gif-panel-grid" aria-live="polite">
+      <div class="orbit-gif-panel-loading">loading…</div>
+    </div>
+  `;
+  panel.style.setProperty('--panel-color', district.colour);
+  container.appendChild(panel);
+  requestAnimationFrame(() => panel.classList.add('panel-open'));
 
-  if (gif.still) {
-    const img = document.createElement('img');
-    img.src    = gif.still;
-    img.alt    = keyword;
-    img.style.cssText = 'display:block;width:140px;height:auto;image-rendering:pixelated;';
-    /* Pixelated reveal: start blocky, then sharpen */
-    img.style.filter = 'blur(4px)';
-    panel.appendChild(img);
-    setTimeout(() => { img.style.transition = 'filter 800ms ease-out'; img.style.filter = 'none'; }, 50);
-    /* Swap to animated src after still loads */
-    if (gif.src) setTimeout(() => { img.src = gif.src; }, 900);
+  /* Wire close */
+  const closeBtn = panel.querySelector('.orbit-gif-panel-close');
+  const closePanel = () => {
+    panel.classList.remove('panel-open');
+    setTimeout(() => panel.remove(), 220);
+  };
+  closeBtn?.addEventListener('click', closePanel);
+
+  /* Fetch & render */
+  const gifs = await fetchGiphyGifs(keyword, count);
+  const grid = panel.querySelector('.orbit-gif-panel-grid');
+  grid.innerHTML = '';
+
+  if (!gifs.length) {
+    grid.innerHTML = '<div class="orbit-gif-panel-empty">no gifs found</div>';
+    return;
   }
 
-  const label = document.createElement('div');
-  label.textContent = keyword;
-  label.style.cssText = 'font-family:var(--font-mono);font-size:8px;color:var(--color-text-muted);margin-top:6px;letter-spacing:0.1em;';
-  panel.appendChild(label);
+  gifs.forEach((gif, i) => {
+    const tile = document.createElement('div');
+    tile.className = 'orbit-gif-tile';
+    tile.style.animationDelay = `${i * 28}ms`;
 
-  /* Close on click-away */
-  const closePanel = (e) => { if (!panel.contains(e.target)) { panel.remove(); document.removeEventListener('click', closePanel); } };
-  setTimeout(() => document.addEventListener('click', closePanel), 100);
+    const img = document.createElement('img');
+    img.src = gif.still || gif.src;
+    img.alt = keyword;
+    img.loading = 'lazy';
+    tile.appendChild(img);
 
-  svgEl.parentElement?.appendChild(panel);
+    if (gif.src && gif.src !== gif.still) {
+      const delay = 500 + i * 28;
+      setTimeout(() => { if (img.isConnected) img.src = gif.src; }, delay);
+    }
+
+    grid.appendChild(tile);
+  });
 }
 function moveTooltip(e) {
   const tip = document.getElementById('orbit-tooltip');

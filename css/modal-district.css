@@ -137,26 +137,32 @@
   transition: filter 400ms ease;
 }
 
-/* Keyword node rectangles (D3 renders these) */
+/* Keyword node — GIF thumbnail + label (built in modal-district.js) */
 .orbit-node {
   cursor: pointer;
+  transition: transform 180ms ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.orbit-node image {
+  image-rendering: pixelated;
 }
 
 .orbit-node rect {
-  fill: rgba(255,255,255,0.05);
-  stroke-width: 1;
-  rx: 2px;
-  transition: fill 200ms ease, stroke 200ms ease;
+  transition: stroke 200ms ease, stroke-width 200ms ease;
 }
 
-.orbit-node:hover rect {
-  fill: rgba(255,255,255,0.12);
+/* On hover, brighten the border */
+.orbit-node:hover rect[fill="none"] {
+  stroke: #fff;
+  stroke-width: 1.5;
 }
 
 .orbit-node text {
   font-family: var(--font-mono);
-  font-size: 8px;
-  fill: var(--color-text-muted);
+  letter-spacing: 0.08em;
+  fill: rgba(255, 255, 255, 0.7);
   pointer-events: none;
 }
 
@@ -335,4 +341,135 @@
     border-top: 1px solid var(--color-border);
   }
   .modal-left { min-height: 40vh; }
+}
+
+/* ================================================================
+   Multi-GIF panel — appears on keyword node click inside the orbit
+   ================================================================ */
+.orbit-gif-panel {
+  position: absolute;
+  inset: 16px;
+  z-index: 5;
+  background: rgba(10, 10, 10, 0.96);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  padding: 14px 16px 14px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transform: scale(0.98);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.orbit-gif-panel.panel-open {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.orbit-gif-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.orbit-gif-panel-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.orbit-gif-panel-keyword {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--panel-color, var(--color-text-primary));
+}
+
+.orbit-gif-panel-sub {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+  opacity: 0.55;
+}
+
+.orbit-gif-panel-close {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+.orbit-gif-panel-close:hover {
+  color: var(--color-text-primary);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.orbit-gif-panel-close i { font-size: 12px; }
+
+.orbit-gif-panel-grid {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 4px;
+  overflow-y: auto;
+  padding-right: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+  align-content: start;
+}
+.orbit-gif-panel-grid::-webkit-scrollbar { width: 3px; }
+.orbit-gif-panel-grid::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.12); }
+
+.orbit-gif-tile {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.03);
+  outline: 1px solid var(--panel-color, rgba(255, 255, 255, 0.08));
+  outline-offset: -1px;
+  opacity: 0;
+  animation: orbitGifIn 300ms ease forwards;
+  transition: transform 180ms ease;
+}
+.orbit-gif-tile:hover {
+  transform: scale(1.06);
+  z-index: 2;
+}
+
+.orbit-gif-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  image-rendering: pixelated;
+}
+
+.orbit-gif-panel-loading,
+.orbit-gif-panel-empty {
+  grid-column: 1 / -1;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@keyframes orbitGifIn {
+  from { opacity: 0; transform: scale(0.7); }
+  to   { opacity: 1; transform: scale(1); }
 }

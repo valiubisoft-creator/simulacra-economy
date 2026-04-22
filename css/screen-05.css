@@ -1,7 +1,6 @@
 /* ============================================================
-   screen-05.css — Districts screen
-   Full-viewport pixel-art bedroom MP4 with dark semi-transparent
-   district cards floating at predefined positions.
+   screen-05.css — Districts (card grid + modal)
+   MP4 background · 8 district cards in a structured 4×2 grid
    ============================================================ */
 
 /* ---- Screen base ---- */
@@ -10,7 +9,7 @@
   overflow: hidden;
 }
 
-/* ---- Video background — no overlay ---- */
+/* ---- Background video — darker overlay for card legibility ---- */
 .districts-video {
   position: absolute;
   inset: 0;
@@ -20,11 +19,24 @@
   z-index: 0;
 }
 
-/* ---- Top-left UI bar (label + instruction + controls) ---- */
+#screen-05::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 8, 8, 0.45) 0%,
+    rgba(8, 8, 8, 0.70) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* ---- Top UI bar (label + instruction + controls) ---- */
 .districts-ui {
   position: absolute;
-  top: 56px;     /* clear the global nav */
-  left: 24px;
+  top: 56px;
+  left: 40px;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -35,7 +47,7 @@
 .districts-label {
   font-family: var(--font-mono);
   font-size: 10px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--color-text-muted);
   opacity: 0.6;
@@ -49,12 +61,9 @@
   transition: opacity 600ms ease;
   letter-spacing: 0.08em;
 }
+.districts-instruction.visible { opacity: 0.4; }
 
-.districts-instruction.visible {
-  opacity: 0.4;
-}
-
-/* Controls: [Pause] [B&W] */
+/* ---- Controls (Pause / B&W) ---- */
 .districts-controls {
   display: flex;
   gap: 8px;
@@ -65,115 +74,147 @@
 .districts-ctrl-btn {
   font-family: var(--font-mono);
   font-size: 9px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-text-muted);
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(8,8,8,0.6);
-  padding: 4px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(8, 8, 8, 0.6);
+  padding: 5px 10px;
   cursor: pointer;
   border-radius: var(--radius);
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   transition: color var(--transition-fast), border-color var(--transition-fast);
 }
-.districts-ctrl-btn:hover { color: var(--color-text-primary); border-color: rgba(255,255,255,0.3); }
+.districts-ctrl-btn:hover {
+  color: var(--color-text-primary);
+  border-color: rgba(255, 255, 255, 0.3);
+}
 .districts-ctrl-btn[aria-pressed="true"] {
   color: var(--color-accent-cyan);
   border-color: var(--color-accent-cyan);
 }
 .districts-ctrl-btn i { font-size: 11px; }
 
-/* ---- District cards ---- */
-.district-card {
+/* ================================================================
+   Districts layout — scattered around the subject in Video_05
+   Card top/left percentages are set by JS from DISTRICTS data.
+   ================================================================ */
+#districts-grid {
   position: absolute;
-  width: clamp(140px, 12.5vw, 180px);
-  background: rgba(8, 8, 8, 0.82);
-  backdrop-filter: blur(2px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: var(--radius);
-  padding: 16px;
-  cursor: pointer;
+  inset: 0;
   z-index: 2;
-  text-align: left;
-  /* Stagger-in animation applied from JS */
-  opacity: 0;
-  transform: translateY(8px);
-  transition:
-    opacity    400ms ease-out,
-    transform  400ms ease-out,
-    box-shadow 200ms ease;
 }
 
-/* Revealed state (added by JS) */
+/* ---- District card ---- */
+.district-card {
+  position: absolute;
+  width: clamp(150px, 13vw, 190px);
+  background: rgba(8, 8, 8, 0.82);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius);
+  padding: 14px 14px 12px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  /* Entry animation */
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity    420ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform  420ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.district-card:hover {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
 .district-card.card-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Faded out when another card is selected */
 .district-card.card-hidden {
   opacity: 0 !important;
   pointer-events: none;
-  transition: opacity 400ms ease-out !important;
+  transition: opacity 380ms ease-out !important;
 }
 
-/* Selected card stays in place */
 .district-card.card-selected {
   z-index: 4;
 }
 
-/* ---- Card symbol (SVG area) ---- */
+/* ---- Card index label (01, 02, ...) ---- */
+.card-index {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  opacity: 0.4;
+}
+
+/* ---- Card symbol ---- */
 .card-symbol {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 12px;
-  color: #444;  /* default stroke colour via currentColor */
-  transition: color 200ms ease;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 10px;
+  color: #5a5a5a;
+  transition: color 220ms ease, filter 220ms ease;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .card-symbol svg {
   width: 100%;
   height: 100%;
 }
 
-/* B&W mode: force grey on all symbols, suppress per-card colour */
+.district-card:hover .card-symbol {
+  filter: drop-shadow(0 0 8px currentColor);
+}
+
 #screen-05.bw-mode .card-symbol { color: #555 !important; }
-/* Hover still works even in B&W: CSS specificity overridden by JS inline style */
 
 /* ---- Card text ---- */
 .card-name {
   font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.14em;
+  font-size: 9.5px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
-  margin-bottom: 4px;
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
 }
 
 .card-keyword {
   font-family: var(--font-body);
-  font-size: 9px;
-  color: var(--color-text-muted);
-  opacity: 0.5;
-  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--color-text-primary);
+  opacity: 0.82;
+  margin-bottom: auto;
+  padding-bottom: 10px;
 }
 
 /* ---- Codification bar ---- */
 .card-bar {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .bar-track {
   flex: 1;
   height: 3px;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 1px;
   overflow: hidden;
 }
@@ -183,7 +224,7 @@
   background: var(--district-color, #666);
   border-radius: 1px;
   width: 0;
-  transition: width 800ms ease-out;
+  transition: width 900ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .bar-fill.bar-animated {
@@ -192,10 +233,11 @@
 
 .bar-score {
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 9px;
   color: var(--color-text-muted);
-  opacity: 0.5;
-  min-width: 20px;
+  opacity: 0.6;
+  min-width: 22px;
+  text-align: right;
 }
 
 /* ================================================================
@@ -204,48 +246,51 @@
 #screen-05.bw-mode .district-card {
   filter: grayscale(1);
 }
-/* Hover lifts grayscale even in B&W */
 #screen-05.bw-mode .district-card:hover {
   filter: none;
 }
 
 /* ================================================================
-   Animations-paused (Pause toggle)
+   Animations paused
    ================================================================ */
 #screen-05.animations-paused .bar-fill {
   transition: none;
 }
 
 /* ================================================================
-   Responsive — 768px and below
-   Collapse to scrollable vertical list
+   Responsive — below 820px, cards collapse to a scrollable list
+   (scattered % positions don't work on narrow viewports)
    ================================================================ */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   #districts-grid {
     position: absolute;
-    inset: 0;
+    inset: 110px 20px 80px 20px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 80px 20px 40px;
-    z-index: 2;
+    gap: 10px;
   }
 
   .district-card {
     position: static !important;
+    top: auto !important;
+    left: auto !important;
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
+    padding: 12px 14px;
   }
 
   .card-symbol {
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
     margin-bottom: 0;
+    flex-shrink: 0;
   }
-
-  .card-info { flex: 1; }
+  .card-name     { margin-bottom: 2px; }
+  .card-keyword  { padding-bottom: 0; margin-bottom: 4px; font-size: 12px; }
+  .card-bar      { margin-top: auto; }
+  .card-index    { top: 8px; right: 10px; }
 }

@@ -145,7 +145,7 @@ export const DISTRICTS = [
   {
     id: 5,
     name: 'POWER & VOICE',
-    colour: '#9C27B0',
+    colour: '#B55DC9',
     keyword: 'misinformation',
     score: 83,
     top: '36%', left: '5%',

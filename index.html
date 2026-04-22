@@ -8,7 +8,7 @@
 
   <!-- Giphy API key — leave empty in version control; paste locally before deploying. -->
   <!-- Add your Giphy API key here -->
-  <script>window.GIPHY_API_KEY = '';</script>
+  <script>window.GIPHY_API_KEY = 'oo9QNcle1oRcCHhc7RYJEyL2FsDmKrsB';</script>
 
   <!-- Google Fonts: Space Grotesk + Space Grotesk Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -120,9 +120,10 @@
             <span class="hl-italic-70">for us.</span>
           </h2>
           <p class="narrative-body">
-            Before the algorithm learned our fear, it fed our leisure.
-            The GIF was a joke. A reaction. A heartbeat sent across a screen.
-            We scrolled not to survive — but to play.
+            This is a story about GIFs during COVID-19.
+            Before the pandemic, a GIF was a small joke. A reaction.
+            Something you sent a friend to make them laugh.
+            It described how we felt — but it wasn't how we felt.
           </p>
         </div>
 
@@ -130,7 +131,7 @@
           <!-- Video plays here in the column. Canvas overlays for pixelated reveal. -->
           <div class="narrative-media-inner">
             <video
-              autoplay muted loop playsinline preload="none"
+              autoplay muted loop playsinline preload="auto"
               aria-label="Pixel-art animation of a couple watching television in a warm domestic interior"
             >
               <source src="assets/mp4/Video_02.mp4" type="video/mp4" />
@@ -161,18 +162,17 @@
             <span class="hl-italic-50">drown me in.</span>
           </h2>
           <p class="narrative-body">
-            Then the world stopped. And the internet filled every gap.
-            The GIF was no longer play — it became signal. The only way
-            to say <em>I feel this too</em> without speaking. The white
-            rectangle. The looping image. The thing that stood in for
-            everything we couldn't say out loud.
+            Then lockdown happened. We stopped seeing each other.
+            GIFs stopped being optional. They became the fastest way
+            to say <em>I'm tired</em>, <em>I'm scared</em>, <em>I miss you</em> —
+            without needing words. The looping image carried what we couldn't.
           </p>
         </div>
 
         <div class="narrative-media">
           <div class="narrative-media-inner">
             <video
-              autoplay muted loop playsinline preload="none"
+              autoplay muted loop playsinline preload="auto"
               aria-label="Pixel-art animation of a figure sinking through deep blue water"
             >
               <source src="assets/mp4/Video_03.mp4" type="video/mp4" />
@@ -201,18 +201,18 @@
             The <span id="network-word">network</span> is the message.
           </h2>
           <p class="narrative-body">
-            McLuhan said the medium shapes the message. But what happens when
-            the medium <em>becomes</em> the feeling? By mid-2020, GIFs weren't
-            just describing fear, hope, isolation — they were the primary form
-            those feelings <em>existed</em> in. Internet culture had codified
-            reality. The simulation had begun.
+            By mid-2020, something stranger had happened.
+            GIFs weren't describing loneliness anymore. <em>They were loneliness.</em>
+            The feeling and the image had collapsed into the same thing.
+            This archive tracks that collapse — across 55 COVID-era keywords
+            and 8 emotional districts of the internet.
           </p>
         </div>
 
         <div class="narrative-media">
           <div class="narrative-media-inner">
             <video
-              autoplay muted loop playsinline preload="none"
+              autoplay muted loop playsinline preload="auto"
               aria-label="Pixel-art animation of a crowd of people illuminated by their phone screens"
             >
               <source src="assets/mp4/Video_04.mp4" type="video/mp4" />
@@ -230,10 +230,12 @@
     <!-- ==================== Screen 05 — Districts ==================== -->
     <section class="screen" id="screen-05" aria-label="Districts" aria-hidden="true">
 
-      <video class="districts-video" autoplay muted loop playsinline preload="none" aria-hidden="true">
+      <!-- MP4 background -->
+      <video class="districts-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
         <source src="assets/mp4/Video_05.mp4" type="video/mp4" />
       </video>
 
+      <!-- Top UI (label + instruction + controls) -->
       <div class="districts-ui">
         <span class="districts-label">03 / Districts</span>
         <span class="districts-instruction">hover to reveal · click to enter</span>
@@ -247,7 +249,7 @@
         </div>
       </div>
 
-      <!-- Cards injected here by JS -->
+      <!-- 4×2 grid of district cards (injected by JS) -->
       <div id="districts-grid" role="list" aria-label="District cards"></div>
 
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>

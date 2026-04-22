@@ -137,8 +137,8 @@ export function initScreen06() {
 
   /* ---------- BTS helpers ---------- */
   function openBTS() {
-    btsModal?.classList.add('bts-open');
     btsModal?.removeAttribute('hidden');
+    btsModal?.classList.add('bts-open');
     btsModal?.setAttribute('aria-hidden', 'false');
     setNavLocked(true);
     btsClose?.focus();
@@ -149,6 +149,7 @@ export function initScreen06() {
   function closeBTS() {
     btsModal?.classList.remove('bts-open');
     btsModal?.setAttribute('aria-hidden', 'true');
+    btsModal?.setAttribute('hidden', '');
     setNavLocked(false);
     btsBtn?.focus();
   }

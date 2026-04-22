@@ -147,6 +147,60 @@ export async function fetchGiphyGif(keyword) {
 }
 
 /* ============================================================
+   fetchGiphyGifs — multi-GIF variant (limit up to 50 per Giphy API)
+   Fires analytics pingback per returned GIF (ToS requirement).
+   ============================================================ */
+export async function fetchGiphyGifs(keyword, count = 10) {
+  const apiKey = window.GIPHY_API_KEY;
+  if (!apiKey) return [];
+
+  /* Get session random ID once */
+  if (!_sessionRandomId) {
+    try {
+      const r = await fetch(`https://api.giphy.com/v1/randomid?api_key=${apiKey}`);
+      const j = await r.json();
+      _sessionRandomId = j?.data?.random_id || '';
+    } catch (_) { _sessionRandomId = ''; }
+  }
+
+  try {
+    const url = new URL('https://api.giphy.com/v1/gifs/search');
+    url.searchParams.set('api_key', apiKey);
+    url.searchParams.set('q', keyword);
+    url.searchParams.set('limit', String(Math.min(50, Math.max(1, count))));
+    url.searchParams.set('rating', 'pg');
+    url.searchParams.set('lang', 'en');
+    url.searchParams.set('fields', 'id,images.fixed_width,images.fixed_width_still,analytics');
+
+    const res = await fetch(url.toString());
+    if (!res.ok) throw new Error(`Giphy HTTP ${res.status}`);
+    const json = await res.json();
+    const arr  = json?.data || [];
+
+    /* Fire pingbacks for each GIF (fire-and-forget, respects ToS) */
+    arr.forEach(gif => {
+      const pingBase = gif.analytics?.onload?.url;
+      if (!pingBase) return;
+      try {
+        const pingUrl = new URL(pingBase);
+        pingUrl.searchParams.set('ts', Date.now().toString());
+        if (_sessionRandomId) pingUrl.searchParams.set('random_id', _sessionRandomId);
+        fetch(pingUrl.toString()).catch(() => {});
+      } catch (_) {}
+    });
+
+    return arr.map(gif => ({
+      id:    gif.id,
+      still: gif.images?.fixed_width_still?.url,
+      src:   gif.images?.fixed_width?.webp || gif.images?.fixed_width?.mp4 || gif.images?.fixed_width?.url,
+    })).filter(g => g.still || g.src);
+  } catch (err) {
+    console.warn('data.js: fetchGiphyGifs failed', err);
+    return [];
+  }
+}
+
+/* ============================================================
    Background refresh — updates in-memory data only
    (GitHub Pages is static; cannot write back to disk)
    ============================================================ */

@@ -12,6 +12,7 @@ import { initScreen05 } from './screen-05.js';
 import { initDistrictModal } from './modal-district.js';
 import { initScreen06 } from './screen-06.js';
 import { loadData, getCachedData } from './data.js';
+import { initA11y } from './a11y.js';
 
 async function boot() {
   initAudio();
@@ -22,13 +23,10 @@ async function boot() {
   initScreen05();
   initDistrictModal();
   initScreen06();
+  initA11y();
 
   const data = await loadData();
   window.__discombobulateData = data;
-
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.body.classList.add('reduced-motion');
-  }
 }
 
 if (document.readyState === 'loading') {

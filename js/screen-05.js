@@ -1,22 +1,21 @@
 /* ============================================================
-   screen-05.js — Districts screen
-   Video background · 8 district cards · hover/click interactions
-   Pause + B&W toggles · entry stagger animation
+   screen-05.js — Districts (card grid + modal)
+   Video background · 8 district cards in a 4×2 grid · modal on click
+   Pause + B&W toggles · entry stagger animation · no UI sounds
    ============================================================ */
 
 import { onScreenChange } from './screen-manager.js';
 import { DISTRICTS } from './districts-data.js';
-import { playSFX } from './audio.js';
 
-/* Stub replaced by Chunk 05 when the modal is wired */
+/* Opener registered by modal-district.js via setDistrictModalOpener */
 let _openModal = (districtId) => {
-  console.info('[screen-05] modal stub — district', districtId);
+  console.info('[screen-05] modal opener not yet registered — district', districtId);
 };
 
 export function setDistrictModalOpener(fn) { _openModal = fn; }
 
 /* ============================================================
-   Card restoration (called by modal on close)
+   Card restoration — called by modal on close
    ============================================================ */
 export function restoreDistrictCards() {
   const cards = [...document.querySelectorAll('.district-card')];
@@ -24,7 +23,10 @@ export function restoreDistrictCards() {
     c.classList.remove('card-selected', 'card-hidden');
     c.style.transitionDelay = `${i * 50}ms`;
   });
-  setTimeout(() => cards.forEach(c => (c.style.transitionDelay = '')), cards.length * 50 + 500);
+  setTimeout(
+    () => cards.forEach(c => (c.style.transitionDelay = '')),
+    cards.length * 50 + 500
+  );
 }
 
 /* ============================================================
@@ -44,10 +46,10 @@ export function initScreen05() {
   let isBW     = false;
   let instTimer = null;
 
-  /* ---------- Render cards ---------- */
+  /* Render cards */
   DISTRICTS.forEach(d => grid.appendChild(buildCard(d)));
 
-  /* ---------- Controls ---------- */
+  /* Controls */
   pauseBtn?.addEventListener('click', () => {
     isPaused = !isPaused;
     pauseBtn.setAttribute('aria-pressed', isPaused ? 'true' : 'false');
@@ -66,7 +68,7 @@ export function initScreen05() {
     section.classList.toggle('bw-mode', isBW);
   });
 
-  /* ---------- Screen lifecycle ---------- */
+  /* Lifecycle */
   function activate() {
     playVideo();
     staggerCardsIn();
@@ -78,7 +80,6 @@ export function initScreen05() {
     clearTimeout(instTimer);
     hideCards();
     instruction?.classList.remove('visible');
-    // Reset pause/bw on exit
     if (isPaused) {
       isPaused = false;
       pauseBtn?.setAttribute('aria-pressed', 'false');
@@ -91,12 +92,25 @@ export function initScreen05() {
     else if (prev === 4) deactivate();
   });
 
-  /* ---------- Helpers ---------- */
+  /* Helpers */
   function playVideo() {
     if (!video) return;
-    video.addEventListener('canplay', () => { video.playbackRate = 0.5; }, { once: true });
+    const setRate = () => { video.playbackRate = 0.5; };
+    if (video.readyState >= 2) setRate();
+    else video.addEventListener('canplay', setRate, { once: true });
+
     if (video.readyState === 0) { video.setAttribute('preload', 'auto'); video.load(); }
-    video.play().catch(() => {});
+
+    video.play().catch(() => {
+      /* Fall back to the next user gesture if autoplay was blocked */
+      const resume = () => {
+        video.play().catch(() => {});
+        document.removeEventListener('pointerdown', resume);
+        document.removeEventListener('keydown', resume);
+      };
+      document.addEventListener('pointerdown', resume, { once: true });
+      document.addEventListener('keydown',     resume, { once: true });
+    });
   }
 
   function staggerCardsIn() {
@@ -105,7 +119,10 @@ export function initScreen05() {
       c.style.transitionDelay = `${i * 80}ms`;
       requestAnimationFrame(() => c.classList.add('card-visible'));
     });
-    setTimeout(() => cards.forEach(c => (c.style.transitionDelay = '')), cards.length * 80 + 400);
+    setTimeout(
+      () => cards.forEach(c => (c.style.transitionDelay = '')),
+      cards.length * 80 + 400
+    );
   }
 
   function hideCards() {
@@ -116,7 +133,7 @@ export function initScreen05() {
 }
 
 /* ============================================================
-   Build a single district card element
+   Build a single district card
    ============================================================ */
 function buildCard(d) {
   const card = document.createElement('button');
@@ -124,11 +141,13 @@ function buildCard(d) {
   card.dataset.district = d.id;
   card.setAttribute('type', 'button');
   card.setAttribute('aria-label', `Open ${d.name} district`);
+  /* Scatter positions from PRD — arranged around the subject in Video_05 */
   card.style.top  = d.top;
   card.style.left = d.left;
   card.style.setProperty('--district-color', d.colour);
 
   card.innerHTML = `
+    <div class="card-index">0${d.id}</div>
     <div class="card-symbol">${d.symbol}</div>
     <div class="card-name">${d.name}</div>
     <div class="card-keyword">${d.keyword}</div>
@@ -140,14 +159,12 @@ function buildCard(d) {
     </div>
   `;
 
-  /* Hover: tint symbol to district colour + glow */
+  /* Hover: tint symbol to district colour + glow + animate bar fill */
   card.addEventListener('mouseenter', () => {
     card.querySelector('.card-symbol').style.color = d.colour;
     card.style.boxShadow = `0 0 24px ${hexToRgba(d.colour, 0.28)}`;
-    /* Animate bar fill on first hover */
     const fill = card.querySelector('.bar-fill');
     if (!fill.classList.contains('bar-animated')) fill.classList.add('bar-animated');
-    playSFX.districtHover();
   });
 
   card.addEventListener('mouseleave', () => {
@@ -155,7 +172,6 @@ function buildCard(d) {
     card.style.boxShadow = '';
   });
 
-  /* Click: fade siblings, open modal */
   card.addEventListener('click', () => handleCardClick(card, d.id));
 
   return card;
@@ -166,7 +182,6 @@ function handleCardClick(clickedCard, districtId) {
   document.querySelectorAll('.district-card').forEach(c => {
     if (c !== clickedCard) c.classList.add('card-hidden');
   });
-  playSFX.districtOpen();
   _openModal(districtId);
 }
 

@@ -83,7 +83,7 @@
   --color-accent-green:  #AEEA00;  /* 02 · The Body         */
   --color-accent-amber:  #FFB300;  /* 03 · Control          */
   --color-accent-red:    #F44336;  /* 04 · Inner Life       */
-  --color-accent-violet: #9C27B0;  /* 05 · Power & Voice    */
+  --color-accent-violet: #B55DC9;  /* 05 · Power & Voice — lightened from #9C27B0 for WCAG AA (5.07:1 on #0A0A0A) */
   --color-accent-grey:   #9E9E9E;  /* 06 · The Simulation   */
   --color-accent-orange: #FF5722;  /* 07 · The Cage         */
   --color-accent-teal:   #26A69A;  /* 08 · Respite          */

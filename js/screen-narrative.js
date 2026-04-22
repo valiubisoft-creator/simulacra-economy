@@ -123,15 +123,28 @@ function setupNarrativeScreen(cfg) {
   /* ---------- Video helpers ---------- */
   function playVideo() {
     if (!video) return;
-    video.addEventListener('canplay', () => {
-      video.playbackRate = 0.5;
-    }, { once: true });
+
+    const setRate = () => { video.playbackRate = 0.5; };
+    if (video.readyState >= 2) setRate();
+    else video.addEventListener('canplay', setRate, { once: true });
 
     if (video.readyState === 0) {
       video.setAttribute('preload', 'auto');
       video.load();
     }
-    video.play().catch(() => {});
+
+    const tryPlay = () => video.play().catch(() => {
+      /* Autoplay blocked — play on the next user gesture. Muted videos
+         generally auto-play in modern browsers, but fall back cleanly. */
+      const resume = () => {
+        video.play().catch(() => {});
+        document.removeEventListener('pointerdown', resume);
+        document.removeEventListener('keydown', resume);
+      };
+      document.addEventListener('pointerdown', resume, { once: true });
+      document.addEventListener('keydown',     resume, { once: true });
+    });
+    tryPlay();
   }
 
   function pauseVideo() { if (video) video.pause(); }
@@ -161,19 +174,21 @@ function setupNarrativeScreen(cfg) {
       return;
     }
 
-    // Pixelated reveal fires at T=80ms — video column starts fading in at T=0,
-    // so by 80ms the video has a first frame ready and the reveal starts in sync.
+    // Pixelated reveal — only runs if the video actually has a decoded frame.
+    // If the video hasn't loaded yet (readyState < 2), we hide the canvas
+    // instead of drawing a blank frame on top of the video.
     revealTimerId = setTimeout(() => {
       if (!video || !canvas) return;
 
-      const W = video.videoWidth  || video.offsetWidth;
-      const H = video.videoHeight || video.offsetHeight;
-      if (!W || !H) { if (canvas) canvas.style.display = 'none'; return; }
+      if (video.readyState < 2 || !video.videoWidth || !video.videoHeight) {
+        canvas.style.display = 'none';
+        return;
+      }
 
-      canvas.width  = W;
-      canvas.height = H;
+      canvas.width  = video.videoWidth;
+      canvas.height = video.videoHeight;
 
-      cancelReveal = runPixelatedReveal(canvas, video, 900); // slightly longer reveal
+      cancelReveal = runPixelatedReveal(canvas, video, 900);
     }, 80);
 
     if (glitch) setTimeout(() => glitch.start(), 200);
