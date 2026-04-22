@@ -42,8 +42,7 @@ html, body {
 #global-nav #audio-toggle:hover { opacity: 0.9; }
 
 #audio-toggle {
-  font-size: 20px;
-  letter-spacing: normal;
+  font-size: 26px; /* Phosphor icon scales with font-size */
 }
 
 #audio-toggle:focus-visible {
@@ -90,10 +89,10 @@ html, body {
 
 /* ---------- On-screen nav arrows (per screen) ---------- */
 /*
-  Full-height hit zone on each side edge.
-  The visible glyph lives in ::before so it can be animated
-  independently — the hover zone itself never moves.
-  z-index: 5 keeps arrows above .narrative-content (z-index: 1).
+  Full-height hit zone on each edge (96px wide).
+  Phosphor <i> icon inside is the only thing that animates —
+  the button position never moves so the hover zone stays stable.
+  z-index: 5 sits above .narrative-content (z-index: 1).
 */
 .screen-arrow {
   position: absolute;
@@ -104,7 +103,6 @@ html, body {
   align-items: center;
   z-index: 5;
   cursor: pointer;
-  font-size: 0;           /* hide raw ← → text; aria-label provides the name */
   background: transparent;
   border: none;
 }
@@ -120,37 +118,29 @@ html, body {
   padding-right: 28px;
 }
 
-/* The animated arrow glyph */
-.screen-arrow::before {
-  font-family: var(--font-mono);
-  font-size: 22px;
+/* Phosphor icon — starts faint and offset toward its edge */
+.screen-arrow i {
+  font-size: 26px;
   color: rgba(255, 255, 255, 0.18);
   display: block;
   transition:
-    color      300ms ease-out,
-    transform  300ms ease-out,
-    text-shadow 300ms ease-out;
+    color    300ms ease-out,
+    transform 300ms ease-out,
+    filter   300ms ease-out;
 }
 
-/* Starts slightly off-centre toward its edge */
-.screen-arrow.prev::before {
-  content: '←';
-  transform: translateX(-10px);
-}
-.screen-arrow.next::before {
-  content: '→';
-  transform: translateX(10px);
-}
+.screen-arrow.prev i { transform: translateX(-10px); }
+.screen-arrow.next i { transform: translateX(10px); }
 
-/* Hover / focus: slides in, pure white, soft glow */
-.screen-arrow:hover::before,
-.screen-arrow:focus-visible::before {
+/* Hover / focus: slides to position, white, soft multi-layer glow */
+.screen-arrow:hover i,
+.screen-arrow:focus-visible i {
   color: #ffffff;
   transform: translateX(0);
-  text-shadow:
-    0 0 12px rgba(255, 255, 255, 0.95),
-    0 0 32px rgba(255, 255, 255, 0.55),
-    0 0 60px rgba(255, 255, 255, 0.20);
+  filter:
+    drop-shadow(0 0 8px  rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 20px rgba(255, 255, 255, 0.50))
+    drop-shadow(0 0 48px rgba(255, 255, 255, 0.18));
 }
 
 .screen-arrow:focus-visible {
@@ -158,17 +148,17 @@ html, body {
   outline-offset: 2px;
 }
 
-/* Hide on first/last screen */
+/* Hide on first / last screen */
 .screen-arrow[aria-disabled="true"] {
   opacity: 0;
   pointer-events: none;
 }
 
-/* Reduced motion: skip the translate */
+/* Reduced motion: skip translate, keep glow */
 @media (prefers-reduced-motion: reduce) {
-  .screen-arrow::before { transition: color 150ms ease, text-shadow 150ms ease; }
-  .screen-arrow.prev::before { transform: translateX(0); }
-  .screen-arrow.next::before { transform: translateX(0); }
+  .screen-arrow i { transition: color 150ms ease, filter 150ms ease; }
+  .screen-arrow.prev i,
+  .screen-arrow.next i { transform: translateX(0); }
 }
 
 /* ---------- Dot nav (bottom centre) ---------- */

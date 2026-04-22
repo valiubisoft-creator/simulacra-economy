@@ -29,6 +29,9 @@
   <link rel="preload" as="image" href="assets/img/screen-03-still.png" />
   <link rel="preload" as="image" href="assets/img/screen-04-still.png" />
 
+  <!-- Phosphor Icons — icon library used for all UI glyphs -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
   <!-- Project CSS -->
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/tokens.css" />
@@ -46,7 +49,7 @@
       type="button"
       aria-pressed="false"
       aria-label="Turn sound on"
-    >♪̶</button>
+    ><i class="ph ph-speaker-slash"></i></button>
   </nav>
 
   <!-- ==================== Screens ==================== -->
@@ -89,13 +92,13 @@
           aria-haspopup="dialog"
           aria-controls="a11y-modal"
         >
-          <span class="a11y-warn-icon" aria-hidden="true">⚠</span>
+          <i class="ph ph-warning a11y-warn-icon" aria-hidden="true"></i>
           This experience contains flashing lights and looping images.
         </button>
 
       </div><!-- /.intro-content -->
 
-      <button class="screen-arrow next" aria-label="Next screen" aria-disabled="false">→</button>
+      <button class="screen-arrow next" aria-label="Next screen" aria-disabled="false"><i class="ph ph-arrow-right"></i></button>
 
     </section>
 
@@ -109,7 +112,6 @@
       <div class="narrative-content">
 
         <div class="narrative-text">
-          <span class="narrative-eyebrow">01 / Pre-COVID</span>
           <h2 class="narrative-headline">
             <span class="hl-100">Sunlight streams</span>
             <span class="hl-italic-70">for us.</span>
@@ -136,8 +138,8 @@
 
       </div>
 
-      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
-      <button class="screen-arrow next" aria-label="Next screen">→</button>
+      <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
+      <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
     <!-- ==================== Screen 03 — COVID Enters ==================== -->
@@ -151,7 +153,6 @@
       <div class="narrative-content">
 
         <div class="narrative-text">
-          <span class="narrative-eyebrow">02 / COVID Enters</span>
           <h2 class="narrative-headline">
             <span class="hl-100">The white boxes</span>
             <span class="hl-italic-50">drown me in.</span>
@@ -179,8 +180,8 @@
 
       </div>
 
-      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
-      <button class="screen-arrow next" aria-label="Next screen">→</button>
+      <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
+      <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
     <!-- ==================== Screen 04 — COVID Prevails ==================== -->
@@ -193,7 +194,6 @@
       <div class="narrative-content">
 
         <div class="narrative-text">
-          <span class="narrative-eyebrow">03 / COVID Prevails</span>
           <h2 class="narrative-headline hl-100">
             The <span id="network-word">network</span> is the message.
           </h2>
@@ -220,19 +220,19 @@
 
       </div>
 
-      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
-      <button class="screen-arrow next" aria-label="Next screen">→</button>
+      <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
+      <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
     <section class="screen" id="screen-05" aria-label="Districts" aria-hidden="true">
       <span class="screen-placeholder">05 · Districts</span>
-      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
-      <button class="screen-arrow next" aria-label="Next screen">→</button>
+      <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
+      <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
     <section class="screen" id="screen-06" aria-label="Closing" aria-hidden="true">
       <span class="screen-placeholder">06 · Closing</span>
-      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
+      <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
     </section>
 
   </main>
@@ -262,7 +262,7 @@
   >
     <div class="a11y-modal-backdrop"></div>
     <div class="a11y-modal-card">
-      <div class="a11y-modal-icon" aria-hidden="true">⚠</div>
+      <div class="a11y-modal-icon" aria-hidden="true"><i class="ph ph-warning"></i></div>
       <h2 id="a11y-title" class="a11y-modal-heading">Before you continue</h2>
       <p id="a11y-desc" class="a11y-modal-body">
         This experience contains flashing lights, rapidly changing visuals,

@@ -161,7 +161,8 @@ function setupNarrativeScreen(cfg) {
       return;
     }
 
-    // Pixelated reveal: wait for video to have a frame ready, then grab it
+    // Pixelated reveal fires at T=80ms — video column starts fading in at T=0,
+    // so by 80ms the video has a first frame ready and the reveal starts in sync.
     revealTimerId = setTimeout(() => {
       if (!video || !canvas) return;
 
@@ -172,8 +173,8 @@ function setupNarrativeScreen(cfg) {
       canvas.width  = W;
       canvas.height = H;
 
-      cancelReveal = runPixelatedReveal(canvas, video, 800);
-    }, 420); // matches the .narrative-media-inner fade-in delay (380ms) + small buffer
+      cancelReveal = runPixelatedReveal(canvas, video, 900); // slightly longer reveal
+    }, 80);
 
     if (glitch) setTimeout(() => glitch.start(), 200);
   }

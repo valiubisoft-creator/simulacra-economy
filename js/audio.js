@@ -7,8 +7,8 @@
    ============================================================ */
 
 const STORAGE_KEY = 'discombobulate_audio';
-const ICON_ON = '♪';                           // ♪
-const ICON_OFF = '♪̶';                    // ♪ + combining stroke = ♪̶
+const ICON_ON  = '<i class="ph ph-speaker-high"></i>';
+const ICON_OFF = '<i class="ph ph-speaker-slash"></i>';
 
 const state = {
   audioEnabled: false,
@@ -80,7 +80,7 @@ function readStored() {
 
 function render() {
   if (!state.btn) return;
-  state.btn.textContent = state.audioEnabled ? ICON_ON : ICON_OFF;
+  state.btn.innerHTML = state.audioEnabled ? ICON_ON : ICON_OFF;
   state.btn.setAttribute('aria-pressed', state.audioEnabled ? 'true' : 'false');
   state.btn.setAttribute(
     'aria-label',

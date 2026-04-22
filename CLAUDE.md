@@ -608,6 +608,7 @@ Get `sessionRandomId` once per session from `GET api.giphy.com/v1/randomid` — 
 | UI Components | **ShadCN** (customised) | Accessibility-ready, headless, composable |
 | Styling | **CSS custom properties** | Token-based colour + spacing system |
 | Data | **Local JSON + Giphy API** | Hybrid cache (see Section 5) |
+| Icons | **Phosphor Icons** (CDN `@phosphor-icons/web@2.1.1`) | All UI icons — speaker, arrows, warning. Consistent weight + glyph system |
 | Fonts | **Redaction** (self-hosted), **Space Grotesk** (Google), **Space Grotesk Mono** (Google) | |
 | Hosting | **GitHub Pages** | Existing deployment |
 
