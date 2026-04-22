@@ -6,6 +6,7 @@
 
 import { onScreenChange } from './screen-manager.js';
 import { DISTRICTS } from './districts-data.js';
+import { playSFX } from './audio.js';
 
 /* Stub replaced by Chunk 05 when the modal is wired */
 let _openModal = (districtId) => {
@@ -146,6 +147,7 @@ function buildCard(d) {
     /* Animate bar fill on first hover */
     const fill = card.querySelector('.bar-fill');
     if (!fill.classList.contains('bar-animated')) fill.classList.add('bar-animated');
+    playSFX.districtHover();
   });
 
   card.addEventListener('mouseleave', () => {
@@ -164,6 +166,7 @@ function handleCardClick(clickedCard, districtId) {
   document.querySelectorAll('.district-card').forEach(c => {
     if (c !== clickedCard) c.classList.add('card-hidden');
   });
+  playSFX.districtOpen();
   _openModal(districtId);
 }
 

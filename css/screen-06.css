@@ -1,0 +1,293 @@
+/* ============================================================
+   screen-06.css — Closing screen + Behind the Scenes modal
+   ============================================================ */
+
+/* ---- Screen base: pure black ---- */
+#screen-06 {
+  background: var(--color-bg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px 60px;
+}
+
+/* ---- Screen label top-left ---- */
+.closing-label {
+  position: absolute;
+  top: 56px;
+  left: 24px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  opacity: 0.4;
+}
+
+/* ================================================================
+   Heart + Eye Venn composition
+   ================================================================ */
+.closing-composition {
+  position: relative;
+  width: clamp(340px, 38vw, 520px);
+  height: clamp(220px, 24vw, 340px);
+  margin-bottom: 40px;
+  opacity: 0;
+  transition: opacity 600ms ease-out;
+}
+.closing-composition.comp-visible { opacity: 1; }
+
+/* Heart SVG */
+.closing-heart {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  height: auto;
+  z-index: 1;
+  animation: heartbeat 1.35s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%,  100% { transform: translateY(-50%) scale(1); }
+  14%        { transform: translateY(-50%) scale(1.08); }
+  28%        { transform: translateY(-50%) scale(1); }
+  42%        { transform: translateY(-50%) scale(1.05); }
+  70%        { transform: translateY(-50%) scale(1); }
+}
+
+/* Eye SVG */
+.closing-eye {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 65%;
+  height: auto;
+  z-index: 2;
+}
+
+/* GIF tile boxes orbiting both shapes */
+.gif-tile {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 1px;
+  z-index: 0;
+}
+
+/* ---- Labels below composition ---- */
+.closing-labels {
+  font-family: var(--font-redaction-70);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  text-align: center;
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+.closing-labels.lbl-visible { opacity: 1; }
+
+.closing-subtext {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 28px;
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+.closing-subtext.lbl-visible { opacity: 1; }
+
+.closing-poetic {
+  font-family: var(--font-redaction-50);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.45;
+  margin-bottom: 48px;
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+.closing-poetic.lbl-visible { opacity: 1; }
+
+/* ---- CTAs ---- */
+.closing-ctas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  bottom: 48px;
+  left: 7vw;
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+.closing-ctas.lbl-visible { opacity: 1; }
+
+.closing-cta-btn {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  letter-spacing: 0.04em;
+  transition: opacity var(--transition-fast), color var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.closing-cta-btn:hover { opacity: 0.9; color: var(--color-text-primary); }
+
+/* ================================================================
+   Reduced motion overrides
+   ================================================================ */
+body.reduced-motion .closing-heart { animation: none; }
+body.reduced-motion .closing-composition,
+body.reduced-motion .closing-labels,
+body.reduced-motion .closing-subtext,
+body.reduced-motion .closing-poetic,
+body.reduced-motion .closing-ctas {
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .closing-heart { animation: none !important; }
+  .closing-composition, .closing-labels, .closing-subtext,
+  .closing-poetic, .closing-ctas {
+    opacity: 1 !important; transition: none !important;
+  }
+}
+
+/* ================================================================
+   Behind the Scenes modal
+   ================================================================ */
+#bts-modal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  background: rgba(8, 8, 8, 0.97);
+  overflow-y: auto;
+  padding: 80px clamp(40px, 8vw, 160px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity    400ms ease-out,
+    visibility 0s linear 400ms;
+}
+
+#bts-modal.bts-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity 400ms ease-out, visibility 0s linear 0s;
+}
+
+.bts-close-btn {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+  transition: opacity var(--transition-fast);
+  z-index: calc(var(--z-modal) + 1);
+  display: flex;
+  align-items: center;
+}
+.bts-close-btn:hover { opacity: 1; }
+
+/* Section headers */
+.bts-section-header {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  opacity: 0.45;
+  margin-bottom: 28px;
+}
+
+/* Research flowmap SVG */
+#bts-flowmap {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 64px;
+  display: block;
+}
+
+/* Flowmap nodes */
+.flow-node rect {
+  fill: var(--color-surface);
+  stroke: var(--color-border);
+  stroke-width: 1;
+}
+.flow-node.node-theory rect { stroke: var(--color-accent-cyan); }
+.flow-node.node-district rect { stroke: var(--color-accent-violet); }
+.flow-node.node-phase rect   { stroke: var(--color-accent-amber); }
+
+.flow-node text {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  fill: var(--color-text-primary);
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+/* Flowmap edges */
+.flow-edge {
+  stroke: var(--color-border);
+  stroke-width: 1;
+  fill: none;
+  /* Draw-on animation */
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transition: stroke-dashoffset 800ms ease-out;
+}
+.flow-edge.edge-drawn { stroke-dashoffset: 0; }
+
+/* Editorial body */
+.bts-editorial {
+  max-width: 680px;
+  margin: 0 auto 64px;
+}
+
+.bts-para {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--color-text-muted);
+  margin-bottom: 28px;
+}
+
+/* Credits */
+.bts-credits {
+  max-width: 480px;
+  margin: 0 auto;
+  border-top: 1px solid var(--color-border);
+  padding-top: 32px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 32px;
+  row-gap: 10px;
+}
+
+.credit-key {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  white-space: nowrap;
+}
+.credit-val {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}

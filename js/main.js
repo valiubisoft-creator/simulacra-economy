@@ -9,7 +9,9 @@ import { initAudio } from './audio.js';
 import { initScreen01 } from './screen-01.js';
 import { initNarrativeScreens } from './screen-narrative.js';
 import { initScreen05 } from './screen-05.js';
-import { loadData } from './data.js';
+import { initDistrictModal } from './modal-district.js';
+import { initScreen06 } from './screen-06.js';
+import { loadData, getCachedData } from './data.js';
 
 async function boot() {
   initAudio();
@@ -18,6 +20,8 @@ async function boot() {
   initScreen01();
   initNarrativeScreens();
   initScreen05();
+  initDistrictModal();
+  initScreen06();
 
   const data = await loadData();
   window.__discombobulateData = data;

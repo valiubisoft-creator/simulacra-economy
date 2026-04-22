@@ -39,6 +39,8 @@
   <link rel="stylesheet" href="css/screen-01.css" />
   <link rel="stylesheet" href="css/screens-02-04.css" />
   <link rel="stylesheet" href="css/screen-05.css" />
+  <link rel="stylesheet" href="css/modal-district.css" />
+  <link rel="stylesheet" href="css/screen-06.css" />
 </head>
 <body>
 
@@ -252,10 +254,116 @@
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
+    <!-- ==================== Screen 06 — Closing ==================== -->
     <section class="screen" id="screen-06" aria-label="Closing" aria-hidden="true">
-      <span class="screen-placeholder">06 · Closing</span>
+
+      <span class="closing-label">04 / Closing</span>
+
+      <!-- Heart + Eye composition (SVG, JS animates iris) -->
+      <div class="closing-composition" aria-label="Heart and eye composition — together and loneliness" role="img">
+
+        <!-- Heart -->
+        <svg class="closing-heart" viewBox="0 0 200 180" fill="none" aria-hidden="true">
+          <path d="M100 164C52 130 16 108 16 72C16 46 36 30 62 38C74 42 88 52 100 64C112 52 126 42 138 38C164 30 184 46 184 72C184 108 148 130 100 164Z"
+            stroke="#F44336" stroke-width="1.8" fill="rgba(244,67,54,0.08)"/>
+        </svg>
+
+        <!-- Eye (iris group translated by JS) -->
+        <svg class="closing-eye" viewBox="0 0 260 140" fill="none" aria-hidden="true">
+          <path d="M14 70 Q130 8 246 70 Q130 132 14 70Z"
+            stroke="#4FC3F7" stroke-width="1.8" fill="rgba(79,195,247,0.06)"/>
+          <!-- Iris (translated by JS irisLoop) -->
+          <g class="iris-group">
+            <circle cx="130" cy="70" r="26" stroke="#4FC3F7" stroke-width="1.5" fill="rgba(79,195,247,0.12)"/>
+            <circle cx="130" cy="70" r="11" stroke="#4FC3F7" stroke-width="1.5" fill="rgba(79,195,247,0.22)"/>
+          </g>
+        </svg>
+
+        <!-- GIF tile boxes (8 total, orbited by JS) -->
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+        <div class="gif-tile" aria-hidden="true"></div>
+
+      </div><!-- /.closing-composition -->
+
+      <div class="closing-labels" aria-live="polite">
+        <span style="color:#F44336">together</span>
+        <span style="color:var(--color-text-muted)"> × </span>
+        <span style="color:#4FC3F7">loneliness</span>
+      </div>
+
+      <p class="closing-subtext">two words, one moment, the same screen</p>
+
+      <p class="closing-poetic">
+        where does one end<br>and the other begin?
+      </p>
+
+      <!-- CTAs -->
+      <div class="closing-ctas">
+        <button class="closing-cta-btn" id="closing-restart" type="button" aria-label="Restart the experience">
+          <i class="ph ph-arrow-counter-clockwise"></i> Restart experience
+        </button>
+        <button class="closing-cta-btn" id="closing-bts" type="button" aria-label="Open behind the scenes">
+          <i class="ph ph-arrow-up-right"></i> Behind the scenes
+        </button>
+      </div>
+
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
+
     </section>
+
+    <!-- ==================== Behind the Scenes modal ==================== -->
+    <div
+      id="bts-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Behind the scenes"
+      aria-hidden="true"
+      hidden
+    >
+      <button class="bts-close-btn" id="bts-close" type="button" aria-label="Close behind the scenes">
+        <i class="ph ph-x"></i>
+      </button>
+
+      <!-- Section 1: Research flowmap -->
+      <p class="bts-section-header">Research Framework</p>
+      <svg id="bts-flowmap" aria-label="Research framework diagram" role="img"></svg>
+
+      <!-- Section 2: Editorial decisions -->
+      <div class="bts-editorial">
+        <p class="bts-section-header">Editorial Decisions</p>
+
+        <p class="bts-para">We chose Giphy's <code>total_count</code> as our primary metric because it represents the supply-side of cultural codification — how many GIFs the internet produced for a feeling, not how many times those GIFs were viewed. Supply reflects collective urgency: when millions of people independently create GIFs for 'loneliness', the act of creation is itself the signal.</p>
+
+        <p class="bts-para">The codification score (<code>total_count / 500 × 100</code>) is deliberately simple. We capped at 500 — the maximum Giphy returns per query — not because more GIFs don't exist, but because 500 already signals cultural saturation. The score is not a measure of emotion. It is a measure of how thoroughly a feeling has been processed into image.</p>
+
+        <p class="bts-para">55 keywords were selected through iterative refinement. We excluded political party names, brand names, and proper nouns — not because they weren't culturally significant, but because they conflate political identity with emotional expression. We were tracking feeling, not faction.</p>
+
+        <p class="bts-para">All API calls used <code>lang=en</code>. This is a significant editorial constraint: it renders the archive anglophone by default. COVID was not an anglophone experience. The data presented here is a window, not a mirror.</p>
+
+        <p class="bts-para"><code>total_count</code> is supply. We do not know how many times any given GIF was actually viewed, shared, or felt. The archive tells us what was made. What was received remains unmeasured.</p>
+      </div>
+
+      <!-- Section 3: Credits -->
+      <div class="bts-credits">
+        <p class="bts-section-header" style="grid-column:1/-1">Credits</p>
+        <span class="credit-key">Research &amp; Design</span><span class="credit-val">Vali</span>
+        <span class="credit-key">Theory</span><span class="credit-val">McLuhan (1964) · Baudrillard (1981)</span>
+        <span class="credit-key">Data Source</span><span class="credit-val">Giphy API · Search Endpoint</span>
+        <span class="credit-key">Visualisation</span><span class="credit-val">D3.js</span>
+        <span class="credit-key">Animation</span><span class="credit-val">GSAP · CSS Keyframes</span>
+        <span class="credit-key">Audio</span><span class="credit-val">Howler.js · ZzFX (Frank Force)</span>
+        <span class="credit-key">Icons</span><span class="credit-val">Phosphor Icons</span>
+        <span class="credit-key">Typefaces</span><span class="credit-val">Redaction (Forest Graphic) · Space Grotesk (Florian Karsten)</span>
+        <span class="credit-key">Hosting</span><span class="credit-val">GitHub Pages</span>
+      </div>
+
+    </div><!-- /#bts-modal -->
 
   </main>
 
@@ -271,6 +379,80 @@
 
   <!-- ==================== Modal overlay (populated Chunks 05/06) ==================== -->
   <div id="modal-overlay" aria-hidden="true"></div>
+
+  <!-- ==================== District Detail Modal ==================== -->
+  <div
+    id="district-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-district-heading"
+    aria-hidden="true"
+    hidden
+  >
+    <div class="modal-inner">
+      <!-- Header -->
+      <header class="modal-header">
+        <span class="modal-district-label" id="modal-district-heading">
+          <span>01 / THE SCREEN</span>
+        </span>
+        <div class="modal-nav" role="group" aria-label="District navigation">
+          <button class="modal-nav-btn" id="modal-prev" type="button" aria-label="Previous district">
+            <i class="ph ph-arrow-left"></i>
+          </button>
+          <button class="modal-nav-btn" id="modal-next" type="button" aria-label="Next district">
+            <i class="ph ph-arrow-right"></i>
+          </button>
+          <button class="modal-close-btn" id="modal-close" type="button" aria-label="Close district modal">
+            <i class="ph ph-x"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- Content: orbit left, data right -->
+      <div class="modal-content">
+
+        <!-- Left panel: D3 orbit -->
+        <div class="modal-left" aria-label="Keyword orbit visualisation">
+          <svg id="orbit-svg" aria-hidden="true"></svg>
+          <div class="orbit-score-bar">
+            <div class="orbit-score-label">Codification Score</div>
+            <div class="orbit-score-track">
+              <div class="orbit-score-fill" data-score="0"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right panel: editorial -->
+        <div class="modal-right">
+          <h2 class="modal-district-name">THE SCREEN</h2>
+          <p class="modal-writeup">District write-up loads here.</p>
+
+          <div class="modal-stats" role="list" aria-label="District statistics">
+            <div class="modal-stat" role="listitem">
+              <span class="stat-value">—</span>
+              <span class="stat-label">Total GIFs indexed</span>
+            </div>
+            <div class="modal-stat" role="listitem">
+              <span class="stat-value">—</span>
+              <span class="stat-label">Avg codification</span>
+            </div>
+            <div class="modal-stat" role="listitem">
+              <span class="stat-value">—</span>
+              <span class="stat-label">Peak phase</span>
+            </div>
+          </div>
+
+          <div class="modal-phases" role="list" aria-label="COVID phases">
+            <div class="phase-item" role="listitem">Pre-COVID</div>
+            <div class="phase-item" role="listitem">Onset</div>
+            <div class="phase-item" role="listitem">Peak</div>
+            <div class="phase-item" role="listitem">Aftermath</div>
+          </div>
+        </div>
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-inner -->
+  </div><!-- /#district-modal -->
 
   <!-- ==================== Accessibility warning modal ==================== -->
   <div

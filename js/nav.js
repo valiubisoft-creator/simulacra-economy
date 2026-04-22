@@ -5,7 +5,8 @@
    A `navLocked` flag lets modals (Chunks 05/06) suppress nav.
    ============================================================ */
 
-import { next, prev, goTo } from './screen-manager.js';
+import { next, prev, goTo, onScreenChange } from './screen-manager.js';
+import { playTransitionSound } from './audio.js';
 
 const SCROLL_DEBOUNCE_MS = 800;
 
@@ -18,6 +19,8 @@ export function initNav() {
   window.addEventListener('wheel', onWheel, { passive: true });
   window.addEventListener('touchstart', onTouchStart, { passive: true });
   window.addEventListener('touchend', onTouchEnd, { passive: true });
+  /* Wire transition sounds */
+  onScreenChange((next, prev) => playTransitionSound(prev, next));
 
   document.querySelectorAll('.screen-arrow').forEach((btn) => {
     btn.addEventListener('click', () => {
