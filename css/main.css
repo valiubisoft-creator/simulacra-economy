@@ -1,0 +1,195 @@
+/* ============================================================
+   Discombobulate — Global layout + scaffolding styles.
+   Chunk 01: shell only. No per-screen visuals yet.
+   ============================================================ */
+
+/* ---------- Body / root ---------- */
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  overflow: hidden;             /* scroll drives screen nav, not page scroll */
+}
+
+/* ---------- Global nav (top bar) ---------- */
+#global-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: var(--z-nav);
+  pointer-events: none;          /* children re-enable */
+}
+
+#global-nav .wordmark,
+#global-nav #audio-toggle {
+  pointer-events: auto;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  opacity: 0.4;
+  transition: opacity var(--transition-fast);
+}
+
+#global-nav .wordmark { text-transform: uppercase; }
+
+#global-nav .wordmark:hover,
+#global-nav #audio-toggle:hover { opacity: 0.9; }
+
+#audio-toggle {
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+#audio-toggle:focus-visible {
+  outline: 2px solid var(--color-accent-cyan);
+  outline-offset: 4px;
+}
+
+/* ---------- Screen container ---------- */
+#screen-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.screen {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-soft),
+              visibility 0s linear var(--transition-soft);
+  z-index: var(--z-content);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity var(--transition-soft),
+              visibility 0s linear 0s;
+}
+
+/* Placeholder label inside empty sections, Chunk 01 only. */
+.screen-placeholder {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  opacity: 0.35;
+}
+
+/* ---------- On-screen nav arrows (per screen) ---------- */
+.screen-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-mono);
+  font-size: 20px;
+  color: var(--color-text-muted);
+  opacity: 0.3;
+  padding: 12px 16px;
+  transition: opacity var(--transition-fast), color var(--transition-fast);
+}
+
+.screen-arrow:hover { opacity: 0.9; color: var(--color-text-primary); }
+.screen-arrow.prev { left: 24px; }
+.screen-arrow.next { right: 24px; }
+
+.screen-arrow:focus-visible {
+  outline: 2px solid var(--color-accent-cyan);
+  outline-offset: 4px;
+}
+
+/* Hide prev on first screen, next on last — state updated by nav.js */
+.screen-arrow[aria-disabled="true"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---------- Dot nav (bottom centre) ---------- */
+#dot-nav {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: var(--z-dots);
+}
+
+#dot-nav .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius);
+  background: var(--color-text-muted);
+  opacity: 0.3;
+  transition: opacity var(--transition-fast),
+              transform var(--transition-fast),
+              background var(--transition-fast);
+}
+
+#dot-nav .dot:hover { opacity: 0.7; }
+
+#dot-nav .dot.active {
+  background: var(--color-text-primary);
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+#dot-nav .dot:focus-visible {
+  outline: 2px solid var(--color-accent-cyan);
+  outline-offset: 3px;
+}
+
+/* ---------- Modal overlay (stub — populated Chunks 05/06) ---------- */
+#modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: none;
+  background: rgba(8, 8, 8, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+#modal-overlay.open { display: block; }
+
+/* ---------- Reduced motion overrides ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Body class applied from js/audio.js when user opts into reduced motion. */
+body.reduced-motion *,
+body.reduced-motion *::before,
+body.reduced-motion *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Pause toggle on Districts screen (Chunk 04 uses this). */
+body.animations-paused *,
+body.animations-paused *::before,
+body.animations-paused *::after {
+  animation-play-state: paused !important;
+}
+
+/* ---------- Focus-visible baseline ---------- */
+:focus-visible {
+  outline: 2px solid var(--color-accent-cyan);
+  outline-offset: 3px;
+}

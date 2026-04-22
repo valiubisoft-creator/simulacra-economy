@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discombobulate.</title>
+  <meta name="description" content="A visual archive of how internet culture codified reality during COVID-19." />
+
+  <!-- Giphy API key — leave empty in version control; paste locally before deploying. -->
+  <!-- Add your Giphy API key here -->
+  <script>window.GIPHY_API_KEY = '';</script>
+
+  <!-- Google Fonts: Space Grotesk + Space Grotesk Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+  />
+
+  <!-- Preload Redaction font families — critical for the cycling animation on Screen 01. -->
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Redaction_2_001/webfonts/Redaction_10-Regular.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Redaction_2_001/webfonts/Redaction_50-Regular.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Redaction_2_001/webfonts/Redaction_70-Regular.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Redaction_2_001/webfonts/Redaction_100-Regular.woff2" crossorigin />
+
+  <!-- Preload narrative stills for Chunks 02–04 (cheap, <700KB each). -->
+  <link rel="preload" as="image" href="assets/img/screen-02-still.png" />
+  <link rel="preload" as="image" href="assets/img/screen-03-still.png" />
+  <link rel="preload" as="image" href="assets/img/screen-04-still.png" />
+
+  <!-- Project CSS -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/screen-01.css" />
+  <link rel="stylesheet" href="css/screens-02-04.css" />
+</head>
+<body>
+
+  <!-- ==================== Global nav (persistent) ==================== -->
+  <nav id="global-nav" aria-label="Global">
+    <a class="wordmark" href="#" aria-label="Discombobulate home">Discombobulate.</a>
+    <button
+      id="audio-toggle"
+      type="button"
+      aria-pressed="false"
+      aria-label="Turn sound on"
+    >♪̶</button>
+  </nav>
+
+  <!-- ==================== Screens ==================== -->
+  <main id="screen-container">
+
+    <section class="screen active" id="screen-01" aria-label="Intro" aria-hidden="false">
+
+      <!-- Matrix rain canvas — aria-hidden, purely decorative -->
+      <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+
+      <!-- Intro content stack -->
+      <div class="intro-content">
+
+        <!-- Headline: two layers crossfade between Redaction weights -->
+        <div
+          class="headline-cycling"
+          role="heading"
+          aria-level="1"
+          aria-label="Discombobulate."
+        >
+          <!-- Sizer: invisible, holds layout at heaviest weight -->
+          <span class="weight-sizer" aria-hidden="true">Discombobulate.</span>
+          <!-- Cycling layers — JS controls font-weight + opacity -->
+          <span class="weight-layer layer-a" aria-hidden="true">Discombobulate.</span>
+          <span class="weight-layer layer-b" aria-hidden="true">Discombobulate.</span>
+        </div>
+
+        <p class="intro-subtitle">
+          A visual archive of how internet culture codified reality during COVID-19
+        </p>
+
+        <button class="nav-pill" id="nav-pill-start" type="button">
+          ← Use arrow keys to navigate →
+        </button>
+
+        <button
+          class="a11y-warning-pill"
+          id="a11y-warning-btn"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="a11y-modal"
+        >
+          <span class="a11y-warn-icon" aria-hidden="true">⚠</span>
+          This experience contains flashing lights and looping images.
+        </button>
+
+      </div><!-- /.intro-content -->
+
+      <button class="screen-arrow next" aria-label="Next screen" aria-disabled="false">→</button>
+
+    </section>
+
+    <section class="screen" id="screen-02" aria-label="Pre-COVID" aria-hidden="true">
+      <span class="screen-placeholder">02 · Pre-COVID</span>
+      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
+      <button class="screen-arrow next" aria-label="Next screen">→</button>
+    </section>
+
+    <section class="screen" id="screen-03" aria-label="COVID Enters" aria-hidden="true">
+      <span class="screen-placeholder">03 · COVID Enters</span>
+      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
+      <button class="screen-arrow next" aria-label="Next screen">→</button>
+    </section>
+
+    <section class="screen" id="screen-04" aria-label="COVID Prevails" aria-hidden="true">
+      <span class="screen-placeholder">04 · COVID Prevails</span>
+      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
+      <button class="screen-arrow next" aria-label="Next screen">→</button>
+    </section>
+
+    <section class="screen" id="screen-05" aria-label="Districts" aria-hidden="true">
+      <span class="screen-placeholder">05 · Districts</span>
+      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
+      <button class="screen-arrow next" aria-label="Next screen">→</button>
+    </section>
+
+    <section class="screen" id="screen-06" aria-label="Closing" aria-hidden="true">
+      <span class="screen-placeholder">06 · Closing</span>
+      <button class="screen-arrow prev" aria-label="Previous screen">←</button>
+    </section>
+
+  </main>
+
+  <!-- ==================== Dot pagination ==================== -->
+  <nav id="dot-nav" role="tablist" aria-label="Screen navigation">
+    <button class="dot active" role="tab" aria-label="Go to screen 1" aria-selected="true"  tabindex="0"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 2" aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 3" aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 4" aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 5" aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 6" aria-selected="false" tabindex="-1"></button>
+  </nav>
+
+  <!-- ==================== Modal overlay (populated Chunks 05/06) ==================== -->
+  <div id="modal-overlay" aria-hidden="true"></div>
+
+  <!-- ==================== Accessibility warning modal ==================== -->
+  <div
+    id="a11y-modal"
+    class="a11y-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="a11y-title"
+    aria-describedby="a11y-desc"
+    aria-hidden="true"
+  >
+    <div class="a11y-modal-backdrop"></div>
+    <div class="a11y-modal-card">
+      <div class="a11y-modal-icon" aria-hidden="true">⚠</div>
+      <h2 id="a11y-title" class="a11y-modal-heading">Before you continue</h2>
+      <p id="a11y-desc" class="a11y-modal-body">
+        This experience contains flashing lights, rapidly changing visuals,
+        and looping animations. If you are sensitive to these effects,
+        enable reduced motion below before proceeding.
+      </p>
+      <hr class="a11y-modal-sep" aria-hidden="true" />
+      <label class="a11y-reduce-label" for="a11y-reduce-check">
+        <input type="checkbox" id="a11y-reduce-check" />
+        <span>Enable reduced motion</span>
+      </label>
+      <button id="a11y-continue-btn" class="a11y-continue-btn" type="button">
+        I understand, continue
+      </button>
+    </div>
+  </div>
+
+  <!-- Project JS (ES modules) -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>

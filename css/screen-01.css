@@ -1,0 +1,361 @@
+/* ============================================================
+   screen-01.css — Intro screen
+   Matrix rain, Redaction cycling, nav pill, a11y modal.
+   ============================================================ */
+
+/* ---- Screen base ---- */
+#screen-01 {
+  background: var(--color-bg);
+  overflow: hidden;
+}
+
+/* ---- Matrix canvas ---- */
+#matrix-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ---- Content stack ---- */
+.intro-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+  text-align: center;
+  padding: 80px 32px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* ---- Headline — Redaction weight cycling ---- */
+.headline-cycling {
+  position: relative;
+  font-size: clamp(4rem, 8vw, 9rem);
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  text-align: center;
+  width: 100%;
+}
+
+/* Invisible sizer span — holds layout at Redaction 100 (sharpest, most regular metrics) */
+.weight-sizer {
+  display: block;
+  visibility: hidden;
+  font-family: var(--font-redaction-100);
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--color-text-primary);
+  user-select: none;
+}
+
+/* Two cycling layers, absolutely positioned over sizer */
+/* JS switches font-family between Redaction10/50/70/100 + controls opacity */
+.weight-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-redaction-10);   /* starts at most degraded */
+  font-weight: 400;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  will-change: opacity;
+}
+
+/* ---- Subtitle ---- */
+.intro-subtitle {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);  /* #AAAAAA — 8.52:1 on #0A0A0A, WCAG AAA */
+  max-width: 500px;
+  /* Soft dark halo ensures legibility against the animated matrix background */
+  text-shadow:
+    0 0 24px rgba(10, 10, 10, 0.95),
+    0 0 8px  rgba(10, 10, 10, 0.8);
+}
+
+/* ---- Nav pill ---- */
+.nav-pill {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  color: var(--color-text-primary);
+  border: 1px solid rgba(79, 195, 247, 0.45);
+  border-radius: 9999px;
+  padding: 0.65rem 1.75rem;
+  background: transparent;
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+}
+
+.nav-pill:hover,
+.nav-pill:focus-visible {
+  animation: pill-border-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pill-border-pulse {
+  0%, 100% { border-color: rgba(79, 195, 247, 0); }
+  50%       { border-color: rgba(79, 195, 247, 1); }
+}
+
+.nav-pill:active {
+  opacity: 0.7;
+  transform: scale(0.97);
+  animation: none;
+}
+
+/* Disabled while a11y not acknowledged */
+.nav-pill[data-locked="true"] {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-pill:hover,
+  .nav-pill:focus-visible {
+    animation: none;
+    border-color: var(--color-accent-cyan);
+  }
+}
+
+/* ---- A11y warning pill ---- */
+.a11y-warning-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+  padding: 0.45rem 1.1rem;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  /* gradient border trick */
+  background:
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    linear-gradient(90deg, var(--color-warn-magenta), var(--color-warn-yellow)) border-box;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.a11y-warning-pill:hover,
+.a11y-warning-pill:focus-visible {
+  color: var(--color-text-primary);
+}
+
+.a11y-warn-icon { font-size: 0.9em; }
+
+/* ---- Entry animations ---- */
+/* All content starts invisible; class .intro-entered triggers the sequence. */
+.intro-content .headline-cycling,
+.intro-content .intro-subtitle,
+.intro-content .nav-pill,
+.intro-content .a11y-warning-pill {
+  opacity: 0;
+}
+
+@keyframes intro-fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+#screen-01.intro-entered .headline-cycling {
+  animation: intro-fade-up 600ms ease-out 300ms both;
+}
+#screen-01.intro-entered .intro-subtitle {
+  animation: intro-fade-up 600ms ease-out 700ms both;
+}
+#screen-01.intro-entered .nav-pill {
+  animation: intro-fade-up 600ms ease-out 1000ms both;
+}
+#screen-01.intro-entered .a11y-warning-pill {
+  animation: intro-fade-up 600ms ease-out 1300ms both;
+}
+
+/* ---- Reduced-motion: skip entry animations, show everything ---- */
+body.reduced-motion .intro-content .headline-cycling,
+body.reduced-motion .intro-content .intro-subtitle,
+body.reduced-motion .intro-content .nav-pill,
+body.reduced-motion .intro-content .a11y-warning-pill {
+  opacity: 1 !important;
+  animation: none !important;
+  transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-content .headline-cycling,
+  .intro-content .intro-subtitle,
+  .intro-content .nav-pill,
+  .intro-content .a11y-warning-pill {
+    opacity: 1 !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* ================================================================
+   A11y modal
+   ================================================================ */
+
+.a11y-modal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-a11y);
+  display: none;           /* JS toggles .open */
+  align-items: center;
+  justify-content: center;
+}
+
+.a11y-modal.open {
+  display: flex;
+}
+
+.a11y-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.88);
+  backdrop-filter: blur(6px);
+}
+
+.a11y-modal-card {
+  position: relative;
+  z-index: 1;
+  width: calc(100% - 48px);
+  max-width: 440px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.a11y-modal.open .a11y-modal-card {
+  animation: a11y-card-in 300ms ease-out both;
+}
+
+@keyframes a11y-card-in {
+  from { transform: scale(0.95) translateY(-6px); opacity: 0; }
+  to   { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .a11y-modal.open .a11y-modal-card {
+    animation: none;
+  }
+}
+
+/* Icon */
+.a11y-modal-icon {
+  font-size: 1.75rem;
+  color: var(--color-warn-magenta);
+  line-height: 1;
+}
+
+/* Heading */
+.a11y-modal-heading {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+}
+
+/* Body copy */
+.a11y-modal-body {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+}
+
+/* Reduce-motion toggle */
+.a11y-reduce-label {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  user-select: none;
+  transition: color var(--transition-fast);
+}
+
+.a11y-reduce-label:hover { color: var(--color-text-primary); }
+
+.a11y-reduce-label input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: var(--color-accent-cyan);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Continue button */
+.a11y-continue-btn {
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-accent-cyan);
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.a11y-continue-btn:hover,
+.a11y-continue-btn:focus-visible {
+  background: var(--color-accent-cyan);
+  color: var(--color-bg);
+}
+
+/* Separator */
+.a11y-modal-sep {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0;
+}
+
+/* ================================================================
+   Responsive — 768px and below
+   ================================================================ */
+@media (max-width: 768px) {
+  .intro-content {
+    gap: 1.4rem;
+    padding: 80px 24px 60px;
+  }
+
+  .nav-pill {
+    font-size: 0.78rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .a11y-warning-pill {
+    font-size: 0.68rem;
+    text-align: center;
+  }
+
+  .a11y-modal-card {
+    padding: 28px 24px;
+  }
+}

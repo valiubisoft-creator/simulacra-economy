@@ -1,0 +1,239 @@
+/* ============================================================
+   screens-02-04.css — Narrative screens (Pre-COVID, COVID Enters, COVID Prevails)
+   Layout reference: Figma file /design/S1Li37gfuXzWcZjorQoLtu
+   ============================================================ */
+
+/* ---- Shared screen base ---- */
+.narrative-screen {
+  background: var(--color-bg);
+  overflow: hidden;
+}
+
+/* ---- Video background ---- */
+.narrative-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Per-screen overlay densities (from PRD §4) */
+.narrative-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+#screen-02 .narrative-overlay { background: rgba(0, 0, 0, 0.45); }
+#screen-03 .narrative-overlay { background: rgba(0, 0, 0, 0.50); }
+#screen-04 .narrative-overlay { background: rgba(0, 0, 0, 0.40); }
+
+/* ---- Two-column content grid ---- */
+/* Matches Figma: roughly equal halves, generous horizontal padding */
+.narrative-content {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 80px 7vw;
+  gap: 5vw;
+}
+
+/* Screen 03 swaps columns: image LEFT, text RIGHT */
+#screen-03 .narrative-content {
+  direction: rtl;   /* flip column order */
+}
+#screen-03 .narrative-content > * {
+  direction: ltr;   /* restore reading direction for children */
+}
+
+/* ---- Text column ---- */
+.narrative-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+/* Screen 03 text is right-aligned to match Figma */
+#screen-03 .narrative-text {
+  align-items: flex-end;
+  text-align: right;
+}
+
+/* Eyebrow label */
+.narrative-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  opacity: 0.55;
+}
+
+/* ---- Headline typography ---- */
+.narrative-headline {
+  font-size: clamp(2.8rem, 4.5vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  display: flex;
+  flex-direction: column;
+  /* Text shadow for legibility over video backgrounds — WCAG recommendation */
+  text-shadow: 0 2px 40px rgba(0, 0, 0, 0.85);
+}
+
+/* Redaction level helpers */
+.hl-100 { font-family: var(--font-redaction-100); font-style: normal; }
+.hl-70  { font-family: var(--font-redaction-70);  font-style: normal; }
+.hl-50  { font-family: var(--font-redaction-50);  font-style: normal; }
+.hl-10  { font-family: var(--font-redaction-10);  font-style: normal; }
+
+/* Italic second lines */
+.hl-italic-70 {
+  font-family: var(--font-redaction-70);
+  font-style: italic;
+  font-size: 0.9em;
+}
+.hl-italic-50 {
+  font-family: var(--font-redaction-50);
+  font-style: italic;
+  font-size: 0.88em;
+  padding-left: 2rem;  /* Screen 03 spec: indented 2rem */
+}
+/* Screen 03: right-aligned means indent goes on the right */
+#screen-03 .hl-italic-50 {
+  padding-left: 0;
+  padding-right: 2rem;
+}
+
+/* Screen 04 glitch word — font-family overridden by JS during animation */
+#network-word {
+  display: inline;
+  font-family: var(--font-redaction-70);
+}
+
+/* ---- Body copy ---- */
+/* #AAAAAA on dark video = 8.52:1 WCAG AAA baseline;
+   text-shadow adds a dark halo that maintains contrast when bright video
+   frames appear behind the text. */
+.narrative-body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+  max-width: 420px;
+  text-shadow:
+    0 0 28px rgba(0, 0, 0, 0.98),
+    0 0 8px  rgba(0, 0, 0, 0.85),
+    0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+#screen-03 .narrative-body { max-width: 400px; }
+
+/* ---- Media column — pixelated reveal canvas ---- */
+.narrative-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Canvas fills its column, max ~70vh tall, aspect-ratio from attributes */
+.narrative-media canvas {
+  display: block;
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain; /* fallback; canvas ignores this but img fallback respects it */
+}
+
+/* Screen 03 image is taller — let it breathe more */
+#screen-03 .narrative-media canvas { max-height: 76vh; }
+
+/* ================================================================
+   Entry animations — triggered by JS adding .narrative-entered
+   ================================================================ */
+
+/* Start invisible */
+.narrative-screen .narrative-eyebrow,
+.narrative-screen .narrative-headline,
+.narrative-screen .narrative-body {
+  opacity: 0;
+}
+.narrative-screen .narrative-media canvas {
+  opacity: 0;
+}
+
+@keyframes narrative-fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes narrative-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.narrative-screen.narrative-entered .narrative-eyebrow {
+  animation: narrative-fade-up 500ms ease-out 0ms    both;
+}
+.narrative-screen.narrative-entered .narrative-headline {
+  animation: narrative-fade-up 600ms ease-out 100ms  both;
+}
+.narrative-screen.narrative-entered .narrative-body {
+  animation: narrative-fade-up 500ms ease-out 300ms  both;
+}
+.narrative-screen.narrative-entered .narrative-media canvas {
+  animation: narrative-fade-in 400ms ease-out 380ms  both;
+}
+
+/* ---- Reduced motion ---- */
+body.reduced-motion .narrative-screen .narrative-eyebrow,
+body.reduced-motion .narrative-screen .narrative-headline,
+body.reduced-motion .narrative-screen .narrative-body,
+body.reduced-motion .narrative-screen .narrative-media canvas {
+  opacity: 1 !important;
+  animation: none !important;
+  transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .narrative-screen .narrative-eyebrow,
+  .narrative-screen .narrative-headline,
+  .narrative-screen .narrative-body,
+  .narrative-screen .narrative-media canvas {
+    opacity: 1 !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* ================================================================
+   Responsive — 768px and below
+   ================================================================ */
+@media (max-width: 768px) {
+  .narrative-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 80px 6vw 60px;
+    gap: 2rem;
+    overflow-y: auto;
+    align-content: start;
+  }
+
+  /* On mobile, image always goes on top */
+  #screen-02 .narrative-media,
+  #screen-04 .narrative-media { order: -1; }
+  #screen-03 .narrative-content { direction: ltr; }
+  #screen-03 .narrative-text { align-items: flex-start; text-align: left; }
+  #screen-03 .hl-italic-50 { padding-left: 1rem; padding-right: 0; }
+
+  .narrative-media canvas { max-height: 40vh; }
+  #screen-03 .narrative-media canvas { max-height: 45vh; }
+
+  .narrative-headline { font-size: clamp(2.2rem, 7vw, 3rem); }
+}

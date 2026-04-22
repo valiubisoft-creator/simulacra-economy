@@ -1,0 +1,111 @@
+/* ============================================================
+   Discombobulate — Design Tokens
+   Source of truth for colour, typography, radius, motion.
+   ============================================================ */
+
+/* ---------- Redaction (self-hosted) ----------
+   Each degradation level is its own font family — NOT weight variants.
+   Redaction 10 = most degraded/pixelated; 100 = sharpest.
+   font-display: block prevents FOUT flash during the weight-cycling animation. */
+@font-face {
+  font-family: 'Redaction10';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_10-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Redaction50';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_50-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Redaction70';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_70-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Redaction100';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_100-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Italic variants — used for the script lines on narrative screens */
+@font-face {
+  font-family: 'Redaction50';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_50-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Redaction70';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_70-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Redaction100';
+  src: url('../assets/fonts/Redaction_2_001/webfonts/Redaction_100-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+
+:root {
+  /* ---------- Typefaces ---------- */
+  /* Redaction levels — each is a distinct family, not a CSS font-weight */
+  --font-redaction-10:  'Redaction10',  Georgia, serif;
+  --font-redaction-50:  'Redaction50',  Georgia, serif;
+  --font-redaction-70:  'Redaction70',  Georgia, serif;
+  --font-redaction-100: 'Redaction100', Georgia, serif;
+  /* Default display = sharpest Redaction */
+  --font-display: 'Redaction100', Georgia, serif;
+  --font-body:    'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-mono:    'Space Mono', 'JetBrains Mono', ui-monospace, monospace;
+
+  /* ---------- Neutrals ---------- */
+  --color-bg:           #0A0A0A;
+  --color-surface:      #111111;
+  --color-border:       #2A2A2A;
+  --color-text-primary: #EEEEEE;
+  --color-text-muted:   #AAAAAA;  /* 8.52:1 on #0A0A0A — WCAG AAA */
+
+  /* ---------- District accents (one per district, 1–8) ---------- */
+  --color-accent-cyan:   #4FC3F7;  /* 01 · The Screen       */
+  --color-accent-green:  #AEEA00;  /* 02 · The Body         */
+  --color-accent-amber:  #FFB300;  /* 03 · Control          */
+  --color-accent-red:    #F44336;  /* 04 · Inner Life       */
+  --color-accent-violet: #9C27B0;  /* 05 · Power & Voice    */
+  --color-accent-grey:   #9E9E9E;  /* 06 · The Simulation   */
+  --color-accent-orange: #FF5722;  /* 07 · The Cage         */
+  --color-accent-teal:   #26A69A;  /* 08 · Respite          */
+
+  /* ---------- Signal / warning ---------- */
+  --color-warn-magenta:  #FF00FF;
+  --color-warn-yellow:   #FFFF00;
+  --color-matrix-green:  #00FF41;
+
+  /* ---------- Geometry ---------- */
+  --radius: 2px;
+
+  /* ---------- Motion ---------- */
+  --transition-soft:  600ms ease-out;
+  --transition-fast:  200ms ease;
+  --transition-modal: 300ms ease-out;
+
+  /* ---------- Z-index stack ---------- */
+  --z-bg:       0;
+  --z-content:  1;
+  --z-nav:      10;
+  --z-dots:     20;
+  --z-modal:    100;
+  --z-a11y:     200;  /* accessibility modal always on top */
+}
