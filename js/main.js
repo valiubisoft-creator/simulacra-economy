@@ -8,6 +8,7 @@ import { initNav } from './nav.js';
 import { initAudio } from './audio.js';
 import { initScreen01 } from './screen-01.js';
 import { initNarrativeScreens } from './screen-narrative.js';
+import { initScreen05 } from './screen-05.js';
 import { loadData } from './data.js';
 
 async function boot() {
@@ -16,6 +17,7 @@ async function boot() {
   initNav();
   initScreen01();
   initNarrativeScreens();
+  initScreen05();
 
   const data = await loadData();
   window.__discombobulateData = data;

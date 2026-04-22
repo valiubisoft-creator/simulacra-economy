@@ -38,6 +38,7 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/screen-01.css" />
   <link rel="stylesheet" href="css/screens-02-04.css" />
+  <link rel="stylesheet" href="css/screen-05.css" />
 </head>
 <body>
 
@@ -224,8 +225,29 @@
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
+    <!-- ==================== Screen 05 — Districts ==================== -->
     <section class="screen" id="screen-05" aria-label="Districts" aria-hidden="true">
-      <span class="screen-placeholder">05 · Districts</span>
+
+      <video class="districts-video" autoplay muted loop playsinline preload="none" aria-hidden="true">
+        <source src="assets/mp4/Video_05.mp4" type="video/mp4" />
+      </video>
+
+      <div class="districts-ui">
+        <span class="districts-label">03 / Districts</span>
+        <span class="districts-instruction">hover to reveal · click to enter</span>
+        <div class="districts-controls">
+          <button class="districts-ctrl-btn" id="districts-pause" type="button" aria-pressed="false" aria-label="Pause animations">
+            <i class="ph ph-pause"></i> Pause
+          </button>
+          <button class="districts-ctrl-btn" id="districts-bw" type="button" aria-pressed="false" aria-label="Toggle black and white mode">
+            B&amp;W
+          </button>
+        </div>
+      </div>
+
+      <!-- Cards injected here by JS -->
+      <div id="districts-grid" role="list" aria-label="District cards"></div>
+
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
