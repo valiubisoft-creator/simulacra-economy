@@ -119,20 +119,20 @@
 .narrative-media-inner {
   position: relative;
   width: 100%;
-  max-height: 72vh;
+  max-height: 82vh;
   overflow: hidden;
 }
 
-/* The actual video — fills the column, height auto-from aspect ratio */
+/* The actual video — fills the column, height from aspect ratio */
 .narrative-media-inner video {
   display: block;
   width: 100%;
-  max-height: 72vh;
+  max-height: 82vh;
   object-fit: cover;
   background: #000;
 }
 
-#screen-03 .narrative-media-inner video { max-height: 78vh; }
+#screen-03 .narrative-media-inner video { max-height: 88vh; }
 
 /* Pixelated-reveal canvas: overlays the video, hidden after reveal completes */
 .narrative-media-inner canvas {
@@ -146,6 +146,13 @@
 
 /* ================================================================
    Entry animations — triggered by JS adding .narrative-entered
+
+   Sequence (immersive order):
+     T=0ms    — media column starts slow fade-in (1000ms)
+     T=~80ms  — pixelated reveal begins in JS (800ms, handled separately)
+     T=780ms  — headline eases up (ease-in-out)
+     T=1080ms — body text eases up
+     T=1150ms — eyebrow label fades in quietly
    ================================================================ */
 
 .narrative-screen .narrative-eyebrow,
@@ -158,7 +165,7 @@
 }
 
 @keyframes narrative-fade-up {
-  from { opacity: 0; transform: translateY(10px); }
+  from { opacity: 0; transform: translateY(14px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 @keyframes narrative-fade-in {
@@ -166,20 +173,23 @@
   to   { opacity: 1; }
 }
 
-.narrative-screen.narrative-entered .narrative-eyebrow {
-  animation: narrative-fade-up 500ms ease-out 0ms   both;
-}
-.narrative-screen.narrative-entered .narrative-headline {
-  animation: narrative-fade-up 600ms ease-out 100ms both;
-}
-.narrative-screen.narrative-entered .narrative-body {
-  animation: narrative-fade-up 500ms ease-out 300ms both;
-}
+/* 1. Video column — first, slow and cinematic */
 .narrative-screen.narrative-entered .narrative-media-inner {
-  animation: narrative-fade-in 400ms ease-out 380ms both;
+  animation: narrative-fade-in 1000ms ease-out 0ms both;
 }
 
-/* ---- Reduced motion ---- */
+/* 2. Text — follows video, ease-in-out for an immersive rise */
+.narrative-screen.narrative-entered .narrative-headline {
+  animation: narrative-fade-up 750ms cubic-bezier(0.45, 0, 0.55, 1) 780ms  both;
+}
+.narrative-screen.narrative-entered .narrative-body {
+  animation: narrative-fade-up 700ms cubic-bezier(0.45, 0, 0.55, 1) 1080ms both;
+}
+.narrative-screen.narrative-entered .narrative-eyebrow {
+  animation: narrative-fade-in 500ms ease-out 1150ms both;
+}
+
+/* ---- Reduced motion: skip all delays, show everything immediately ---- */
 body.reduced-motion .narrative-screen .narrative-eyebrow,
 body.reduced-motion .narrative-screen .narrative-headline,
 body.reduced-motion .narrative-screen .narrative-body,

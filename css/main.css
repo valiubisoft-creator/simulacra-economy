@@ -89,31 +89,86 @@ html, body {
 }
 
 /* ---------- On-screen nav arrows (per screen) ---------- */
+/*
+  Full-height hit zone on each side edge.
+  The visible glyph lives in ::before so it can be animated
+  independently — the hover zone itself never moves.
+  z-index: 5 keeps arrows above .narrative-content (z-index: 1).
+*/
 .screen-arrow {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: var(--font-mono);
-  font-size: 20px;
-  color: var(--color-text-muted);
-  opacity: 0.3;
-  padding: 12px 16px;
-  transition: opacity var(--transition-fast), color var(--transition-fast);
+  top: 0;
+  bottom: 0;
+  width: 96px;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+  cursor: pointer;
+  font-size: 0;           /* hide raw ← → text; aria-label provides the name */
+  background: transparent;
+  border: none;
 }
 
-.screen-arrow:hover { opacity: 0.9; color: var(--color-text-primary); }
-.screen-arrow.prev { left: 24px; }
-.screen-arrow.next { right: 24px; }
+.screen-arrow.prev {
+  left: 0;
+  justify-content: flex-start;
+  padding-left: 28px;
+}
+.screen-arrow.next {
+  right: 0;
+  justify-content: flex-end;
+  padding-right: 28px;
+}
+
+/* The animated arrow glyph */
+.screen-arrow::before {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.18);
+  display: block;
+  transition:
+    color      300ms ease-out,
+    transform  300ms ease-out,
+    text-shadow 300ms ease-out;
+}
+
+/* Starts slightly off-centre toward its edge */
+.screen-arrow.prev::before {
+  content: '←';
+  transform: translateX(-10px);
+}
+.screen-arrow.next::before {
+  content: '→';
+  transform: translateX(10px);
+}
+
+/* Hover / focus: slides in, pure white, soft glow */
+.screen-arrow:hover::before,
+.screen-arrow:focus-visible::before {
+  color: #ffffff;
+  transform: translateX(0);
+  text-shadow:
+    0 0 12px rgba(255, 255, 255, 0.95),
+    0 0 32px rgba(255, 255, 255, 0.55),
+    0 0 60px rgba(255, 255, 255, 0.20);
+}
 
 .screen-arrow:focus-visible {
   outline: 2px solid var(--color-accent-cyan);
-  outline-offset: 4px;
+  outline-offset: 2px;
 }
 
-/* Hide prev on first screen, next on last — state updated by nav.js */
+/* Hide on first/last screen */
 .screen-arrow[aria-disabled="true"] {
   opacity: 0;
   pointer-events: none;
+}
+
+/* Reduced motion: skip the translate */
+@media (prefers-reduced-motion: reduce) {
+  .screen-arrow::before { transition: color 150ms ease, text-shadow 150ms ease; }
+  .screen-arrow.prev::before { transform: translateX(0); }
+  .screen-arrow.next::before { transform: translateX(0); }
 }
 
 /* ---------- Dot nav (bottom centre) ---------- */
