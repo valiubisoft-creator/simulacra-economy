@@ -1,10 +1,22 @@
 /* ============================================================
    screen-manager.js
-   Owns which of the 6 screens is currently .active and keeps
-   #dot-nav in sync. Stateless on content — just class toggling.
+   Owns which of the 8 screens is currently .active and keeps
+   the 8-dot #dot-nav in sync. Stateless on content — just class
+   toggling.
+
+   Screens (DOM order, 1:1 with dots):
+     0  screen-01        Intro
+     1  screen-order-i   Order I   — Before the Fall       (Pre-COVID)
+     2  screen-order-ii  Order II  — The Cage Opens         (Lockdown)
+     3  screen-order-iii Order III — The Simulation Deepens (Deep Lockdown)
+     4  screen-order-iv  Order IV  — The New Normal         (Post-COVID)
+     5  screen-boot      Phase Boot Sequence
+     6  screen-strata    Archive Strata
+     7  screen-06        Closing
    ============================================================ */
 
-export const TOTAL_SCREENS = 6;
+export const TOTAL_SCREENS = 8;
+export const BOOT_SCREEN_INDEX = 5;
 
 const state = {
   currentScreen: 0,
@@ -21,6 +33,11 @@ export function initScreenManager() {
   if (sectionEls.length !== TOTAL_SCREENS) {
     console.warn(
       `screen-manager: expected ${TOTAL_SCREENS} .screen elements, found ${sectionEls.length}`
+    );
+  }
+  if (dotEls.length !== TOTAL_SCREENS) {
+    console.warn(
+      `screen-manager: expected ${TOTAL_SCREENS} dots, found ${dotEls.length}`
     );
   }
 
@@ -63,9 +80,10 @@ function applyActive() {
     el.setAttribute('aria-hidden', i === state.currentScreen ? 'false' : 'true');
   });
   dotEls.forEach((dot, i) => {
-    dot.classList.toggle('active', i === state.currentScreen);
-    dot.setAttribute('aria-selected', i === state.currentScreen ? 'true' : 'false');
-    dot.setAttribute('tabindex', i === state.currentScreen ? '0' : '-1');
+    const active = i === state.currentScreen;
+    dot.classList.toggle('active', active);
+    dot.setAttribute('aria-selected', active ? 'true' : 'false');
+    dot.setAttribute('tabindex', active ? '0' : '-1');
   });
 
   const prevArrows = document.querySelectorAll('.screen-arrow.prev');

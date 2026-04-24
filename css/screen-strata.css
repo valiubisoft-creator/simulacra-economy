@@ -1,0 +1,663 @@
+/* ============================================================
+   css/screen-strata.css — Strata View (PRD v2 Act 3)
+   ============================================================ */
+
+#screen-strata {
+  background: #09090f;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* ---- Scrollable container — nav-locked from wheel/touch while active ---- */
+.strata-scroll {
+  position: absolute;
+  top: 48px;            /* below global nav */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+}
+
+.strata-scroll::-webkit-scrollbar          { width: 10px; }
+.strata-scroll::-webkit-scrollbar-track    { background: rgba(255,255,255,0.02); }
+.strata-scroll::-webkit-scrollbar-thumb    { background: rgba(255,255,255,0.12); border-radius: 10px; }
+.strata-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.22); }
+
+/* ---- Sticky filter chip bar (always visible) ---- */
+.strata-chips {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 14px 28px 12px;
+  background: rgba(10, 10, 15, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.strata-chip-hint {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Space Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.strata-chip-hint i {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.strata-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.strata-chip {
+  font-family: 'Space Mono', ui-monospace, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  padding: 4px 13px;
+  height: 26px;
+  cursor: pointer;
+  transition: background-color 160ms ease,
+              color 160ms ease,
+              border-color 160ms ease,
+              box-shadow 160ms ease;
+  white-space: nowrap;
+}
+
+.strata-chip:hover {
+  border-color: var(--chip-color, rgba(255, 255, 255, 0.55));
+  color: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Filled active state: chip's colour becomes the background, text flips dark */
+.strata-chip.active {
+  color: #0a0a0a;
+  background: var(--chip-color, rgba(255, 255, 255, 0.92));
+  border-color: var(--chip-color, rgba(255, 255, 255, 0.92));
+  font-weight: 700;
+  box-shadow: 0 0 14px -4px var(--chip-color, rgba(255, 255, 255, 0.55));
+}
+
+.strata-chip.active:hover {
+  /* Keep filled look but brighten slightly so user sees hover feedback */
+  filter: brightness(1.08);
+}
+
+.strata-chip.chip-reset {
+  color: rgba(255, 255, 255, 0.88);
+  border-color: rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.strata-chip.chip-reset.active {
+  color: #0a0a0a;
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(255, 255, 255, 0.95);
+}
+
+/* ---- Canvas: holds the 4 bands + bubble layer, height set by JS ---- */
+.strata-canvas {
+  position: relative;
+  width: 100%;
+  /* min-height set by JS (we want scroll); min-height below is a floor */
+  min-height: 100%;
+}
+
+/* ---- Bands (background) ---- */
+.strata-bands {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.strata-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14px;
+}
+
+.strata-band:first-child { border-top: none; }
+
+.strata-band::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.025), transparent 50%);
+  pointer-events: none;
+}
+
+/* Band label: horizontally centred at the TOP of each band */
+.band-label-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  max-width: 82%;
+  pointer-events: none;
+  position: relative;
+  z-index: 3;
+}
+
+.band-phase-tag {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.band-phase-name {
+  font-family: var(--font-redaction-70);
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.1;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7);
+}
+
+.band-years {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 2px;
+}
+
+/* Band tint — slightly stronger so bands are visually distinguishable */
+.strata-band-pre_covid     { background: linear-gradient(180deg, rgba(79,168,224,0.06), transparent); }
+.strata-band-lockdown      { background: linear-gradient(180deg, rgba(208,128,96,0.06), transparent); }
+.strata-band-deep_lockdown { background: linear-gradient(180deg, rgba(255,255,255,0.045), transparent); }
+.strata-band-post_covid    { background: linear-gradient(180deg, rgba(160,122,220,0.06), transparent); }
+
+/* ---- Bubble layer ---- */
+.strata-bubbles {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* .strata-bubble = outer wrapper (no overflow:hidden, so outside labels
+   can render below the circle). The visible circle is .bubble-circle. */
+.strata-bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--bubble-r) * 2);
+  cursor: pointer;
+  pointer-events: auto;
+  transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 400ms ease;
+  will-change: transform, opacity;
+}
+
+.bubble-circle {
+  position: relative;
+  width: calc(var(--bubble-r) * 2);
+  height: calc(var(--bubble-r) * 2);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  border: 2px solid var(--bubble-color);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5),
+              0 2px 10px -4px rgba(0, 0, 0, 0.8);
+  transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 200ms ease;
+}
+
+.strata-bubble:hover .bubble-circle,
+.strata-bubble:focus-visible .bubble-circle {
+  transform: scale(1.18);
+  box-shadow: 0 0 22px -1px var(--bubble-color),
+              0 0 0 1px rgba(0, 0, 0, 0.5) inset;
+  z-index: 50;
+}
+
+.strata-bubble:focus-visible { outline: none; }
+
+/* Fade out non-matches in filter mode (display:none after transition) */
+.strata-bubble.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(var(--hidden-x, 0), var(--hidden-y, 0)) scale(0.6) !important;
+}
+
+.bubble-gif {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 280ms ease;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Auto-reveal once the bubble has scrolled into view (set by IntersectionObserver) */
+.strata-bubble[data-loaded="1"] .bubble-gif {
+  opacity: 1;
+}
+
+/* Hover / focus: also ensure GIF is visible (e.g. if user hovers a pre-loaded bubble) */
+.strata-bubble:hover .bubble-gif,
+.strata-bubble:focus-visible .bubble-gif {
+  opacity: 1;
+}
+
+/* ---- Bubble labels ---- */
+.bubble-label {
+  font-family: 'Space Mono', ui-monospace, monospace;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.98);
+  text-transform: lowercase;
+  pointer-events: none;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 1),
+               0 0 3px rgba(0, 0, 0, 1);
+  transition: opacity 200ms ease;
+}
+
+/* Inside the circle: centred, fits visually because bubble is big enough */
+.bubble-label.inside {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.5px;
+  letter-spacing: 0.4px;
+  padding: 0 8px;
+  text-align: center;
+  line-height: 1.1;
+  z-index: 2;
+}
+
+/* Outside (small bubbles OR filter mode): centred below the circle.
+   Container sizes to its content (not the small bubble it sits under);
+   each line stays on a single row and truncates with ellipsis if it
+   would overflow the 180px cap. This prevents the letter-per-line
+   break that happens when a flex container shrinks to min-content. */
+.bubble-label.outside {
+  position: absolute;
+  top: calc(var(--bubble-r) * 2 + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 180px;
+  padding: 0 3px;
+  text-align: center;
+  line-height: 1.15;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.bubble-label.outside .bl-term {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: rgba(255, 255, 255, 0.96);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.bubble-label.outside .bl-meta {
+  display: block;
+  margin-top: 2px;
+  font-size: 9px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: var(--bubble-color, rgba(255, 255, 255, 0.7));
+  opacity: 0.94;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* Single-line outside label (non-filter, small bubble): no spans,
+   container behaves like a plain inline-block that nowraps. */
+.bubble-label.outside:not(:has(.bl-term)) {
+  white-space: nowrap;
+  font-size: 10.5px;
+  letter-spacing: 0.8px;
+}
+
+/* Once a GIF is loaded it covers the inside label — hide it so text
+   doesn't sit on top of the animation. Outside label stays visible. */
+.strata-bubble[data-loaded="1"] .bubble-label.inside,
+.strata-bubble:hover .bubble-label.inside,
+.strata-bubble:focus-visible .bubble-label.inside {
+  opacity: 0;
+}
+
+.strata-bubble.no-gif .bubble-circle {
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.03) 0 1px,
+      transparent 1px 4px
+    ),
+    rgba(0, 0, 0, 0.6);
+}
+
+/* ---- Scroll-to-bottom hint ----
+   Pill with a pulsing stroke-gradient border that sweeps round the
+   element, grabbing attention without being intrusive. Fades out 1s
+   after the user begins scrolling. */
+.strata-scroll-hint {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background:
+    linear-gradient(#0b0b11, #0b0b11) padding-box,
+    conic-gradient(
+      from var(--hint-angle, 0deg),
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(79, 195, 247, 0.95) 18%,
+      rgba(255, 255, 255, 0.8) 30%,
+      rgba(255, 255, 255, 0.06) 50%,
+      rgba(255, 255, 255, 0.06) 100%
+    ) border-box;
+  border: 1.5px solid transparent;
+  border-radius: 28px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  z-index: 6;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 500ms ease, transform 500ms ease;
+  animation: strata-hint-sweep 3s linear infinite,
+             strata-hint-float 2.6s ease-in-out infinite;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5),
+              0 0 18px rgba(79, 195, 247, 0.18);
+}
+
+.strata-scroll-hint i {
+  font-size: 14px;
+  color: rgba(79, 195, 247, 0.95);
+}
+
+.strata-scroll-hint.hidden {
+  opacity: 0;
+  transform: translateX(-50%) translateY(20px);
+  animation-play-state: paused;
+}
+
+/* Animates a CSS custom property so the conic gradient rotates cleanly */
+@property --hint-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes strata-hint-sweep {
+  to { --hint-angle: 360deg; }
+}
+
+@keyframes strata-hint-float {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%      { transform: translateX(-50%) translateY(5px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .strata-scroll-hint { animation: none; }
+}
+
+/* ============================================================
+   Bubble detail modal
+   ============================================================ */
+.bubble-modal[hidden] { display: none; }
+
+.bubble-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 4vw;
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.bubble-modal.open { opacity: 1; }
+
+.bubble-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.bubble-modal-panel {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(320px, 1.2fr) minmax(300px, 1fr);
+  gap: 36px;
+  width: min(90vw, 960px);
+  max-height: 86vh;
+  background: #0e0e16;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.7);
+  padding: 34px 36px;
+  transform: scale(0.96);
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.bubble-modal.open .bubble-modal-panel { transform: scale(1); }
+
+.bubble-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.bubble-modal-close:hover,
+.bubble-modal-close:focus-visible {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+/* ---- Media (left column) ---- */
+.bubble-modal-media {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+}
+
+.bubble-modal-gif {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ---- Body (right column) ---- */
+.bubble-modal-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.bubble-modal-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bubble-modal-term {
+  font-family: var(--font-redaction-70);
+  font-size: clamp(28px, 3.2vw, 38px);
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  text-transform: lowercase;
+  overflow-wrap: break-word;
+  line-height: 1.05;
+}
+
+.bubble-modal-classification {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: var(--bubble-color, rgba(255, 255, 255, 0.85));
+  font-weight: 700;
+}
+
+/* ---- Meta grid ---- */
+.bubble-modal-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 24px;
+  row-gap: 14px;
+  margin: 0;
+}
+
+.bubble-modal-meta > div {
+  display: contents;
+}
+
+.bubble-modal-meta dt {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  padding-top: 2px;
+}
+
+.bubble-modal-meta dd {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+.bubble-modal-meta dd.mono {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* ---- Narrow viewports: stack vertically ---- */
+@media (max-width: 820px) {
+  .bubble-modal-panel {
+    grid-template-columns: 1fr;
+    width: 92vw;
+    padding: 26px;
+    gap: 24px;
+  }
+  .bubble-modal-media { aspect-ratio: 4 / 3; }
+  .bubble-modal-term { font-size: 26px; }
+}
+
+/* ---- Filter mode: dissolve the bands, foreground the cluster ----
+   Full opacity drop + visibility hidden so the band phase label can't
+   be partially read through the cluster. */
+#screen-strata.filtered .strata-bands {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 400ms ease, visibility 0s linear 400ms;
+  pointer-events: none;
+}
+#screen-strata:not(.filtered) .strata-bands {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 400ms ease, visibility 0s linear 0s;
+}
+
+#screen-strata.filtered .strata-bubble.clustered .bubble-label.outside {
+  color: var(--bubble-color);
+  opacity: 0.9;
+}
+
+/* ---- Reduced motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  .strata-bubble,
+  .bubble-gif {
+    transition-duration: 0.01ms !important;
+  }
+  .strata-bubble:hover,
+  .strata-bubble:focus-visible {
+    transform: scale(1.08);
+  }
+  .strata-bubble.pulse { animation: none; }
+}

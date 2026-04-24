@@ -38,6 +38,13 @@ html, body {
 
 #global-nav .wordmark { text-transform: uppercase; }
 
+/* Hide the DISCOMBOBULATE wordmark on every screen except the intro (0). */
+body:not([data-screen-idx="0"]) #global-nav .wordmark {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+}
+
 #global-nav .wordmark:hover,
 #global-nav #audio-toggle:hover { opacity: 0.9; }
 
@@ -94,28 +101,31 @@ html, body {
   the button position never moves so the hover zone stays stable.
   z-index: 5 sits above .narrative-content (z-index: 1).
 */
+/* Circular 48px hit-zone around the icon, not a full-height strip — so the
+   arrow can't swallow clicks on chips / content at the left or right edges. */
 .screen-arrow {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 96px;
+  top: 50%;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   z-index: 5;
   cursor: pointer;
   background: transparent;
   border: none;
+  padding: 0;
 }
 
 .screen-arrow.prev {
-  left: 0;
-  justify-content: flex-start;
-  padding-left: 28px;
+  left: 14px;
+  transform: translateY(-50%);
 }
 .screen-arrow.next {
-  right: 0;
-  justify-content: flex-end;
-  padding-right: 28px;
+  right: 14px;
+  transform: translateY(-50%);
 }
 
 /* Phosphor icon — starts faint and offset toward its edge */
@@ -132,7 +142,14 @@ html, body {
 .screen-arrow.prev i { transform: translateX(-10px); }
 .screen-arrow.next i { transform: translateX(10px); }
 
-/* Hover / focus: slides to position, white, soft multi-layer glow */
+/* Hover / focus: subtle ring bg + icon slides to centre, white, soft glow */
+.screen-arrow {
+  transition: background-color 180ms ease;
+}
+.screen-arrow:hover,
+.screen-arrow:focus-visible {
+  background: rgba(255, 255, 255, 0.06);
+}
 .screen-arrow:hover i,
 .screen-arrow:focus-visible i {
   color: #ffffff;
@@ -161,34 +178,42 @@ html, body {
   .screen-arrow.next i { transform: translateX(0); }
 }
 
-/* ---------- Dot nav (bottom centre) ---------- */
+/* ---------- Dot nav (bottom centre) — slim rectangles ---------- */
 #dot-nav {
   position: fixed;
-  bottom: 32px;
+  bottom: 28px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 12px;
+  gap: 5px;
   z-index: var(--z-dots);
+  padding: 6px 10px;
+  background: rgba(10, 10, 15, 0.35);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 12px;
 }
 
 #dot-nav .dot {
-  width: 8px;
-  height: 8px;
-  border-radius: var(--radius);
-  background: var(--color-text-muted);
-  opacity: 0.3;
-  transition: opacity var(--transition-fast),
-              transform var(--transition-fast),
-              background var(--transition-fast);
+  width: 22px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.22);
+  opacity: 1;
+  transition: background 180ms ease,
+              box-shadow 220ms ease,
+              width 220ms ease;
 }
 
-#dot-nav .dot:hover { opacity: 0.7; }
+#dot-nav .dot:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
 
 #dot-nav .dot.active {
-  background: var(--color-text-primary);
-  opacity: 1;
-  transform: scale(1.15);
+  background: rgba(255, 255, 255, 0.95);
+  width: 34px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.55),
+              0 0 18px rgba(79, 195, 247, 0.28);
 }
 
 #dot-nav .dot:focus-visible {

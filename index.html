@@ -6,9 +6,9 @@
   <title>Discombobulate.</title>
   <meta name="description" content="A visual archive of how internet culture codified reality during COVID-19." />
 
-  <!-- Giphy API key — leave empty in version control; paste locally before deploying. -->
-  <!-- Add your Giphy API key here -->
-  <script>window.GIPHY_API_KEY = 'oo9QNcle1oRcCHhc7RYJEyL2FsDmKrsB';</script>
+  <!-- Giphy data is shipped as data/keywords.enriched.json (pre-baked by
+       scripts/build_giphy_cache.py + refreshed monthly by .github/workflows/
+       refresh-giphy-cache.yml). The runtime makes zero Giphy API calls. -->
 
   <!-- Google Fonts: Space Grotesk + Space Grotesk Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,15 +31,17 @@
 
   <!-- Phosphor Icons — icon library used for all UI glyphs -->
   <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
 
   <!-- Project CSS -->
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/screen-01.css" />
-  <link rel="stylesheet" href="css/screens-02-04.css" />
-  <link rel="stylesheet" href="css/screen-05.css" />
-  <link rel="stylesheet" href="css/modal-district.css" />
+  <link rel="stylesheet" href="css/redaction-anim.css" />
+  <link rel="stylesheet" href="css/screen-baudrillard.css" />
+  <link rel="stylesheet" href="css/screen-boot.css" />
+  <link rel="stylesheet" href="css/screen-strata.css" />
   <link rel="stylesheet" href="css/screen-06.css" />
 </head>
 <body>
@@ -105,152 +107,156 @@
 
     </section>
 
-    <!-- ==================== Screen 02 — Pre-COVID ==================== -->
-    <section
-      class="screen narrative-screen"
-      id="screen-02"
-      aria-label="Pre-COVID — Sunlight streams for us"
-      aria-hidden="true"
-    >
-      <div class="narrative-content">
-
-        <div class="narrative-text">
-          <h2 class="narrative-headline">
-            <span class="hl-100">Sunlight streams</span>
-            <span class="hl-italic-70">for us.</span>
-          </h2>
-          <p class="narrative-body">
-            This is a story about GIFs during COVID-19.
-            Before the pandemic, a GIF was a small joke. A reaction.
-            Something you sent a friend to make them laugh.
-            It described how we felt — but it wasn't how we felt.
-          </p>
-        </div>
-
-        <div class="narrative-media">
-          <!-- Video plays here in the column. Canvas overlays for pixelated reveal. -->
-          <div class="narrative-media-inner">
-            <video
-              autoplay muted loop playsinline preload="auto"
-              aria-label="Pixel-art animation of a couple watching television in a warm domestic interior"
-            >
-              <source src="assets/mp4/Video_02.mp4" type="video/mp4" />
-            </video>
-            <canvas aria-hidden="true"></canvas>
-          </div>
-        </div>
-
+    <!-- ==================== Order I — Before the Fall (Pre-COVID) ==================== -->
+    <section class="screen order-screen order-i" id="screen-order-i" data-order="i" aria-label="Order I — Before the Fall" aria-hidden="true">
+      <div class="order-media">
+        <img class="order-gif" alt="" aria-hidden="true" />
+        <div class="order-overlay"></div>
       </div>
-
+      <div class="order-content">
+        <div class="order-eyebrow">
+          <span class="order-tag">ORDER I · THE FAITHFUL COPY</span>
+          <span class="order-phase">Pre-COVID · 2018–Feb 2020</span>
+        </div>
+        <h2 class="order-headline">
+          <span class="hl-primary">Sunlight <span class="redaction-word" data-anim="mirror">streams</span></span>
+          <span class="hl-italic">for us.</span>
+        </h2>
+        <p class="order-body">
+          Before the pandemic, a GIF was a small joke. A reaction. Something you sent a friend to make them laugh. It described how we felt — but it wasn't how we felt. The sign still touched its referent. The image had a body behind it.
+        </p>
+      </div>
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
-    <!-- ==================== Screen 03 — COVID Enters ==================== -->
-    <section
-      class="screen narrative-screen"
-      id="screen-03"
-      aria-label="COVID Enters — The white boxes drown me in"
-      aria-hidden="true"
-    >
-      <!-- CSS direction:rtl on .narrative-content swaps column order -->
-      <div class="narrative-content">
-
-        <div class="narrative-text">
-          <h2 class="narrative-headline">
-            <span class="hl-100">The white boxes</span>
-            <span class="hl-italic-50">drown me in.</span>
-          </h2>
-          <p class="narrative-body">
-            Then lockdown happened. We stopped seeing each other.
-            GIFs stopped being optional. They became the fastest way
-            to say <em>I'm tired</em>, <em>I'm scared</em>, <em>I miss you</em> —
-            without needing words. The looping image carried what we couldn't.
-          </p>
-        </div>
-
-        <div class="narrative-media">
-          <div class="narrative-media-inner">
-            <video
-              autoplay muted loop playsinline preload="auto"
-              aria-label="Pixel-art animation of a figure sinking through deep blue water"
-            >
-              <source src="assets/mp4/Video_03.mp4" type="video/mp4" />
-            </video>
-            <canvas aria-hidden="true"></canvas>
-          </div>
-        </div>
-
+    <!-- ==================== Order II — The Cage Opens (Lockdown) ==================== -->
+    <section class="screen order-screen order-ii" id="screen-order-ii" data-order="ii" aria-label="Order II — The Cage Opens" aria-hidden="true">
+      <div class="order-media">
+        <img class="order-gif" alt="" aria-hidden="true" />
+        <div class="order-overlay"></div>
       </div>
-
+      <div class="order-content">
+        <div class="order-eyebrow">
+          <span class="order-tag">ORDER II · THE PERVERSION</span>
+          <span class="order-phase">Lockdown · Mar–Dec 2020</span>
+        </div>
+        <h2 class="order-headline">
+          <span class="hl-primary">The white boxes</span>
+          <span class="hl-italic"><span class="redaction-word" data-anim="distort">drown</span> me in.</span>
+        </h2>
+        <p class="order-body">
+          Then lockdown happened. We stopped seeing each other. GIFs stopped being optional. They became the fastest way to say <em>I'm tired</em>, <em>I'm scared</em>, <em>I miss you</em> — without needing words. The looping image carried what we couldn't. Touch went digital. The sign began to distort.
+        </p>
+      </div>
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
-    <!-- ==================== Screen 04 — COVID Prevails ==================== -->
-    <section
-      class="screen narrative-screen"
-      id="screen-04"
-      aria-label="COVID Prevails — The network is the message"
-      aria-hidden="true"
-    >
-      <div class="narrative-content">
-
-        <div class="narrative-text">
-          <h2 class="narrative-headline hl-100">
-            The <span id="network-word">network</span> is the message.
-          </h2>
-          <p class="narrative-body">
-            By mid-2020, something stranger had happened.
-            GIFs weren't describing loneliness anymore. <em>They were loneliness.</em>
-            The feeling and the image had collapsed into the same thing.
-            This archive tracks that collapse — across 55 COVID-era keywords
-            and 8 emotional districts of the internet.
-          </p>
-        </div>
-
-        <div class="narrative-media">
-          <div class="narrative-media-inner">
-            <video
-              autoplay muted loop playsinline preload="auto"
-              aria-label="Pixel-art animation of a crowd of people illuminated by their phone screens"
-            >
-              <source src="assets/mp4/Video_04.mp4" type="video/mp4" />
-            </video>
-            <canvas aria-hidden="true"></canvas>
-          </div>
-        </div>
-
+    <!-- ==================== Order III — The Simulation Deepens (Deep Lockdown) ==================== -->
+    <section class="screen order-screen order-iii" id="screen-order-iii" data-order="iii" aria-label="Order III — The Simulation Deepens" aria-hidden="true">
+      <div class="order-media">
+        <img class="order-gif" alt="" aria-hidden="true" />
+        <div class="order-overlay"></div>
       </div>
-
+      <div class="order-content">
+        <div class="order-eyebrow">
+          <span class="order-tag">ORDER III · MASKING THE ABSENCE</span>
+          <span class="order-phase">Deep Lockdown · Jan–Jun 2021</span>
+        </div>
+        <h2 class="order-headline">
+          <span class="hl-primary">The <span class="redaction-word" data-anim="forgotten">network</span> is the message.</span>
+        </h2>
+        <p class="order-body">
+          By mid-2021, something stranger had happened. GIFs weren't describing loneliness anymore. <em>They were loneliness.</em> The feeling and the image had collapsed into the same thing. The sign no longer masked reality — it masked the fact that there was no reality left to mask.
+        </p>
+      </div>
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
     </section>
 
-    <!-- ==================== Screen 05 — Districts ==================== -->
-    <section class="screen" id="screen-05" aria-label="Districts" aria-hidden="true">
-
-      <!-- MP4 background -->
-      <video class="districts-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
-        <source src="assets/mp4/Video_05.mp4" type="video/mp4" />
-      </video>
-
-      <!-- Top UI (label + instruction + controls) -->
-      <div class="districts-ui">
-        <span class="districts-label">03 / Districts</span>
-        <span class="districts-instruction">hover to reveal · click to enter</span>
-        <div class="districts-controls">
-          <button class="districts-ctrl-btn" id="districts-pause" type="button" aria-pressed="false" aria-label="Pause animations">
-            <i class="ph ph-pause"></i> Pause
-          </button>
-          <button class="districts-ctrl-btn" id="districts-bw" type="button" aria-pressed="false" aria-label="Toggle black and white mode">
-            B&amp;W
-          </button>
+    <!-- ==================== Order IV — The New Normal (Hyperreal) (Post-COVID) ==================== -->
+    <section class="screen order-screen order-iv" id="screen-order-iv" data-order="iv" aria-label="Order IV — The New Normal" aria-hidden="true">
+      <div class="order-media">
+        <img class="order-gif" alt="" aria-hidden="true" />
+        <div class="order-overlay"></div>
+      </div>
+      <div class="order-content">
+        <div class="order-eyebrow">
+          <span class="order-tag">ORDER IV · THE PURE SIMULACRUM</span>
+          <span class="order-phase">Post-COVID · 2022–2024</span>
         </div>
+        <h2 class="order-headline">
+          <span class="hl-primary">The new normal had no <span class="redaction-word" data-anim="original">original</span>.</span>
+        </h2>
+        <p class="order-body">
+          Return to office was a GIF before it was a commute. AI was a feeling before it was a tool. Reality had become a category of content. The map had eaten the territory.
+        </p>
+      </div>
+      <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
+      <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
+    </section>
+
+    <!-- ==================== Screen Boot — Phase Boot Sequence ==================== -->
+    <section class="screen screen-boot" id="screen-boot" aria-label="Archive boot sequence" aria-hidden="true">
+      <div class="boot-terminal" role="status" aria-live="polite"></div>
+      <div class="boot-skip-hint" aria-hidden="true">PRESS ANY KEY TO SKIP →</div>
+    </section>
+
+    <!-- ==================== Screen 05 — Strata View (PRD v2 Act 3) ==================== -->
+    <section class="screen screen-strata" id="screen-strata" aria-label="Archive strata" aria-hidden="true">
+
+      <!-- Scrollable canvas — scroll within this screen doesn't change screens. -->
+      <div class="strata-scroll">
+
+        <!-- Always-visible filter chip bar (sticky at top of scroll) -->
+        <nav class="strata-chips" role="toolbar" aria-label="Filter chips">
+          <div class="strata-chip-hint">
+            <i class="ph ph-funnel" aria-hidden="true"></i>
+            <span>Explore popular keywords that arose during COVID — by phase, classification, or category. Click any chips to filter. Multiple chips can be active at once.</span>
+          </div>
+          <div class="strata-chip-list"></div>
+        </nav>
+
+        <!-- 4 proportional bands + bubble layer -->
+        <div class="strata-canvas">
+          <div class="strata-bands" aria-hidden="true"></div>
+          <div class="strata-bubbles" role="list" aria-label="55 keyword bubbles"></div>
+        </div>
+
+      </div><!-- /.strata-scroll -->
+
+      <!-- Scroll-to-bottom hint, fades out after the user begins scrolling -->
+      <div class="strata-scroll-hint" aria-hidden="true">
+        <span>Scroll down to experience the simulation unfolding during COVID</span>
+        <i class="ph ph-arrow-down"></i>
       </div>
 
-      <!-- 4×2 grid of district cards (injected by JS) -->
-      <div id="districts-grid" role="list" aria-label="District cards"></div>
+      <!-- Bubble detail modal -->
+      <div class="bubble-modal" id="bubble-modal" role="dialog" aria-modal="true" aria-labelledby="bubble-modal-term" aria-hidden="true" hidden>
+        <div class="bubble-modal-backdrop" data-role="close"></div>
+        <div class="bubble-modal-panel">
+          <button class="bubble-modal-close" type="button" aria-label="Close"><i class="ph ph-x"></i></button>
+          <div class="bubble-modal-media">
+            <img class="bubble-modal-gif" alt="" decoding="async" />
+          </div>
+          <div class="bubble-modal-body">
+            <div class="bubble-modal-head">
+              <h3 class="bubble-modal-term" id="bubble-modal-term"></h3>
+              <span class="bubble-modal-classification"></span>
+            </div>
+            <dl class="bubble-modal-meta">
+              <div><dt>Phase</dt>            <dd data-field="phase"></dd></div>
+              <div><dt>Years</dt>            <dd data-field="years"></dd></div>
+              <div><dt>Category</dt>         <dd data-field="category"></dd></div>
+              <div><dt>Classification</dt>   <dd data-field="classification"></dd></div>
+              <div><dt>Giphy total count</dt><dd data-field="total"></dd></div>
+              <div><dt>Codification score</dt><dd data-field="score"></dd></div>
+              <div><dt>Giphy ID</dt>         <dd data-field="gid"></dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
 
       <button class="screen-arrow prev" aria-label="Previous screen"><i class="ph ph-arrow-left"></i></button>
       <button class="screen-arrow next" aria-label="Next screen"><i class="ph ph-arrow-right"></i></button>
@@ -259,39 +265,22 @@
     <!-- ==================== Screen 06 — Closing ==================== -->
     <section class="screen" id="screen-06" aria-label="Closing" aria-hidden="true">
 
-      <span class="closing-label">04 / Closing</span>
-
-      <!-- Heart + Eye composition (SVG, JS animates iris) -->
-      <div class="closing-composition" aria-label="Heart and eye composition — together and loneliness" role="img">
-
-        <!-- Heart -->
-        <svg class="closing-heart" viewBox="0 0 200 180" fill="none" aria-hidden="true">
-          <path d="M100 164C52 130 16 108 16 72C16 46 36 30 62 38C74 42 88 52 100 64C112 52 126 42 138 38C164 30 184 46 184 72C184 108 148 130 100 164Z"
-            stroke="#F44336" stroke-width="1.8" fill="rgba(244,67,54,0.08)"/>
-        </svg>
-
-        <!-- Eye (iris group translated by JS) -->
-        <svg class="closing-eye" viewBox="0 0 260 140" fill="none" aria-hidden="true">
-          <path d="M14 70 Q130 8 246 70 Q130 132 14 70Z"
-            stroke="#4FC3F7" stroke-width="1.8" fill="rgba(79,195,247,0.06)"/>
-          <!-- Iris (translated by JS irisLoop) -->
-          <g class="iris-group">
-            <circle cx="130" cy="70" r="26" stroke="#4FC3F7" stroke-width="1.5" fill="rgba(79,195,247,0.12)"/>
-            <circle cx="130" cy="70" r="11" stroke="#4FC3F7" stroke-width="1.5" fill="rgba(79,195,247,0.22)"/>
-          </g>
-        </svg>
-
-        <!-- GIF tile boxes (8 total, orbited by JS) -->
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-        <div class="gif-tile" aria-hidden="true"></div>
-
-      </div><!-- /.closing-composition -->
+      <!-- Two Giphy panels side by side (PRD v2 Act 4) -->
+      <div class="closing-composition" aria-label="Two GIFs — together and loneliness" role="img">
+        <figure class="closing-panel closing-panel-together">
+          <img class="closing-gif" id="closing-gif-together" alt="" decoding="async" />
+          <figcaption class="closing-panel-label">
+            <span class="redaction-word" data-anim="dissolve">together</span>
+          </figcaption>
+        </figure>
+        <div class="closing-divider" aria-hidden="true"></div>
+        <figure class="closing-panel closing-panel-loneliness">
+          <img class="closing-gif" id="closing-gif-loneliness" alt="" decoding="async" />
+          <figcaption class="closing-panel-label">
+            <span class="redaction-word" data-anim="dissolve">loneliness</span>
+          </figcaption>
+        </figure>
+      </div>
 
       <div class="closing-labels" aria-live="polite">
         <span style="color:#F44336">together</span>
@@ -371,12 +360,14 @@
 
   <!-- ==================== Dot pagination ==================== -->
   <nav id="dot-nav" role="tablist" aria-label="Screen navigation">
-    <button class="dot active" role="tab" aria-label="Go to screen 1" aria-selected="true"  tabindex="0"></button>
-    <button class="dot"        role="tab" aria-label="Go to screen 2" aria-selected="false" tabindex="-1"></button>
-    <button class="dot"        role="tab" aria-label="Go to screen 3" aria-selected="false" tabindex="-1"></button>
-    <button class="dot"        role="tab" aria-label="Go to screen 4" aria-selected="false" tabindex="-1"></button>
-    <button class="dot"        role="tab" aria-label="Go to screen 5" aria-selected="false" tabindex="-1"></button>
-    <button class="dot"        role="tab" aria-label="Go to screen 6" aria-selected="false" tabindex="-1"></button>
+    <button class="dot active" role="tab" aria-label="Go to screen 1 — Intro"                    aria-selected="true"  tabindex="0"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 2 — Order I (Before the Fall)" aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 3 — Order II (The Cage Opens)" aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 4 — Order III (Simulation)"    aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 5 — Order IV (Hyperreal)"      aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 6 — Archive Boot"              aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 7 — Archive Strata"            aria-selected="false" tabindex="-1"></button>
+    <button class="dot"        role="tab" aria-label="Go to screen 8 — Closing"                   aria-selected="false" tabindex="-1"></button>
   </nav>
 
   <!-- ==================== Modal overlay (populated Chunks 05/06) ==================== -->

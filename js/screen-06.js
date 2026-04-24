@@ -1,103 +1,63 @@
 /* ============================================================
    screen-06.js — Closing screen + Behind the Scenes modal
-   Heart + eye Venn · cursor-tracking iris · GIF tile orbit
-   Heartbeat sound loop · BTS modal with D3 flowmap
+   PRD v2 Act 4: two side-by-side Giphy GIFs (together + loneliness)
+   replace the previous heart/eye SVG composition. Cached GIFs only —
+   no runtime API calls.
    ============================================================ */
 
 import { onScreenChange, goTo } from './screen-manager.js';
 import { setNavLocked } from './nav.js';
+import { getFixedGif } from './data.js';
 import { playHeartbeat, stopHeartbeat } from './audio.js';
+import { prepareRedactionWord, playRedaction, resetRedaction } from './redaction-anim.js';
 
-const SCREEN_IDX = 5;
+const SCREEN_IDX = 7;   /* Closing is the last of 8 screens after Act-1 replaces narrative */
 
-/* ============================================================
-   initScreen06
-   ============================================================ */
 export function initScreen06() {
-  const section    = document.getElementById('screen-06');
+  const section = document.getElementById('screen-06');
   if (!section) return;
 
   const comp       = section.querySelector('.closing-composition');
-  const eyeSvg     = section.querySelector('.closing-eye');
   const labels     = section.querySelector('.closing-labels');
   const subtext    = section.querySelector('.closing-subtext');
   const poetic     = section.querySelector('.closing-poetic');
   const ctas       = section.querySelector('.closing-ctas');
+  const gifTog     = document.getElementById('closing-gif-together');
+  const gifLon     = document.getElementById('closing-gif-loneliness');
   const restartBtn = document.getElementById('closing-restart');
   const btsBtn     = document.getElementById('closing-bts');
   const btsModal   = document.getElementById('bts-modal');
   const btsClose   = document.getElementById('bts-close');
 
-  /* -- Iris tracking state -- */
-  let irisX = 0, irisY = 0;
-  let irisTargetX = 0, irisTargetY = 0;
-  let irisRaf = null;
-  let isActive = false;
+  const redactionWords = Array.from(section.querySelectorAll('.closing-panel-label .redaction-word'));
+  redactionWords.forEach(prepareRedactionWord);
 
-  /* -- GIF tile orbit -- */
-  let tileRaf = null;
-  let tileAngle = 0;
+  let isActive  = false;
+  let gifsLoaded = false;
 
-  /* ---------- Screen lifecycle ---------- */
   onScreenChange((next, prev) => {
     if (next === SCREEN_IDX) activate();
     else if (prev === SCREEN_IDX) deactivate();
   });
 
-  /* ---------- Restart ---------- */
   restartBtn?.addEventListener('click', () => { deactivate(); goTo(0); });
 
-  /* ---------- BTS modal ---------- */
   btsBtn?.addEventListener('click', openBTS);
   btsClose?.addEventListener('click', closeBTS);
   btsModal?.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeBTS(); });
 
-  /* ---------- Cursor tracking for iris ---------- */
-  function onMouseMove(e) {
-    if (!isActive) return;
-    const eyeRect = eyeSvg?.getBoundingClientRect();
-    if (!eyeRect) return;
-    const ecx = eyeRect.left + eyeRect.width  * 0.52;
-    const ecy = eyeRect.top  + eyeRect.height * 0.48;
-    const dx  = e.clientX - ecx;
-    const dy  = e.clientY - ecy;
-    const dist = Math.sqrt(dx * dx + dy * dy);
-    const MAX_DIST = 18;
-    const scale = Math.min(1, MAX_DIST / (dist || 1));
-    irisTargetX = dx * scale;
-    irisTargetY = dy * scale;
+  function loadGifs() {
+    if (gifsLoaded) return;
+    const tog = getFixedGif('closing_together');
+    const lon = getFixedGif('closing_loneliness');
+    if (tog && gifTog) gifTog.src = tog.src || tog.still || '';
+    if (lon && gifLon) gifLon.src = lon.src || lon.still || '';
+    gifsLoaded = true;
   }
 
-  function irisLoop() {
-    if (!isActive) return;
-    irisX += (irisTargetX - irisX) * 0.09;
-    irisY += (irisTargetY - irisY) * 0.09;
-    const iris = eyeSvg?.querySelector('.iris-group');
-    if (iris) iris.setAttribute('transform', `translate(${irisX.toFixed(2)},${irisY.toFixed(2)})`);
-    irisRaf = requestAnimationFrame(irisLoop);
-  }
-
-  /* ---------- GIF tile orbit ---------- */
-  function tileLoop() {
-    if (!isActive) return;
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
-      document.body.classList.contains('reduced-motion');
-    if (!reduced) tileAngle += 0.003;
-    const tiles = section.querySelectorAll('.gif-tile');
-    const radius = 170;
-    tiles.forEach((tile, i) => {
-      const a = tileAngle + (i / tiles.length) * Math.PI * 2;
-      const x = Math.cos(a) * radius;
-      const y = Math.sin(a) * (radius * 0.5);
-      tile.style.transform = `translate(${x}px, ${y}px)`;
-    });
-    tileRaf = requestAnimationFrame(tileLoop);
-  }
-
-  /* ---------- Activate / deactivate ---------- */
   function activate() {
     isActive = true;
-    window.addEventListener('mousemove', onMouseMove);
+    loadGifs();
 
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
       document.body.classList.contains('reduced-motion');
@@ -108,41 +68,41 @@ export function initScreen06() {
       return;
     }
 
-    /* Staggered fade-in sequence */
+    /* Staggered fade-in (panels slide in + text fades per PRD v2 §04) */
     setTimeout(() => comp?.classList.add('comp-visible'),   0);
-    setTimeout(() => labels?.classList.add('lbl-visible'), 1000);
-    setTimeout(() => subtext?.classList.add('lbl-visible'),2000);
-    setTimeout(() => poetic?.classList.add('lbl-visible'), 2500);
-    setTimeout(() => ctas?.classList.add('lbl-visible'),   4000);
+    setTimeout(() => labels?.classList.add('lbl-visible'), 900);
+    setTimeout(() => subtext?.classList.add('lbl-visible'),1800);
+    setTimeout(() => poetic?.classList.add('lbl-visible'), 2400);
+    setTimeout(() => ctas?.classList.add('lbl-visible'),   3600);
 
-    irisLoop();
-    tileLoop();
+    /* Redaction letter-dissolve on the two word labels — triggered after
+       the panels have slid in (matches the 400ms-delay rule in PRD v2 §04). */
+    setTimeout(() => {
+      redactionWords.forEach((w, i) => {
+        setTimeout(() => playRedaction(w), i * 300);
+      });
+    }, 500);
+
     playHeartbeat();
   }
 
   function deactivate() {
     isActive = false;
-    window.removeEventListener('mousemove', onMouseMove);
-    cancelAnimationFrame(irisRaf);
-    cancelAnimationFrame(tileRaf);
     stopHeartbeat();
-    irisX = irisY = irisTargetX = irisTargetY = 0;
-    /* Reset visibility classes */
     comp?.classList.remove('comp-visible');
     labels?.classList.remove('lbl-visible');
     subtext?.classList.remove('lbl-visible');
     poetic?.classList.remove('lbl-visible');
     ctas?.classList.remove('lbl-visible');
+    redactionWords.forEach(resetRedaction);
   }
 
-  /* ---------- BTS helpers ---------- */
   function openBTS() {
     btsModal?.removeAttribute('hidden');
     btsModal?.classList.add('bts-open');
     btsModal?.setAttribute('aria-hidden', 'false');
     setNavLocked(true);
     btsClose?.focus();
-    /* Trigger flowmap draw-on */
     setTimeout(() => drawFlowmap(), 100);
   }
 
@@ -156,8 +116,7 @@ export function initScreen06() {
 }
 
 /* ============================================================
-   BTS Flowmap — D3-style fixed-position SVG diagram
-   Edges animate in with stroke-dashoffset draw-on (800ms).
+   BTS Flowmap — fixed-position SVG diagram with draw-on edges
    ============================================================ */
 function drawFlowmap() {
   const svg = document.getElementById('bts-flowmap');
@@ -170,7 +129,6 @@ function drawFlowmap() {
 
   const ns = 'http://www.w3.org/2000/svg';
 
-  /* Node layout (fixed positions) */
   const nodes = [
     { id:'mcluhan',  label: 'McLuhan: Medium is the Message', x: W*0.22, y: 40,  cls:'node-theory'   },
     { id:'baud',     label: 'Baudrillard: Simulacra',         x: W*0.78, y: 40,  cls:'node-theory'   },
@@ -178,7 +136,7 @@ function drawFlowmap() {
     { id:'gif-hyp',  label: 'GIF as Hyperreal',               x: W*0.78, y: 130, cls:''               },
     { id:'giphy',    label: 'Giphy API — Cultural Archive',   x: W*0.50, y: 220, cls:''               },
     { id:'keywords', label: '55 Keywords / 4 Phases',         x: W*0.50, y: 300, cls:''               },
-    { id:'dist',     label: '8 Thematic Districts',           x: W*0.50, y: 380, cls:'node-district'  },
+    { id:'dist',     label: '4 Baudrillard Strata',           x: W*0.50, y: 380, cls:'node-district'  },
   ];
 
   const edges = [
@@ -189,7 +147,6 @@ function drawFlowmap() {
 
   const NW = 200, NH = 30;
 
-  /* Draw edges first (behind nodes) */
   edges.forEach(([from, to]) => {
     const a = nodes.find(n => n.id === from);
     const b = nodes.find(n => n.id === to);
@@ -201,11 +158,9 @@ function drawFlowmap() {
     path.setAttribute('d', `M${x1},${y1} C${x1},${my} ${x2},${my} ${x2},${y2}`);
     path.setAttribute('class', 'flow-edge');
     svg.appendChild(path);
-    /* Trigger transition on next frame */
     requestAnimationFrame(() => path.classList.add('edge-drawn'));
   });
 
-  /* Draw nodes */
   nodes.forEach(n => {
     const g = document.createElementNS(ns, 'g');
     g.setAttribute('class', `flow-node ${n.cls}`);

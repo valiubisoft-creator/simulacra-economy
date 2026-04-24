@@ -1,56 +1,63 @@
 /* ============================================================
-   data.js — Chunk 07: full data layer
-   1. Load keywords-cache.json (pre-built from summary.csv)
-   2. 24-hour staleness check via localStorage → background refresh
-   3. Static fallback (baked in) so user never sees an error
-   4. Runtime Giphy fetch on keyword node click
+   data.js — cache-only data layer (post-PRD v2 refactor)
+
+   Loads the pre-baked Giphy cache from data/keywords.enriched.json.
+   Zero runtime Giphy API calls. The cache is refreshed monthly by
+   .github/workflows/refresh-giphy-cache.yml and shipped with the site.
+
+   Public surface:
+     loadData()              — call once at boot
+     getCachedData()         — raw cache object
+     getDistrictData(id)     — back-compat for current Screen 05 + modal
+     getBubbles()            — 55 phase-instances for the Strata View
+     getPhases()             — phase metadata (labels, years, narrative)
+     fetchGiphyGif(term)     — sync lookup by term (returns {id,still,src} or null)
+     getFixedGif(slot)       — sync lookup of PRD v2 hardcoded GIFs
    ============================================================ */
 
-const CACHE_PATH  = 'data/keywords-cache.json';
-const STALE_MS    = 86_400_000; // 24 hours
-const CACHE_TS_KEY = 'discombobulate_cache_ts';
+const CACHE_PATH = 'data/keywords.enriched.json';
 
-/* ---- Static fallback (subset — enough to keep the UI alive) ---- */
 const STATIC_FALLBACK = {
   fetched_at: 0,
-  keywords: {
-    lockdown:  { total_count: 500, codification_score: 100, phase: 'lockdown',     district: 3 },
-    pandemic:  { total_count: 500, codification_score: 100, phase: 'lockdown',     district: 2 },
-    loneliness:{ total_count: 500, codification_score: 100, phase: 'deep_lockdown',district: 4 },
-    hope:      { total_count: 500, codification_score: 100, phase: 'lockdown',     district: 8 },
-  }
+  schema_version: 2,
+  keywords: {},
+  bubbles: [],
+  phases: {},
+  fixed_gifs: {},
 };
 
 let _cachedData = null;
 
-/* ============================================================
-   loadData — call once at boot from main.js
-   ============================================================ */
 export async function loadData() {
   try {
-    const res  = await fetch(CACHE_PATH, { cache: 'no-store' });
+    const res = await fetch(CACHE_PATH, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     _cachedData = await res.json();
   } catch (err) {
-    console.warn('data.js: cache load failed, using static fallback.', err);
+    console.warn('data.js: cache load failed, using empty fallback.', err);
     _cachedData = STATIC_FALLBACK;
   }
-
-  /* 24h staleness — background refresh (in-memory only on static host) */
-  try {
-    const lastFetched = Number(localStorage.getItem(CACHE_TS_KEY) || 0);
-    const isStale = !lastFetched || Date.now() - lastFetched > STALE_MS;
-    if (isStale) _backgroundRefresh();
-  } catch (_) { /* localStorage blocked */ }
-
   return _cachedData;
 }
 
 export function getCachedData() { return _cachedData; }
 
+export function getBubbles() { return _cachedData?.bubbles || []; }
+
+export function getPhases() { return _cachedData?.phases || {}; }
+
 /* ============================================================
-   getDistrictData — returns filtered + computed stats for one district
+   getDistrictData — back-compat for the current Screen 05 + District Modal.
+   (Those surfaces are slated for removal in the Strata View refactor;
+   this function stays until they're deleted.)
    ============================================================ */
+const PHASE_LABELS = {
+  pre_covid:     'Pre-COVID',
+  lockdown:      'Onset',
+  deep_lockdown: 'Peak',
+  post_covid:   'Aftermath',
+};
+
 export function getDistrictData(districtId) {
   const data = _cachedData?.keywords || {};
   const entries = Object.entries(data).filter(([, v]) => v.district === districtId);
@@ -59,31 +66,24 @@ export function getDistrictData(districtId) {
   const totalGifs = entries.reduce((s, [, v]) => s + v.total_count, 0);
   const avgScore  = Math.round(entries.reduce((s, [, v]) => s + v.codification_score, 0) / entries.length);
 
-  /* Peak phase: phase with highest avg codification score */
   const byPhase = {};
   entries.forEach(([, v]) => {
-    byPhase[v.phase] = byPhase[v.phase] || [];
-    byPhase[v.phase].push(v.codification_score);
+    const p = v.primary_phase || v.phase;
+    byPhase[p] = byPhase[p] || [];
+    byPhase[p].push(v.codification_score);
   });
   const peakPhase = Object.entries(byPhase).reduce((best, [phase, scores]) => {
     const avg = scores.reduce((a, b) => a + b, 0) / scores.length;
     return avg > best.avg ? { phase, avg } : best;
   }, { phase: 'lockdown', avg: -1 }).phase;
 
-  const PHASE_LABELS = {
-    pre_covid:    'Pre-COVID',
-    lockdown:     'Onset',
-    deep_lockdown:'Peak',
-    post_covid:   'Aftermath',
-  };
-
   return {
     keywords: entries.map(([term, v]) => ({
       term,
       total_count: v.total_count,
       codification_score: v.codification_score,
-      phase: v.phase,
-      phase_label: PHASE_LABELS[v.phase] || v.phase,
+      phase: v.primary_phase || v.phase,
+      phase_label: PHASE_LABELS[v.primary_phase || v.phase] || (v.primary_phase || v.phase),
     })),
     totalGifs,
     avgScore,
@@ -93,146 +93,51 @@ export function getDistrictData(districtId) {
 }
 
 /* ============================================================
-   fetchGiphyGif — runtime call on keyword node click
-   The ONLY runtime Giphy call in the experience.
+   fetchGiphyGif — SYNCHRONOUS local lookup (post-refactor).
+   Shape preserved (id, still, src) so callers need only drop `await`.
    ============================================================ */
-let _sessionRandomId = null;
-
-export async function fetchGiphyGif(keyword) {
-  const apiKey = window.GIPHY_API_KEY;
-  if (!apiKey) { console.warn('data.js: GIPHY_API_KEY not set'); return null; }
-
-  /* Get session random ID once */
-  if (!_sessionRandomId) {
-    try {
-      const r = await fetch(`https://api.giphy.com/v1/randomid?api_key=${apiKey}`);
-      const j = await r.json();
-      _sessionRandomId = j?.data?.random_id || '';
-    } catch (_) { _sessionRandomId = ''; }
-  }
-
-  try {
-    const url = new URL('https://api.giphy.com/v1/gifs/search');
-    url.searchParams.set('api_key', apiKey);
-    url.searchParams.set('q', keyword);
-    url.searchParams.set('limit', '1');
-    url.searchParams.set('rating', 'pg');
-    url.searchParams.set('lang', 'en');
-    url.searchParams.set('fields', 'id,images.fixed_width,images.fixed_width_still,analytics');
-
-    const res = await fetch(url.toString());
-    if (!res.ok) throw new Error(`Giphy HTTP ${res.status}`);
-    const json = await res.json();
-    const gif  = json?.data?.[0];
-    if (!gif) return null;
-
-    /* Fire analytics pingback (Giphy ToS) */
-    const pingBase = gif.analytics?.onload?.url;
-    if (pingBase) {
-      const pingUrl = new URL(pingBase);
-      pingUrl.searchParams.set('ts', Date.now().toString());
-      if (_sessionRandomId) pingUrl.searchParams.set('random_id', _sessionRandomId);
-      fetch(pingUrl.toString()).catch(() => {});
-    }
-
-    return {
-      id:    gif.id,
-      still: gif.images?.fixed_width_still?.url,
-      src:   gif.images?.fixed_width?.webp || gif.images?.fixed_width?.mp4 || gif.images?.fixed_width?.url,
-    };
-  } catch (err) {
-    console.warn('data.js: Giphy fetch failed', err);
-    return null;
-  }
+export function fetchGiphyGif(keyword) {
+  const entry = _cachedData?.keywords?.[keyword];
+  const gif   = entry?.gif;
+  if (!gif) return null;
+  firePingback(gif.onload_ping);
+  return {
+    id:    gif.id,
+    still: gif.still,
+    src:   gif.webp || gif.mp4 || gif.small || gif.still || '',
+  };
 }
 
 /* ============================================================
-   fetchGiphyGifs — multi-GIF variant (limit up to 50 per Giphy API)
-   Fires analytics pingback per returned GIF (ToS requirement).
+   getFixedGif — lookup the 6 PRD v2 hardcoded GIFs by slot name.
+   Slots: order_i | order_ii | order_iii | order_iv |
+          closing_together | closing_loneliness
+   Used by Act 1 (narrative screens) + Act 4 (closing) in the follow-up plan.
    ============================================================ */
-export async function fetchGiphyGifs(keyword, count = 10) {
-  const apiKey = window.GIPHY_API_KEY;
-  if (!apiKey) return [];
-
-  /* Get session random ID once */
-  if (!_sessionRandomId) {
-    try {
-      const r = await fetch(`https://api.giphy.com/v1/randomid?api_key=${apiKey}`);
-      const j = await r.json();
-      _sessionRandomId = j?.data?.random_id || '';
-    } catch (_) { _sessionRandomId = ''; }
-  }
-
-  try {
-    const url = new URL('https://api.giphy.com/v1/gifs/search');
-    url.searchParams.set('api_key', apiKey);
-    url.searchParams.set('q', keyword);
-    url.searchParams.set('limit', String(Math.min(50, Math.max(1, count))));
-    url.searchParams.set('rating', 'pg');
-    url.searchParams.set('lang', 'en');
-    url.searchParams.set('fields', 'id,images.fixed_width,images.fixed_width_still,analytics');
-
-    const res = await fetch(url.toString());
-    if (!res.ok) throw new Error(`Giphy HTTP ${res.status}`);
-    const json = await res.json();
-    const arr  = json?.data || [];
-
-    /* Fire pingbacks for each GIF (fire-and-forget, respects ToS) */
-    arr.forEach(gif => {
-      const pingBase = gif.analytics?.onload?.url;
-      if (!pingBase) return;
-      try {
-        const pingUrl = new URL(pingBase);
-        pingUrl.searchParams.set('ts', Date.now().toString());
-        if (_sessionRandomId) pingUrl.searchParams.set('random_id', _sessionRandomId);
-        fetch(pingUrl.toString()).catch(() => {});
-      } catch (_) {}
-    });
-
-    return arr.map(gif => ({
-      id:    gif.id,
-      still: gif.images?.fixed_width_still?.url,
-      src:   gif.images?.fixed_width?.webp || gif.images?.fixed_width?.mp4 || gif.images?.fixed_width?.url,
-    })).filter(g => g.still || g.src);
-  } catch (err) {
-    console.warn('data.js: fetchGiphyGifs failed', err);
-    return [];
-  }
+export function getFixedGif(slot) {
+  const gif = _cachedData?.fixed_gifs?.[slot];
+  if (!gif || !(gif.webp || gif.mp4 || gif.still)) return null;
+  firePingback(gif.onload_ping);
+  return {
+    id:    gif.id,
+    still: gif.still,
+    src:   gif.webp || gif.mp4 || gif.still || '',
+  };
 }
 
 /* ============================================================
-   Background refresh — updates in-memory data only
-   (GitHub Pages is static; cannot write back to disk)
+   Pingback — fire-and-forget analytics ping per Giphy ToS.
+   URLs are pre-resolved at build time; dedupe per session to avoid
+   double-counting when the same keyword is viewed multiple times.
    ============================================================ */
-async function _backgroundRefresh() {
-  const apiKey = window.GIPHY_API_KEY;
-  if (!apiKey || !_cachedData?.keywords) return;
+const _pinged = new Set();
 
-  const keywords = Object.keys(_cachedData.keywords);
-  const updated  = {};
-
-  for (const term of keywords) {
-    try {
-      const url = new URL('https://api.giphy.com/v1/gifs/search');
-      url.searchParams.set('api_key', apiKey);
-      url.searchParams.set('q', term);
-      url.searchParams.set('limit', '1');
-      url.searchParams.set('rating', 'pg');
-      url.searchParams.set('lang', 'en');
-      url.searchParams.set('fields', 'id');
-      const res   = await fetch(url.toString());
-      const json  = await res.json();
-      const count = json?.pagination?.total_count ?? _cachedData.keywords[term].total_count;
-      updated[term] = { ..._cachedData.keywords[term], total_count: count,
-        codification_score: Math.min((count / 500) * 100, 100) };
-      await _sleep(150);
-    } catch (_) { updated[term] = _cachedData.keywords[term]; }
-  }
-
-  _cachedData = { ..._cachedData, keywords: updated, fetched_at: Date.now() };
-  console.info('data.js: background refresh complete');
-
-  try { localStorage.setItem(CACHE_TS_KEY, Date.now().toString()); } catch (_) {}
+function firePingback(url) {
+  if (!url || _pinged.has(url)) return;
+  _pinged.add(url);
+  try {
+    const u = new URL(url);
+    u.searchParams.set('ts', Date.now().toString());
+    fetch(u.toString()).catch(() => {});
+  } catch (_) { /* malformed URL — silently drop */ }
 }
-
-function _sleep(ms) { return new Promise(r => setTimeout(r, ms)); }

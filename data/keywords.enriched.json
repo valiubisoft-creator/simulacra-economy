@@ -1,0 +1,1617 @@
+{
+  "fetched_at": 1777016361559,
+  "schema_version": 2,
+  "keywords": {
+    "selfie": {
+      "term": "selfie",
+      "primary_phase": "pre_covid",
+      "category": "culture",
+      "source": "cultural baseline",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "simulacra",
+      "district": 1,
+      "district_name": "The Screen",
+      "gif": {
+        "id": "kEZtOQwrQ2mVa",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWttd202dHlucTk1NTRybnN5MWltczEwODVzemZibDgwanljYnBheDAmZ2lmX2lkPWtFWnRPUXdyUTJtVmEmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "influencer": {
+      "term": "influencer",
+      "primary_phase": "pre_covid",
+      "category": "culture",
+      "source": "cultural baseline",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "simulacra",
+      "district": 1,
+      "district_name": "The Screen",
+      "gif": {
+        "id": "5bgIOwoAcZ2exrksog",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXUyZ3pxbHJycTRrMmV5ZmE2ZHh4c25wYXE2MHQzZGt5dzA5N2tucHImZ2lmX2lkPTViZ0lPd29BY1oyZXhya3NvZyZjdD1n&action_type=SEEN"
+      }
+    },
+    "viral": {
+      "term": "viral",
+      "primary_phase": "pre_covid",
+      "category": "culture",
+      "source": "cultural baseline",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "simulacra",
+      "district": 1,
+      "district_name": "The Screen",
+      "gif": {
+        "id": "qDOI1FqYEyTxkW0MEI",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXo1ZTY1YnB6NWRtYTZrNTV6anVycWl4OTA0ZjFqdXUzMTZxN3hhZ2omZ2lmX2lkPXFET0kxRnFZRXlUeGtXME1FSSZjdD1n&action_type=SEEN"
+      }
+    },
+    "scrolling": {
+      "term": "scrolling",
+      "primary_phase": "pre_covid",
+      "category": "behaviour",
+      "source": "gif-city original set",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "medium",
+      "district": 1,
+      "district_name": "The Screen",
+      "gif": {
+        "id": "D5RkfWTZILva52QtaQ",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTBscnJobnB2bXdneGg1a2wweDludzYyYTc2cnhwajdvMW14dXNvNXkmZ2lmX2lkPUQ1UmtmV1RaSUx2YTUyUXRhUSZjdD1n&action_type=SEEN"
+      }
+    },
+    "fake news": {
+      "term": "fake news",
+      "primary_phase": "pre_covid",
+      "category": "political",
+      "source": "gif-city original set",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "neutral",
+      "district": 5,
+      "district_name": "Power & Voice",
+      "gif": {
+        "id": "O2j3S8bUUWNVDahHz7",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWFybnNzNzV1M2s0cmFoa3NjbXVmb2JsZHp5MnRrbngzd3VlcHFyaXcmZ2lmX2lkPU8yajNTOGJVVVdOVkRhaEh6NyZjdD1n&action_type=SEEN"
+      }
+    },
+    "meme": {
+      "term": "meme",
+      "primary_phase": "pre_covid",
+      "category": "culture",
+      "source": "cultural baseline",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "simulacra",
+      "district": 1,
+      "district_name": "The Screen",
+      "gif": {
+        "id": "xoZWpxtSLecftH30K1",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTc5dG9na2UxY3UxamYyMW43NjRmeXpteXc3dWs1ejY3bDEyYjVqb2gmZ2lmX2lkPXhvWldweHRTTGVjZnRIMzBLMSZjdD1n&action_type=SEEN"
+      }
+    },
+    "boredom": {
+      "term": "boredom",
+      "primary_phase": "pre_covid",
+      "category": "emotional",
+      "source": "cultural baseline",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "neutral",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "H9Li75tmlnwkg",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXJxMDducDA0b3k2NWl6anQ0Z290bzJ1N2hycDJ0cWtmcTRubW9vZm4mZ2lmX2lkPUg5TGk3NXRtbG53a2cmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "anxiety": {
+      "term": "anxiety",
+      "primary_phase": "pre_covid",
+      "category": "emotional",
+      "source": "cultural baseline",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "neutral",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "1FMaabePDEfgk",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWEwd2FtMnp0aXQya3Z0OTRxMzN4ZnFtdjR6djl0enJseW43ZG9nMXomZ2lmX2lkPTFGTWFhYmVQREVmZ2smY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "loneliness": {
+      "term": "loneliness",
+      "primary_phase": "pre_covid",
+      "category": "emotional",
+      "source": "Koh et al. 2022",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "cage",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "a6zGGyjGKq7GE",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTNhdjRnNTk2d3dpYzdkMzN0MDQ3bjRycWV6dndrb2U1a2NjbDNoa3gmZ2lmX2lkPWE2ekdHeWpHS3E3R0UmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "attention": {
+      "term": "attention",
+      "primary_phase": "pre_covid",
+      "category": "culture",
+      "source": "gif-city original set",
+      "total_count": 500,
+      "codification_score": 50.0,
+      "classification": "neutral",
+      "district": 1,
+      "district_name": "The Screen",
+      "gif": {
+        "id": "1fMjj5j2Z7chq",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWtwdTYwdDdkczk4eGczM3JtN3AzZTFqMGQ2cHZrYTg1M2NpanVqNXAmZ2lmX2lkPTFmTWpqNWoyWjdjaHEmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "coronavirus": {
+      "term": "coronavirus",
+      "primary_phase": "lockdown",
+      "category": "epidemiological",
+      "source": "IEEE COV19Tweets; COVIDSenti freq: 156,668",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "cPfFeGPxWMLAvhTfhg",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOThyMnlvaGRqZHl4bTMybjVzMXAzMmlzcnVhbXhpMG16djh6ajk5dzEmZ2lmX2lkPWNQZkZlR1B4V01MQXZoVGZoZyZjdD1n&action_type=SEEN"
+      }
+    },
+    "covid": {
+      "term": "covid",
+      "primary_phase": "lockdown",
+      "category": "epidemiological",
+      "source": "IEEE COV19Tweets dataset",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "j6ZlX8ghxNFRknObVk",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWh1bDFkenRtMGplcTMzYTZyaDQ1azFkZmdreXU2ZGp5cmFqeDh2a2cmZ2lmX2lkPWo2WmxYOGdoeE5GUmtuT2JWayZjdD1n&action_type=SEEN"
+      }
+    },
+    "pandemic": {
+      "term": "pandemic",
+      "primary_phase": "lockdown",
+      "category": "epidemiological",
+      "source": "TweetsCOV19/GESIS",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "h26R1JMxiqYpwp0rkF",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTVpMWViOXJvazQ1amNtZnY5dGhvMjAyZmxhcTl4NWc4d3Vlb2FmY3gmZ2lmX2lkPWgyNlIxSk14aXFZcHdwMHJrRiZjdD1n&action_type=SEEN"
+      }
+    },
+    "lockdown": {
+      "term": "lockdown",
+      "primary_phase": "lockdown",
+      "category": "policy",
+      "source": "IEEE COV19Tweets; COVIDSenti top keyword",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "Iht2UmAEEeRhRNZnOv",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNqZ3ZranpydjhvMTJrNnl2cXVzNmxwNGI0cXJ0cTAxMGE4bTJsbXomZ2lmX2lkPUlodDJVbUFFRWVSaFJOWm5PdiZjdD1n&action_type=SEEN"
+      }
+    },
+    "quarantine": {
+      "term": "quarantine",
+      "primary_phase": "lockdown",
+      "category": "policy",
+      "source": "IEEE COV19Tweets; Oyebode et al.",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "6R2mLi910HL4VXFwOG",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOThrY2I2Z3RuZ3JlenNzMm1uNTJybDQxanN0aTJuc2cyNmZhc2R1YXomZ2lmX2lkPTZSMm1MaTkxMEhMNFZYRndPRyZjdD1n&action_type=SEEN"
+      }
+    },
+    "social distancing": {
+      "term": "social distancing",
+      "primary_phase": "lockdown",
+      "category": "policy",
+      "source": "IEEE COV19Tweets; COVIDSenti",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "medium",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "ZBQhoZC0nqknSviPqT",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTR2MzJvYWw2dHZpODN5dmsxcm50MmtkeW1oank5ejZkbHQyZzZnencmZ2lmX2lkPVpCUWhvWkMwbnFrblN2aVBxVCZjdD1n&action_type=SEEN"
+      }
+    },
+    "stay home": {
+      "term": "stay home",
+      "primary_phase": "lockdown",
+      "category": "policy",
+      "source": "COVIDSenti; Twitter COVID stream",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "fyoSk6yqsegBH7CxxG",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXBvaXBibnB2am94cXc0ZTQyeGtpdmpjNGR0amw3eDZyaWthaWkwcDAmZ2lmX2lkPWZ5b1NrNnlxc2VnQkg3Q3h4RyZjdD1n&action_type=SEEN"
+      }
+    },
+    "flatten the curve": {
+      "term": "flatten the curve",
+      "primary_phase": "lockdown",
+      "category": "policy",
+      "source": "IEEE COV19Tweets",
+      "total_count": 173,
+      "codification_score": 35.59,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "MpInizA3qTMYPEDwHx",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTg5Zm52NHYwMHh2bzQyM2ZmdGhyZ2luaTY5am1pNHFpbTN2aXM2NXQmZ2lmX2lkPU1wSW5pekEzcVRNWVBFRHdIeCZjdD1n&action_type=SEEN"
+      }
+    },
+    "work from home": {
+      "term": "work from home",
+      "primary_phase": "lockdown",
+      "category": "behaviour",
+      "source": "IEEE COV19Tweets",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "medium",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "l41YoUIRqzcdAQmli",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW5tMGlya2J6eGc3YzJ1OHk4MTFoanlrdGRoeWxkNmk1eGw3ZzI0cTkmZ2lmX2lkPWw0MVlvVUlScXpjZEFRbWxpJmN0PWc&action_type=SEEN"
+      }
+    },
+    "zoom": {
+      "term": "zoom",
+      "primary_phase": "lockdown",
+      "category": "behaviour",
+      "source": "cultural observation; Giphy spike data",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "medium",
+      "district": 7,
+      "district_name": "The Cage",
+      "gif": {
+        "id": "yDnOWUZoZJhBvMkgj2",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTUyb2pqNGswZjc3MWExbHltNWRvdTVtOW1wcWhhY2N4Y2xtZ3Z5bG4mZ2lmX2lkPXlEbk9XVVpvWkpoQnZNa2dqMiZjdD1n&action_type=SEEN"
+      }
+    },
+    "isolation": {
+      "term": "isolation",
+      "primary_phase": "lockdown",
+      "category": "emotional",
+      "source": "Koh et al. 2022; Chen 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "cage",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "VfyC5j7sR4cso",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWNodDFleGhubHFlbHA0azgwZDc0YWpheHN5MnZydmNrZ3g1cTc1MjEmZ2lmX2lkPVZmeUM1ajdzUjRjc28mY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "fear": {
+      "term": "fear",
+      "primary_phase": "lockdown",
+      "category": "emotional",
+      "source": "Chen mental-health keyword subset 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "bEVKYB487Lqxy",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXQ5aXVsYmtiaWR1aTBha2NzaGRreXZ6YnU0dTl6cGYyYjVnMTJtdnEmZ2lmX2lkPWJFVktZQjQ4N0xxeHkmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "panic": {
+      "term": "panic",
+      "primary_phase": "lockdown",
+      "category": "emotional",
+      "source": "Chen mental-health keyword subset 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "HUkOv6BNWc1HO",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWxra25xNDlubWtqNGxmMHkwZWI0N2ZqMjM5bmRhZXlydGFhNmFrbjEmZ2lmX2lkPUhVa092NkJOV2MxSE8mY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "hope": {
+      "term": "hope",
+      "primary_phase": "lockdown",
+      "category": "emotional",
+      "source": "Giphy Cares channel; Adweek 2020",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "respite",
+      "district": 8,
+      "district_name": "Respite",
+      "gif": {
+        "id": "Qy2VKY3xlI1QyR6Ix5",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWFqZG00MW11MHZidmwweHdnc2I4ajg5YWZldGR2dWYybHhsaTJmcG0mZ2lmX2lkPVF5MlZLWTN4bEkxUXlSNkl4NSZjdD1n&action_type=SEEN"
+      }
+    },
+    "together": {
+      "term": "together",
+      "primary_phase": "lockdown",
+      "category": "emotional",
+      "source": "Giphy usage report April 2020",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "respite",
+      "district": 8,
+      "district_name": "Respite",
+      "gif": {
+        "id": "N8HaPqnkQETss",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXhwbXA2NGJ3bHVxczZ5dXkyZTVyMjl3bWJ4cjgyYXM1dHptbGJ4dXQmZ2lmX2lkPU44SGFQcW5rUUVUc3MmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "quarantine life": {
+      "term": "quarantine life",
+      "primary_phase": "lockdown",
+      "category": "cultural/humour",
+      "source": "Oyebode et al. #QuarantineLife",
+      "total_count": 96,
+      "codification_score": 0.0,
+      "classification": "neutral",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "VHl0ajQWjOF2NYHB02",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXR3aGM2dTY0YnBwY2VtbmpyaDZhZXU3MDBza3I1dmdreWE5NzVyZmQmZ2lmX2lkPVZIbDBhalFXak9GMk5ZSEIwMiZjdD1n&action_type=SEEN"
+      }
+    },
+    "zoom memes": {
+      "term": "zoom memes",
+      "primary_phase": "lockdown",
+      "category": "cultural/humour",
+      "source": "Wikipedia COVID social media; 500k+ group",
+      "total_count": 123,
+      "codification_score": 14.96,
+      "classification": "neutral",
+      "district": 7,
+      "district_name": "The Cage",
+      "gif": {
+        "id": "BNlSrpW0e4nbgVZ2we",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXJwY2hmcTVuMnY4ampmdXhkdnQ3eTB6cWt1bW9nMWwzb2NqdXRrNGMmZ2lmX2lkPUJObFNycFcwZTRuYmdWWjJ3ZSZjdD1n&action_type=SEEN"
+      }
+    },
+    "doomscrolling": {
+      "term": "doomscrolling",
+      "primary_phase": "lockdown",
+      "category": "meta-digital",
+      "source": "UF study 2022; coined ~2018, peak 2020",
+      "total_count": 270,
+      "codification_score": 62.57,
+      "classification": "cage",
+      "district": 7,
+      "district_name": "The Cage",
+      "gif": {
+        "id": "w4u6ZQesNWqbOLMGpI",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTBqMWdxaGk1a2JxdzE3b3U5aGdhbDdscW81NGhyZnkyc3A3OWtkeTImZ2lmX2lkPXc0dTZaUWVzTldxYk9MTUdwSSZjdD1n&action_type=SEEN"
+      }
+    },
+    "cabin fever": {
+      "term": "cabin fever",
+      "primary_phase": "lockdown",
+      "category": "meta-digital",
+      "source": "cultural observation; emotional keyword",
+      "total_count": 143,
+      "codification_score": 24.06,
+      "classification": "neutral",
+      "district": 7,
+      "district_name": "The Cage",
+      "gif": {
+        "id": "elC9MOc2s8iyY",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXRxd3J3b3NtMThydnZmOW45a2Jsa3R2N3UzcXVyazRuNG5lZmc1eWMmZ2lmX2lkPWVsQzlNT2MyczhpeVkmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "essential worker": {
+      "term": "essential worker",
+      "primary_phase": "lockdown",
+      "category": "political",
+      "source": "Twitter COVID stream vocabulary",
+      "total_count": 270,
+      "codification_score": 62.57,
+      "classification": "neutral",
+      "district": 3,
+      "district_name": "Control",
+      "gif": {
+        "id": "TNBL4wO6Lv39e",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWl2N3o5aGoxeXVhY2ExYmwydmpsbnc0ZDV0cDhhOXhqbXA1ZzZ0YXomZ2lmX2lkPVROQkw0d082THYzOWUmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "vaccine": {
+      "term": "vaccine",
+      "primary_phase": "deep_lockdown",
+      "category": "epidemiological",
+      "source": "IEEE COV19Tweets",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "Ni78ZkxrPskwF9WWJa",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXB1YmViaDA1Z3BiM3Q1cXZwMWh3YWRmY294aTc2cnJ0MnFvanUyY2gmZ2lmX2lkPU5pNzhaa3hyUHNrd0Y5V1dKYSZjdD1n&action_type=SEEN"
+      }
+    },
+    "variant": {
+      "term": "variant",
+      "primary_phase": "deep_lockdown",
+      "category": "epidemiological",
+      "source": "cultural observation 2021",
+      "total_count": 187,
+      "codification_score": 67.3,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "7cgY2LzNLNTSnvIw89",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW91MHJtMnA2bHJ4eTI3cXRicXpsZmF1ZnQ2cDUyODI5N3gwcmFpbXEmZ2lmX2lkPTdjZ1kyTHpOTE5UU252SXc4OSZjdD1n&action_type=SEEN"
+      }
+    },
+    "depression": {
+      "term": "depression",
+      "primary_phase": "deep_lockdown",
+      "category": "emotional",
+      "source": "Chen 2022; Koh et al. 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "cage",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "GIvajz0TlE316",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTRwcjFxdTFwdWk5ZXpqMmVoOWoyYTFraGdiZGJoZWJmMWlqOGtja3EmZ2lmX2lkPUdJdmFqejBUbEUzMTYmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "hopeless": {
+      "term": "hopeless",
+      "primary_phase": "deep_lockdown",
+      "category": "emotional",
+      "source": "Chen mental-health keyword subset 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "cage",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "lSHpuZAfbUhqmtppZk",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXM3OTZzeDh6ZDJpNXd6cXlsaWRzMHUwOTNic3JiY2VtZG54NnU3eGUmZ2lmX2lkPWxTSHB1WkFmYlVocW10cHBaayZjdD1n&action_type=SEEN"
+      }
+    },
+    "zoom fatigue": {
+      "term": "zoom fatigue",
+      "primary_phase": "deep_lockdown",
+      "category": "meta-digital",
+      "source": "Kircaburun doomscrolling study 2022",
+      "total_count": 24,
+      "codification_score": 0.0,
+      "classification": "neutral",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "bHXCTICeZVTP2DRMtw",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWN6bTkzbXowZDB0ZnljZnd3amZqZ2Zud2MyZXRvNWVqOGE3d2l1MGkmZ2lmX2lkPWJIWENUSUNlWlZUUDJEUk10dyZjdD1n&action_type=SEEN"
+      }
+    },
+    "pandemic fatigue": {
+      "term": "pandemic fatigue",
+      "primary_phase": "deep_lockdown",
+      "category": "meta-digital",
+      "source": "cultural observation; emotional keyword",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "cage",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "gFUKNtpfBVmLI4N1UI",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWpreW4ycTBrNG8yb2lvcXl0Ymw0NnI0MGJhbzVub25pNXBnNGEzMXEmZ2lmX2lkPWdGVUtOdHBmQlZtTEk0TjFVSSZjdD1n&action_type=SEEN"
+      }
+    },
+    "mental health": {
+      "term": "mental health",
+      "primary_phase": "deep_lockdown",
+      "category": "emotional",
+      "source": "Chen 2022 top-frequency cluster",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "respite",
+      "district": 8,
+      "district_name": "Respite",
+      "gif": {
+        "id": "RjDIwuXYPzrAEjb6HP",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNxY2k2czlxNjQ4YWwxY250OWxqdnI5NjF5YjRpbmdkdzZxOTJ4M2smZ2lmX2lkPVJqREl3dVhZUHpyQUVqYjZIUCZjdD1n&action_type=SEEN"
+      }
+    },
+    "burnout": {
+      "term": "burnout",
+      "primary_phase": "deep_lockdown",
+      "category": "emotional",
+      "source": "Chen mental-health keyword subset 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "cage",
+      "district": 4,
+      "district_name": "Inner Life",
+      "gif": {
+        "id": "XtdHWMoKNGPtvZ9Z9n",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWhneXIwbTZmcGNxcGN4b3pxcGV3ZGJqdWVmZGRrdXltZjl4am5zbnomZ2lmX2lkPVh0ZEhXTW9LTkdQdHZaOVo5biZjdD1n&action_type=SEEN"
+      }
+    },
+    "self care": {
+      "term": "self care",
+      "primary_phase": "deep_lockdown",
+      "category": "coping",
+      "source": "Abidin et al. TikTok study 2023; Chen 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "respite",
+      "district": 8,
+      "district_name": "Respite",
+      "gif": {
+        "id": "H7kfFDvD9HSYGRbvid",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWZqYmxzbmliaTk4NzN5bDg4ZXBsNWg0N3ViZXY0YjI5bGhmcDVpcWQmZ2lmX2lkPUg3a2ZGRHZEOUhTWUdSYnZpZCZjdD1n&action_type=SEEN"
+      }
+    },
+    "cope": {
+      "term": "cope",
+      "primary_phase": "deep_lockdown",
+      "category": "coping",
+      "source": "Sk\u00f3rka meme coping study 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "respite",
+      "district": 8,
+      "district_name": "Respite",
+      "gif": {
+        "id": "qd0VlZ9VCvY8hbkMfq",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXBrM3ljM2V3ZmpjdnhnMHg0dnA5cHV1OXd0cHpucmt3ZzNzZWt2MjQmZ2lmX2lkPXFkMFZsWjlWQ3ZZOGhia01mcSZjdD1n&action_type=SEEN"
+      }
+    },
+    "conspiracy": {
+      "term": "conspiracy",
+      "primary_phase": "deep_lockdown",
+      "category": "political",
+      "source": "Twitter COVID misinformation research",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 5,
+      "district_name": "Power & Voice",
+      "gif": {
+        "id": "l0IylOPCNkiqOgMyA",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWYzN3ZreDl5Z2JhNjZnMjdrb20yN2ZjYm9yamhnNjVyNzh5cTFmcTkmZ2lmX2lkPWwwSXlsT1BDTmtpcU9nTXlBJmN0PWc&action_type=SEEN"
+      }
+    },
+    "misinformation": {
+      "term": "misinformation",
+      "primary_phase": "deep_lockdown",
+      "category": "political",
+      "source": "gif-city original set + research",
+      "total_count": 450,
+      "codification_score": 96.49,
+      "classification": "neutral",
+      "district": 5,
+      "district_name": "Power & Voice",
+      "gif": {
+        "id": "gYyAnYhxT1xqRxFD7W",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXd1aHFrMXpnYWM3YzZ2ZXhpYzJyaGM3eDNpZDVhaWF4bTU4aGZrbWUmZ2lmX2lkPWdZeUFuWWh4VDF4cVJ4RkQ3VyZjdD1n&action_type=SEEN"
+      }
+    },
+    "censorship": {
+      "term": "censorship",
+      "primary_phase": "deep_lockdown",
+      "category": "political",
+      "source": "gif-city original set",
+      "total_count": 204,
+      "codification_score": 70.19,
+      "classification": "neutral",
+      "district": 5,
+      "district_name": "Power & Voice",
+      "gif": {
+        "id": "XP95CPLn7dkVMlXXF5",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW00ZmJkbDMweWoybXM2ejE2dGk2c2MzdGpqMnY1Ynl1N3BzbzFtOHEmZ2lmX2lkPVhQOTVDUExuN2RrVk1sWFhGNSZjdD1n&action_type=SEEN"
+      }
+    },
+    "protest": {
+      "term": "protest",
+      "primary_phase": "deep_lockdown",
+      "category": "political",
+      "source": "gif-city original set + 2021 context",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 5,
+      "district_name": "Power & Voice",
+      "gif": {
+        "id": "ymwKHQ44WnAoU",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWMxOGh2cG0wazFzeTFtOGM5b2pvaGVxdzFmN2h3MTh1bWY3dzBjZjYmZ2lmX2lkPXltd0tIUTQ0V25Bb1UmY3Q9Zw&action_type=SEEN"
+      }
+    },
+    "new normal": {
+      "term": "new normal",
+      "primary_phase": "post_covid",
+      "category": "cultural",
+      "source": "cultural observation post-2021",
+      "total_count": 162,
+      "codification_score": 41.7,
+      "classification": "neutral",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "XB3gaBJjllUtBnX8wS",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTVyZHV6ajFiZXhuOHRkODJ0ZXZibGZvMnFwZjA3M2ZvYXNlamdxb3AmZ2lmX2lkPVhCM2dhQkpqbGxVdEJuWDh3UyZjdD1n&action_type=SEEN"
+      }
+    },
+    "return to office": {
+      "term": "return to office",
+      "primary_phase": "post_covid",
+      "category": "behaviour",
+      "source": "cultural observation 2022",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 7,
+      "district_name": "The Cage",
+      "gif": {
+        "id": "njpterp1OxZOgX7CI4",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNteGU5MjV4NzJrNnVtbGM0emZxNzZjYzB4cWt1aWc5ZGFjOXYweHkmZ2lmX2lkPW5qcHRlcnAxT3haT2dYN0NJNCZjdD1n&action_type=SEEN"
+      }
+    },
+    "long covid": {
+      "term": "long covid",
+      "primary_phase": "post_covid",
+      "category": "epidemiological",
+      "source": "cultural observation 2022",
+      "total_count": 72,
+      "codification_score": 0.0,
+      "classification": "neutral",
+      "district": 2,
+      "district_name": "The Body",
+      "gif": {
+        "id": "S6qDT1Mf8888gjozN8",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTczc3JtMGllMjlpOHYxMjZkaG00M21wdDRkb29uY2puamd5MTRra3UmZ2lmX2lkPVM2cURUMU1mODg4OGdqb3pOOCZjdD1n&action_type=SEEN"
+      }
+    },
+    "metaverse": {
+      "term": "metaverse",
+      "primary_phase": "post_covid",
+      "category": "meta-digital",
+      "source": "gif-city original set",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "qCOnTkTaRiAgoOEXAg",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTB3NG13MjNramhoMjA0ejUxYzRqMjd1aXZqeXM5czNoanN2dGx6c3EmZ2lmX2lkPXFDT25Ua1RhUmlBZ29PRVhBZyZjdD1n&action_type=SEEN"
+      }
+    },
+    "AI": {
+      "term": "AI",
+      "primary_phase": "post_covid",
+      "category": "technology",
+      "source": "gif-city original set",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "neutral",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "Rfwlp9c5bA7R3s7Y5D",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWM3bmk4cGF2dHU5ODRxbmF6enpzZXdieDQ1aWgwdG1sM3p0M3FpZTAmZ2lmX2lkPVJmd2xwOWM1YkE3UjNzN1k1RCZjdD1n&action_type=SEEN"
+      }
+    },
+    "deepfake": {
+      "term": "deepfake",
+      "primary_phase": "post_covid",
+      "category": "technology",
+      "source": "gif-city original set",
+      "total_count": 139,
+      "codification_score": 33.81,
+      "classification": "simulacra",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "31UJn87m2S7r6Nnec8",
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXdtdGdudjB0eDltMzY0Zmc2bzVhZTF0c3l6cG1veWl2OHRzY3c1MHcmZ2lmX2lkPTMxVUpuODdtMlM3cjZObmVjOCZjdD1n&action_type=SEEN"
+      }
+    },
+    "surveillance": {
+      "term": "surveillance",
+      "primary_phase": "post_covid",
+      "category": "technology",
+      "source": "Elahi net art; Baudrillard hyperreal subject",
+      "total_count": 416,
+      "codification_score": 90.47,
+      "classification": "neutral",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "l0HUbESbGqYn8kNlC",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW9pdXdyMHptajJ1N3FvZHF0ZXNmYXEwbGk4NnBhcjgyaGJzajlvb2YmZ2lmX2lkPWwwSFViRVNiR3FZbjhrTmxDJmN0PWc&action_type=SEEN"
+      }
+    },
+    "reality": {
+      "term": "reality",
+      "primary_phase": "post_covid",
+      "category": "philosophical",
+      "source": "Baudrillard simulacra thesis",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "simulacra",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "l0MYMe3UJsn1zCIMg",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXY1eDY0MW96eTk3Znlod3l2dG9oYTkyaDYzNmZsbzBuYnYxMzQ4dmYmZ2lmX2lkPWwwTVlNZTNVSnNuMXpDSU1nJmN0PWc&action_type=SEEN"
+      }
+    },
+    "simulation": {
+      "term": "simulation",
+      "primary_phase": "post_covid",
+      "category": "philosophical",
+      "source": "Baudrillard simulacra thesis",
+      "total_count": 500,
+      "codification_score": 100.0,
+      "classification": "simulacra",
+      "district": 6,
+      "district_name": "The Simulation",
+      "gif": {
+        "id": "Fh79jxFnwpHTZnyi84",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXc3ZmJ5NWMxeXcwZm40d296cnU5ejhwaWVjN2UzaWlpOWExaHlwbjImZ2lmX2lkPUZoNzlqeEZud3BIVFpueWk4NCZjdD1n&action_type=SEEN"
+      }
+    },
+    "disconnected": {
+      "term": "disconnected",
+      "primary_phase": "post_covid",
+      "category": "emotional",
+      "source": "post-pandemic social research",
+      "total_count": 291,
+      "codification_score": 71.97,
+      "classification": "neutral",
+      "district": 7,
+      "district_name": "The Cage",
+      "gif": {
+        "id": "hhbsgAvBkZqkKx2ys7",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTZrOGg4eHQ5c3oyM3o5MzA4bmU1OGhqMnc1bDA1NGc1MjRuZHZtaGomZ2lmX2lkPWhoYnNnQXZCa1pxa0t4MnlzNyZjdD1n&action_type=SEEN"
+      }
+    }
+  },
+  "bubbles": [
+    {
+      "term": "selfie",
+      "phase": "pre_covid",
+      "category": "culture",
+      "classification": "simulacra",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "influencer",
+      "phase": "pre_covid",
+      "category": "culture",
+      "classification": "simulacra",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "viral",
+      "phase": "pre_covid",
+      "category": "culture",
+      "classification": "simulacra",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "scrolling",
+      "phase": "pre_covid",
+      "category": "behaviour",
+      "classification": "medium",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "fake news",
+      "phase": "pre_covid",
+      "category": "political",
+      "classification": "neutral",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "meme",
+      "phase": "pre_covid",
+      "category": "culture",
+      "classification": "simulacra",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "boredom",
+      "phase": "pre_covid",
+      "category": "emotional",
+      "classification": "neutral",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "anxiety",
+      "phase": "pre_covid",
+      "category": "emotional",
+      "classification": "neutral",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "loneliness",
+      "phase": "pre_covid",
+      "category": "emotional",
+      "classification": "cage",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "attention",
+      "phase": "pre_covid",
+      "category": "culture",
+      "classification": "neutral",
+      "codification_score": 50.0,
+      "total_count": 500
+    },
+    {
+      "term": "coronavirus",
+      "phase": "lockdown",
+      "category": "epidemiological",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "covid",
+      "phase": "lockdown",
+      "category": "epidemiological",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "pandemic",
+      "phase": "lockdown",
+      "category": "epidemiological",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "lockdown",
+      "phase": "lockdown",
+      "category": "policy",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "quarantine",
+      "phase": "lockdown",
+      "category": "policy",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "social distancing",
+      "phase": "lockdown",
+      "category": "policy",
+      "classification": "medium",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "stay home",
+      "phase": "lockdown",
+      "category": "policy",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "flatten the curve",
+      "phase": "lockdown",
+      "category": "policy",
+      "classification": "neutral",
+      "codification_score": 35.59,
+      "total_count": 173
+    },
+    {
+      "term": "work from home",
+      "phase": "lockdown",
+      "category": "behaviour",
+      "classification": "medium",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "zoom",
+      "phase": "lockdown",
+      "category": "behaviour",
+      "classification": "medium",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "isolation",
+      "phase": "lockdown",
+      "category": "emotional",
+      "classification": "cage",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "fear",
+      "phase": "lockdown",
+      "category": "emotional",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "panic",
+      "phase": "lockdown",
+      "category": "emotional",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "hope",
+      "phase": "lockdown",
+      "category": "emotional",
+      "classification": "respite",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "together",
+      "phase": "lockdown",
+      "category": "emotional",
+      "classification": "respite",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "quarantine life",
+      "phase": "lockdown",
+      "category": "cultural/humour",
+      "classification": "neutral",
+      "codification_score": 0.0,
+      "total_count": 96
+    },
+    {
+      "term": "zoom memes",
+      "phase": "lockdown",
+      "category": "cultural/humour",
+      "classification": "neutral",
+      "codification_score": 14.96,
+      "total_count": 123
+    },
+    {
+      "term": "doomscrolling",
+      "phase": "lockdown",
+      "category": "meta-digital",
+      "classification": "cage",
+      "codification_score": 62.57,
+      "total_count": 270
+    },
+    {
+      "term": "cabin fever",
+      "phase": "lockdown",
+      "category": "meta-digital",
+      "classification": "neutral",
+      "codification_score": 24.06,
+      "total_count": 143
+    },
+    {
+      "term": "essential worker",
+      "phase": "lockdown",
+      "category": "political",
+      "classification": "neutral",
+      "codification_score": 62.57,
+      "total_count": 270
+    },
+    {
+      "term": "vaccine",
+      "phase": "deep_lockdown",
+      "category": "epidemiological",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "variant",
+      "phase": "deep_lockdown",
+      "category": "epidemiological",
+      "classification": "neutral",
+      "codification_score": 67.3,
+      "total_count": 187
+    },
+    {
+      "term": "depression",
+      "phase": "deep_lockdown",
+      "category": "emotional",
+      "classification": "cage",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "hopeless",
+      "phase": "deep_lockdown",
+      "category": "emotional",
+      "classification": "cage",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "zoom fatigue",
+      "phase": "deep_lockdown",
+      "category": "meta-digital",
+      "classification": "neutral",
+      "codification_score": 0.0,
+      "total_count": 24
+    },
+    {
+      "term": "pandemic fatigue",
+      "phase": "deep_lockdown",
+      "category": "meta-digital",
+      "classification": "cage",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "loneliness",
+      "phase": "deep_lockdown",
+      "category": "emotional",
+      "classification": "cage",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "mental health",
+      "phase": "deep_lockdown",
+      "category": "emotional",
+      "classification": "respite",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "burnout",
+      "phase": "deep_lockdown",
+      "category": "emotional",
+      "classification": "cage",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "self care",
+      "phase": "deep_lockdown",
+      "category": "coping",
+      "classification": "respite",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "cope",
+      "phase": "deep_lockdown",
+      "category": "coping",
+      "classification": "respite",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "conspiracy",
+      "phase": "deep_lockdown",
+      "category": "political",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "misinformation",
+      "phase": "deep_lockdown",
+      "category": "political",
+      "classification": "neutral",
+      "codification_score": 96.49,
+      "total_count": 450
+    },
+    {
+      "term": "censorship",
+      "phase": "deep_lockdown",
+      "category": "political",
+      "classification": "neutral",
+      "codification_score": 70.19,
+      "total_count": 204
+    },
+    {
+      "term": "protest",
+      "phase": "deep_lockdown",
+      "category": "political",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "new normal",
+      "phase": "post_covid",
+      "category": "cultural",
+      "classification": "neutral",
+      "codification_score": 41.7,
+      "total_count": 162
+    },
+    {
+      "term": "return to office",
+      "phase": "post_covid",
+      "category": "behaviour",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "long covid",
+      "phase": "post_covid",
+      "category": "epidemiological",
+      "classification": "neutral",
+      "codification_score": 0.0,
+      "total_count": 72
+    },
+    {
+      "term": "metaverse",
+      "phase": "post_covid",
+      "category": "meta-digital",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "AI",
+      "phase": "post_covid",
+      "category": "technology",
+      "classification": "neutral",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "deepfake",
+      "phase": "post_covid",
+      "category": "technology",
+      "classification": "simulacra",
+      "codification_score": 33.81,
+      "total_count": 139
+    },
+    {
+      "term": "surveillance",
+      "phase": "post_covid",
+      "category": "technology",
+      "classification": "neutral",
+      "codification_score": 90.47,
+      "total_count": 416
+    },
+    {
+      "term": "reality",
+      "phase": "post_covid",
+      "category": "philosophical",
+      "classification": "simulacra",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "simulation",
+      "phase": "post_covid",
+      "category": "philosophical",
+      "classification": "simulacra",
+      "codification_score": 100.0,
+      "total_count": 500
+    },
+    {
+      "term": "disconnected",
+      "phase": "post_covid",
+      "category": "emotional",
+      "classification": "neutral",
+      "codification_score": 71.97,
+      "total_count": 291
+    }
+  ],
+  "phases": {
+    "pre_covid": {
+      "label": "Before the Fall",
+      "years": "2018\u2013Feb 2020",
+      "narrative": "Baseline cultural vocabulary. The internet as playground.",
+      "keyword_terms": [
+        "selfie",
+        "influencer",
+        "viral",
+        "scrolling",
+        "fake news",
+        "meme",
+        "boredom",
+        "anxiety",
+        "loneliness",
+        "attention"
+      ],
+      "phase_max_count": 500,
+      "phase_min_count": 500
+    },
+    "lockdown": {
+      "label": "The Cage Opens",
+      "years": "Mar 2020\u2013Dec 2020",
+      "narrative": "First lockdown. The internet becomes the only window to reality.",
+      "keyword_terms": [
+        "coronavirus",
+        "covid",
+        "pandemic",
+        "lockdown",
+        "quarantine",
+        "social distancing",
+        "stay home",
+        "flatten the curve",
+        "work from home",
+        "zoom",
+        "isolation",
+        "fear",
+        "panic",
+        "hope",
+        "together",
+        "quarantine life",
+        "zoom memes",
+        "doomscrolling",
+        "cabin fever",
+        "essential worker"
+      ],
+      "phase_max_count": 500,
+      "phase_min_count": 96
+    },
+    "deep_lockdown": {
+      "label": "The Simulation Deepens",
+      "years": "Jan 2021\u2013Jun 2021",
+      "narrative": "Second wave. Vaccine politics. Fatigue sets in. The cage is familiar now.",
+      "keyword_terms": [
+        "vaccine",
+        "variant",
+        "depression",
+        "hopeless",
+        "zoom fatigue",
+        "pandemic fatigue",
+        "loneliness",
+        "mental health",
+        "burnout",
+        "self care",
+        "cope",
+        "conspiracy",
+        "misinformation",
+        "censorship",
+        "protest"
+      ],
+      "phase_max_count": 500,
+      "phase_min_count": 24
+    },
+    "post_covid": {
+      "label": "The New Normal (Hyperreal)",
+      "years": "2022\u20132024",
+      "narrative": "What remained. What dissolved into meme. The simulacra completes itself.",
+      "keyword_terms": [
+        "new normal",
+        "return to office",
+        "long covid",
+        "metaverse",
+        "AI",
+        "deepfake",
+        "surveillance",
+        "reality",
+        "simulation",
+        "disconnected"
+      ],
+      "phase_max_count": 500,
+      "phase_min_count": 72
+    }
+  },
+  "fixed_gifs": {
+    "order_i": {
+      "id": "34UoAM268FUBO",
+      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.webp",
+      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.mp4",
+      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w_s.gif",
+      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9MzRVb0FNMjY4RlVCTyZjdD1n&action_type=SEEN"
+    },
+    "order_ii": {
+      "id": "tgKHdTYy9banoikIDF",
+      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w.webp",
+      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w.mp4",
+      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w_s.gif",
+      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9dGdLSGRUWXk5YmFub2lrSURGJmN0PWc&action_type=SEEN"
+    },
+    "order_iii": {
+      "id": "dQQCbebNkTXqdC5EJ6",
+      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/200w.webp",
+      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/200w.mp4",
+      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/200w_s.gif",
+      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9ZFFRQ2JlYk5rVFhxZEM1RUo2JmN0PWc&action_type=SEEN"
+    },
+    "order_iv": {
+      "id": "lXiRKE65Qp4sMrXgc",
+      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w.webp",
+      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w.mp4",
+      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w_s.gif",
+      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9bFhpUktFNjVRcDRzTXJYZ2MmY3Q9Zw&action_type=SEEN"
+    },
+    "closing_together": {
+      "id": "34UoAM268FUBO",
+      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.webp",
+      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.mp4",
+      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w_s.gif",
+      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9MzRVb0FNMjY4RlVCTyZjdD1n&action_type=SEEN"
+    },
+    "closing_loneliness": {
+      "id": "ISOckXUybVfQ4",
+      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w.webp",
+      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w.mp4",
+      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w_s.gif",
+      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9SVNPY2tYVXliVmZRNCZjdD1n&action_type=SEEN"
+    }
+  }
+}

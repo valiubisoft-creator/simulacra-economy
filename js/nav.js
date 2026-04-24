@@ -5,12 +5,13 @@
    A `navLocked` flag lets modals (Chunks 05/06) suppress nav.
    ============================================================ */
 
-import { next, prev, goTo, onScreenChange } from './screen-manager.js';
+import { next, prev, goTo, onScreenChange, TOTAL_SCREENS } from './screen-manager.js';
 import { playTransitionSound } from './audio.js';
 
 const SCROLL_DEBOUNCE_MS = 800;
 
 let navLocked = false;
+let scrollNavLocked = false;  /* blocks wheel/touch only — arrow keys still work */
 let scrollCooldownUntil = 0;
 let touchStartY = null;
 
@@ -34,6 +35,7 @@ export function initNav() {
 
 export function setNavLocked(locked) { navLocked = !!locked; }
 export function isNavLocked() { return navLocked; }
+export function setScrollNavLocked(locked) { scrollNavLocked = !!locked; }
 
 function onKeydown(e) {
   if (navLocked) return;
@@ -48,12 +50,12 @@ function onKeydown(e) {
     goTo(0);
   } else if (e.key === 'End') {
     e.preventDefault();
-    goTo(5);
+    goTo(TOTAL_SCREENS - 1);
   }
 }
 
 function onWheel(e) {
-  if (navLocked) return;
+  if (navLocked || scrollNavLocked) return;
   const now = performance.now();
   if (now < scrollCooldownUntil) return;
   if (Math.abs(e.deltaY) < 10) return;
@@ -68,7 +70,7 @@ function onTouchStart(e) {
 }
 
 function onTouchEnd(e) {
-  if (navLocked || touchStartY == null) return;
+  if (navLocked || scrollNavLocked || touchStartY == null) return;
   const endY = e.changedTouches[0]?.clientY;
   if (endY == null) { touchStartY = null; return; }
   const dy = touchStartY - endY;

@@ -27,59 +27,76 @@
 }
 
 /* ================================================================
-   Heart + Eye Venn composition
+   Two-panel Giphy composition (PRD v2 Act 4)
+   together (left) × loneliness (right), thin vertical divider.
+   Both panels are forced to identical dimensions — GIFs fit inside
+   a fixed 4:3 box regardless of their native aspect ratio.
    ================================================================ */
 .closing-composition {
   position: relative;
-  width: clamp(340px, 38vw, 520px);
-  height: clamp(220px, 24vw, 340px);
-  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  width: min(92vw, 1100px);
+  margin-bottom: 36px;
+}
+
+.closing-panel {
+  position: relative;
+  flex: 0 0 min(40vw, 460px);
+  width: min(40vw, 460px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
   opacity: 0;
-  transition: opacity 600ms ease-out;
-}
-.closing-composition.comp-visible { opacity: 1; }
-
-/* Heart SVG */
-.closing-heart {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 60%;
-  height: auto;
-  z-index: 1;
-  animation: heartbeat 1.35s ease-in-out infinite;
+  transform: translateX(0);
+  transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+              transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-@keyframes heartbeat {
-  0%,  100% { transform: translateY(-50%) scale(1); }
-  14%        { transform: translateY(-50%) scale(1.08); }
-  28%        { transform: translateY(-50%) scale(1); }
-  42%        { transform: translateY(-50%) scale(1.05); }
-  70%        { transform: translateY(-50%) scale(1); }
+.closing-panel-together   { transform: translateX(-80px); }
+.closing-panel-loneliness { transform: translateX(80px);  }
+
+.closing-composition.comp-visible .closing-panel {
+  opacity: 1;
+  transform: translateX(0);
 }
 
-/* Eye SVG */
-.closing-eye {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 65%;
-  height: auto;
-  z-index: 2;
+.closing-gif {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 3px;
 }
 
-/* GIF tile boxes orbiting both shapes */
-.gif-tile {
-  position: absolute;
-  width: 40px;
-  height: 30px;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 1px;
-  z-index: 0;
+.closing-panel-label {
+  font-family: var(--font-redaction-70, var(--font-redaction-50, serif));
+  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.68);
+  opacity: 0;
+  transition: opacity 500ms ease-out 400ms;
 }
+
+.closing-panel-together  .closing-panel-label { color: #F44336; }
+.closing-panel-loneliness .closing-panel-label { color: #4FC3F7; }
+
+.closing-composition.comp-visible .closing-panel-label { opacity: 1; }
+
+.closing-divider {
+  width: 1px;
+  align-self: stretch;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 24px;
+  opacity: 0;
+  transition: opacity 500ms ease-out 600ms;
+}
+
+.closing-composition.comp-visible .closing-divider { opacity: 1; }
 
 /* ---- Labels below composition ---- */
 .closing-labels {
@@ -146,21 +163,24 @@
 /* ================================================================
    Reduced motion overrides
    ================================================================ */
-body.reduced-motion .closing-heart { animation: none; }
 body.reduced-motion .closing-composition,
+body.reduced-motion .closing-panel,
+body.reduced-motion .closing-panel-label,
+body.reduced-motion .closing-divider,
 body.reduced-motion .closing-labels,
 body.reduced-motion .closing-subtext,
 body.reduced-motion .closing-poetic,
 body.reduced-motion .closing-ctas {
   opacity: 1 !important;
+  transform: none !important;
   transition: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .closing-heart { animation: none !important; }
-  .closing-composition, .closing-labels, .closing-subtext,
+  .closing-composition, .closing-panel, .closing-panel-label,
+  .closing-divider, .closing-labels, .closing-subtext,
   .closing-poetic, .closing-ctas {
-    opacity: 1 !important; transition: none !important;
+    opacity: 1 !important; transform: none !important; transition: none !important;
   }
 }
 
