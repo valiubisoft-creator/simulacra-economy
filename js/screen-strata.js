@@ -648,7 +648,7 @@ function clusterMatches(matches) {
       const metaText = `${phase} · ${n.classification}`;
       const termW = measureText(n.term, CLUSTER_LABEL_FONT);
       const metaW = measureText(metaText, CLUSTER_META_FONT);
-      const labelW = Math.min(180, Math.max(termW, metaW)) + 6;   /* side padding */
+      const labelW = Math.min(LABEL_WIDTH_CAP, Math.max(termW, metaW)) + 2;
       const labelH = LABEL_LINE_HEIGHT * 2 + 2;                    /* 2 lines + 2px inter-line */
 
       /* Unit rectangle: width = max(2r, labelW), height = 2r + gap + labelH.
@@ -660,12 +660,11 @@ function clusterMatches(matches) {
          "extra" vertical extent introduced by the label. */
       const offsetY = (LABEL_GAP_PX + labelH) / 2;
 
-      /* Minimum enclosing circle of the unit rectangle. We SUBTRACT a
-         small value from the formal enclosing-circle radius — the
-         corners of the unit rectangle are empty space (bubble is
-         round, label is narrow), so a tiny overlap at those corners
-         is invisible. Net effect: cluster is ~15% tighter. */
-      const packR = Math.sqrt(unitW * unitW + unitH * unitH) / 2 - 5;
+      /* Minimum enclosing circle of the unit rectangle minus an
+         aggressive negative safety pad. The rectangle's corners are
+         empty (round bubble + narrow label), so the circle can shrink
+         inside its formal bounds without visible overlap. */
+      const packR = Math.sqrt(unitW * unitW + unitH * unitH) / 2 - 8;
 
       return { _node: n, r: packR, _offsetY: offsetY };
     });
