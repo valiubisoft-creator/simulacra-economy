@@ -1,5 +1,5 @@
 {
-  "fetched_at": 1777016361559,
+  "fetched_at": 1777174326501,
   "schema_version": 2,
   "keywords": {
     "selfie": {
@@ -13,12 +13,12 @@
       "district": 1,
       "district_name": "The Screen",
       "gif": {
-        "id": "kEZtOQwrQ2mVa",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a213bTZ0eW5xOTU1NHJuc3kxaW1zMTA4NXN6ZmJsODBqeWNicGF4MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kEZtOQwrQ2mVa/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWttd202dHlucTk1NTRybnN5MWltczEwODVzemZibDgwanljYnBheDAmZ2lmX2lkPWtFWnRPUXdyUTJtVmEmY3Q9Zw&action_type=SEEN"
+        "id": "3og0IBdJDTIYUMk0rm",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5em1paTNzdGE0NmhreGdiZmozNmhtc3R1eHhvZHgzYnlkajYzenN2NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3og0IBdJDTIYUMk0rm/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5em1paTNzdGE0NmhreGdiZmozNmhtc3R1eHhvZHgzYnlkajYzenN2NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3og0IBdJDTIYUMk0rm/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5em1paTNzdGE0NmhreGdiZmozNmhtc3R1eHhvZHgzYnlkajYzenN2NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3og0IBdJDTIYUMk0rm/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5em1paTNzdGE0NmhreGdiZmozNmhtc3R1eHhvZHgzYnlkajYzenN2NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3og0IBdJDTIYUMk0rm/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXptaWkzc3RhNDZoa3hnYmZqMzZobXN0dXh4b2R4M2J5ZGo2M3pzdjcmZ2lmX2lkPTNvZzBJQmRKRFRJWVVNazBybSZjdD1n&action_type=SEEN"
       }
     },
     "influencer": {
@@ -33,11 +33,11 @@
       "district_name": "The Screen",
       "gif": {
         "id": "5bgIOwoAcZ2exrksog",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJnenFscnJxNGsyZXlmYTZkeHhzbnBhcTYwdDNka3l3MDk3a25wciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXUyZ3pxbHJycTRrMmV5ZmE2ZHh4c25wYXE2MHQzZGt5dzA5N2tucHImZ2lmX2lkPTViZ0lPd29BY1oyZXhya3NvZyZjdD1n&action_type=SEEN"
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZW9jaDg4aG0zYTg0YXIwbmJtdHNwZjk4dHJsbW9pdDRleG9xZGViZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZW9jaDg4aG0zYTg0YXIwbmJtdHNwZjk4dHJsbW9pdDRleG9xZGViZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZW9jaDg4aG0zYTg0YXIwbmJtdHNwZjk4dHJsbW9pdDRleG9xZGViZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZW9jaDg4aG0zYTg0YXIwbmJtdHNwZjk4dHJsbW9pdDRleG9xZGViZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5bgIOwoAcZ2exrksog/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWVvY2g4OGhtM2E4NGFyMG5ibXRzcGY5OHRybG1vaXQ0ZXhvcWRlYmcmZ2lmX2lkPTViZ0lPd29BY1oyZXhya3NvZyZjdD1n&action_type=SEEN"
       }
     },
     "viral": {
@@ -51,12 +51,12 @@
       "district": 1,
       "district_name": "The Screen",
       "gif": {
-        "id": "qDOI1FqYEyTxkW0MEI",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ejVlNjVicHo1ZG1hNms1NXpqdXJxaXg5MDRmMWp1dTMxNnE3eGFnaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qDOI1FqYEyTxkW0MEI/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXo1ZTY1YnB6NWRtYTZrNTV6anVycWl4OTA0ZjFqdXUzMTZxN3hhZ2omZ2lmX2lkPXFET0kxRnFZRXlUeGtXME1FSSZjdD1n&action_type=SEEN"
+        "id": "yWku98eNsMSZOEEWnC",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGkydjRmbDV4bDBjNDlqbjUxdjg0OWtjempibWhsZW0waHlvbHJjdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yWku98eNsMSZOEEWnC/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGkydjRmbDV4bDBjNDlqbjUxdjg0OWtjempibWhsZW0waHlvbHJjdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yWku98eNsMSZOEEWnC/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGkydjRmbDV4bDBjNDlqbjUxdjg0OWtjempibWhsZW0waHlvbHJjdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yWku98eNsMSZOEEWnC/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGkydjRmbDV4bDBjNDlqbjUxdjg0OWtjempibWhsZW0waHlvbHJjdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yWku98eNsMSZOEEWnC/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWxpMnY0Zmw1eGwwYzQ5am41MXY4NDlrY3pqYm1obGVtMGh5b2xyY3UmZ2lmX2lkPXlXa3U5OGVOc01TWk9FRVduQyZjdD1n&action_type=SEEN"
       }
     },
     "scrolling": {
@@ -71,11 +71,11 @@
       "district_name": "The Screen",
       "gif": {
         "id": "D5RkfWTZILva52QtaQ",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGxycmhucHZtd2d4aDVrbDB4OW53NjJhNzZyeHBqN28xbXh1c281eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTBscnJobnB2bXdneGg1a2wweDludzYyYTc2cnhwajdvMW14dXNvNXkmZ2lmX2lkPUQ1UmtmV1RaSUx2YTUyUXRhUSZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzFrMm9mbm42eTV2a3JxaW0yMzdqNjdrbTA5ZDZydjFkeWFkMDl3YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzFrMm9mbm42eTV2a3JxaW0yMzdqNjdrbTA5ZDZydjFkeWFkMDl3YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzFrMm9mbm42eTV2a3JxaW0yMzdqNjdrbTA5ZDZydjFkeWFkMDl3YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzFrMm9mbm42eTV2a3JxaW0yMzdqNjdrbTA5ZDZydjFkeWFkMDl3YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D5RkfWTZILva52QtaQ/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXcxazJvZm5uNnk1dmtycWltMjM3ajY3a20wOWQ2cnYxZHlhZDA5d2EmZ2lmX2lkPUQ1UmtmV1RaSUx2YTUyUXRhUSZjdD1n&action_type=SEEN"
       }
     },
     "fake news": {
@@ -90,11 +90,11 @@
       "district_name": "Power & Voice",
       "gif": {
         "id": "O2j3S8bUUWNVDahHz7",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXJuc3M3NXUzazRyYWhrc2NtdWZvYmxkenkydGtueDN3dWVwcXJpdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWFybnNzNzV1M2s0cmFoa3NjbXVmb2JsZHp5MnRrbngzd3VlcHFyaXcmZ2lmX2lkPU8yajNTOGJVVVdOVkRhaEh6NyZjdD1n&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDJ5M3F3YzBxYnpuYzZ4eTBzb2xvd283emp1N3h3ZDY1NmhvOGEyMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDJ5M3F3YzBxYnpuYzZ4eTBzb2xvd283emp1N3h3ZDY1NmhvOGEyMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDJ5M3F3YzBxYnpuYzZ4eTBzb2xvd283emp1N3h3ZDY1NmhvOGEyMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDJ5M3F3YzBxYnpuYzZ4eTBzb2xvd283emp1N3h3ZDY1NmhvOGEyMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/O2j3S8bUUWNVDahHz7/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXQyeTNxd2MwcWJ6bmM2eHkwc29sb3dvN3pqdTd4d2Q2NTZobzhhMjAmZ2lmX2lkPU8yajNTOGJVVVdOVkRhaEh6NyZjdD1n&action_type=SEEN"
       }
     },
     "meme": {
@@ -109,11 +109,11 @@
       "district_name": "The Screen",
       "gif": {
         "id": "xoZWpxtSLecftH30K1",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nzl0b2drZTFjdTFqZjIxbjc2NGZ5em15dzd1azV6NjdsMTJiNWpvaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTc5dG9na2UxY3UxamYyMW43NjRmeXpteXc3dWs1ejY3bDEyYjVqb2gmZ2lmX2lkPXhvWldweHRTTGVjZnRIMzBLMSZjdD1n&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXF2aHUzOGkyZmVoOW5sZzJoam1odXp6NWt4eHg5ZG1xZjBvZ3BjZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXF2aHUzOGkyZmVoOW5sZzJoam1odXp6NWt4eHg5ZG1xZjBvZ3BjZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXF2aHUzOGkyZmVoOW5sZzJoam1odXp6NWt4eHg5ZG1xZjBvZ3BjZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YXF2aHUzOGkyZmVoOW5sZzJoam1odXp6NWt4eHg5ZG1xZjBvZ3BjZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xoZWpxtSLecftH30K1/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWFxdmh1MzhpMmZlaDlubGcyaGptaHV6ejVreHh4OWRtcWYwb2dwY2YmZ2lmX2lkPXhvWldweHRTTGVjZnRIMzBLMSZjdD1n&action_type=SEEN"
       }
     },
     "boredom": {
@@ -128,11 +128,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "H9Li75tmlnwkg",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnEwN25wMDRveTY1aXpqdDRnb3RvMnU3aHJwMnRxa2ZxNG5tb29mbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXJxMDducDA0b3k2NWl6anQ0Z290bzJ1N2hycDJ0cWtmcTRubW9vZm4mZ2lmX2lkPUg5TGk3NXRtbG53a2cmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmZjb3Z3dTloYngxOGJhMjBza2pxM3Q3bWp1djF1Z3h4MWJ1MTAxbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmZjb3Z3dTloYngxOGJhMjBza2pxM3Q3bWp1djF1Z3h4MWJ1MTAxbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmZjb3Z3dTloYngxOGJhMjBza2pxM3Q3bWp1djF1Z3h4MWJ1MTAxbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmZjb3Z3dTloYngxOGJhMjBza2pxM3Q3bWp1djF1Z3h4MWJ1MTAxbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H9Li75tmlnwkg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTJmY292d3U5aGJ4MThiYTIwc2tqcTN0N21qdXYxdWd4eDFidTEwMW0mZ2lmX2lkPUg5TGk3NXRtbG53a2cmY3Q9Zw&action_type=SEEN"
       }
     },
     "anxiety": {
@@ -147,11 +147,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "1FMaabePDEfgk",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTB3YW0yenRpdDJrdnQ5NHEzM3hmcW12NHp2OXR6cmx5bjdkb2cxeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWEwd2FtMnp0aXQya3Z0OTRxMzN4ZnFtdjR6djl0enJseW43ZG9nMXomZ2lmX2lkPTFGTWFhYmVQREVmZ2smY3Q9Zw&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dmZveWFiNmc1YWVxdXE3ajU5N29mMHRqa3dwbDBreHd1cmFyc3czcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dmZveWFiNmc1YWVxdXE3ajU5N29mMHRqa3dwbDBreHd1cmFyc3czcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dmZveWFiNmc1YWVxdXE3ajU5N29mMHRqa3dwbDBreHd1cmFyc3czcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dmZveWFiNmc1YWVxdXE3ajU5N29mMHRqa3dwbDBreHd1cmFyc3czcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1FMaabePDEfgk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXZmb3lhYjZnNWFlcXVxN2o1OTdvZjB0amt3cGwwa3h3dXJhcnN3M3MmZ2lmX2lkPTFGTWFhYmVQREVmZ2smY3Q9Zw&action_type=SEEN"
       }
     },
     "loneliness": {
@@ -166,11 +166,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "a6zGGyjGKq7GE",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2F2NGc1OTZ3d2ljN2QzM3QwNDduNHJxZXp2d2tvZTVrY2NsM2hreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTNhdjRnNTk2d3dpYzdkMzN0MDQ3bjRycWV6dndrb2U1a2NjbDNoa3gmZ2lmX2lkPWE2ekdHeWpHS3E3R0UmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWg2YW1uaXd3YnMwaTVtdnM4MXA2eDZkYjZhcmtnbDNyaXd1eTMwciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWg2YW1uaXd3YnMwaTVtdnM4MXA2eDZkYjZhcmtnbDNyaXd1eTMwciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWg2YW1uaXd3YnMwaTVtdnM4MXA2eDZkYjZhcmtnbDNyaXd1eTMwciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWg2YW1uaXd3YnMwaTVtdnM4MXA2eDZkYjZhcmtnbDNyaXd1eTMwciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a6zGGyjGKq7GE/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWVoNmFtbml3d2JzMGk1bXZzODFwNng2ZGI2YXJrZ2wzcml3dXkzMHImZ2lmX2lkPWE2ekdHeWpHS3E3R0UmY3Q9Zw&action_type=SEEN"
       }
     },
     "attention": {
@@ -185,11 +185,11 @@
       "district_name": "The Screen",
       "gif": {
         "id": "1fMjj5j2Z7chq",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5a3B1NjB0N2RzOTh4ZzMzcm03cDNlMWowZDZwdmthODUzY2lqdWo1cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWtwdTYwdDdkczk4eGczM3JtN3AzZTFqMGQ2cHZrYTg1M2NpanVqNXAmZ2lmX2lkPTFmTWpqNWoyWjdjaHEmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnFnajBtNmFpMTdpNnU2dGs3aWtxNXY1bmk5MTI2NGFwZnppZnQ1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnFnajBtNmFpMTdpNnU2dGs3aWtxNXY1bmk5MTI2NGFwZnppZnQ1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnFnajBtNmFpMTdpNnU2dGs3aWtxNXY1bmk5MTI2NGFwZnppZnQ1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnFnajBtNmFpMTdpNnU2dGs3aWtxNXY1bmk5MTI2NGFwZnppZnQ1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fMjj5j2Z7chq/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXJxZ2owbTZhaTE3aTZ1NnRrN2lrcTV2NW5pOTEyNjRhcGZ6aWZ0NXQmZ2lmX2lkPTFmTWpqNWoyWjdjaHEmY3Q9Zw&action_type=SEEN"
       }
     },
     "coronavirus": {
@@ -203,12 +203,12 @@
       "district": 2,
       "district_name": "The Body",
       "gif": {
-        "id": "cPfFeGPxWMLAvhTfhg",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHIyeW9oZGpkeXhtMzJuNXMxcDMyaXNydWFteGkwbXp2OHpqOTl3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cPfFeGPxWMLAvhTfhg/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOThyMnlvaGRqZHl4bTMybjVzMXAzMmlzcnVhbXhpMG16djh6ajk5dzEmZ2lmX2lkPWNQZkZlR1B4V01MQXZoVGZoZyZjdD1n&action_type=SEEN"
+        "id": "Ni78ZkxrPskwF9WWJa",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djFubWxjNDRnMGp0MWJnenlnenV5aHE0MW5jYm1oZzExandsZ2U4OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djFubWxjNDRnMGp0MWJnenlnenV5aHE0MW5jYm1oZzExandsZ2U4OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djFubWxjNDRnMGp0MWJnenlnenV5aHE0MW5jYm1oZzExandsZ2U4OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djFubWxjNDRnMGp0MWJnenlnenV5aHE0MW5jYm1oZzExandsZ2U4OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXYxbm1sYzQ0ZzBqdDFiZ3p5Z3p1eWhxNDFuY2JtaGcxMWp3bGdlODkmZ2lmX2lkPU5pNzhaa3hyUHNrd0Y5V1dKYSZjdD1n&action_type=SEEN"
       }
     },
     "covid": {
@@ -223,11 +223,11 @@
       "district_name": "The Body",
       "gif": {
         "id": "j6ZlX8ghxNFRknObVk",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aHVsMWR6dG0wamVxMzNhNnJoNDVrMWRmZ2t5dTZkanlyYWp4OHZrZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWh1bDFkenRtMGplcTMzYTZyaDQ1azFkZmdreXU2ZGp5cmFqeDh2a2cmZ2lmX2lkPWo2WmxYOGdoeE5GUmtuT2JWayZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YW05dnY2MnE2MTdhanc1aGJweWlibTlnd29zeHByemhoOXY5MzU3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YW05dnY2MnE2MTdhanc1aGJweWlibTlnd29zeHByemhoOXY5MzU3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YW05dnY2MnE2MTdhanc1aGJweWlibTlnd29zeHByemhoOXY5MzU3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YW05dnY2MnE2MTdhanc1aGJweWlibTlnd29zeHByemhoOXY5MzU3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j6ZlX8ghxNFRknObVk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWFtOXZ2NjJxNjE3YWp3NWhicHlpYm05Z3dvc3hwcnpoaDl2OTM1N3ImZ2lmX2lkPWo2WmxYOGdoeE5GUmtuT2JWayZjdD1n&action_type=SEEN"
       }
     },
     "pandemic": {
@@ -242,11 +242,11 @@
       "district_name": "The Body",
       "gif": {
         "id": "h26R1JMxiqYpwp0rkF",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NWkxZWI5cm9rNDVqY21mdjl0aG8yMDJmbGFxOXg1Zzh3dWVvYWZjeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTVpMWViOXJvazQ1amNtZnY5dGhvMjAyZmxhcTl4NWc4d3Vlb2FmY3gmZ2lmX2lkPWgyNlIxSk14aXFZcHdwMHJrRiZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cXl0Yjl2NGhwdmltcTJubGFtc28xbnNiemhsZ3FxcmgydDBidWsydiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cXl0Yjl2NGhwdmltcTJubGFtc28xbnNiemhsZ3FxcmgydDBidWsydiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cXl0Yjl2NGhwdmltcTJubGFtc28xbnNiemhsZ3FxcmgydDBidWsydiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cXl0Yjl2NGhwdmltcTJubGFtc28xbnNiemhsZ3FxcmgydDBidWsydiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h26R1JMxiqYpwp0rkF/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXF5dGI5djRocHZpbXEybmxhbXNvMW5zYnpobGdxcXJoMnQwYnVrMnYmZ2lmX2lkPWgyNlIxSk14aXFZcHdwMHJrRiZjdD1n&action_type=SEEN"
       }
     },
     "lockdown": {
@@ -261,11 +261,11 @@
       "district_name": "Control",
       "gif": {
         "id": "Iht2UmAEEeRhRNZnOv",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2pndmtqenJ2OG8xMms2eXZxdXM2bHA0YjRxcnRxMDEwYThtMmxteiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNqZ3ZranpydjhvMTJrNnl2cXVzNmxwNGI0cXJ0cTAxMGE4bTJsbXomZ2lmX2lkPUlodDJVbUFFRWVSaFJOWm5PdiZjdD1n&action_type=SEEN"
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2hubXptMmFrNzUyYm1seGRraWRlbXZvd3g2MmtiM2lkaTc0cWhjYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2hubXptMmFrNzUyYm1seGRraWRlbXZvd3g2MmtiM2lkaTc0cWhjYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2hubXptMmFrNzUyYm1seGRraWRlbXZvd3g2MmtiM2lkaTc0cWhjYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5M2hubXptMmFrNzUyYm1seGRraWRlbXZvd3g2MmtiM2lkaTc0cWhjYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Iht2UmAEEeRhRNZnOv/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTNobm16bTJhazc1MmJtbHhka2lkZW12b3d4NjJrYjNpZGk3NHFoY2MmZ2lmX2lkPUlodDJVbUFFRWVSaFJOWm5PdiZjdD1n&action_type=SEEN"
       }
     },
     "quarantine": {
@@ -280,11 +280,11 @@
       "district_name": "Control",
       "gif": {
         "id": "6R2mLi910HL4VXFwOG",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OGtjYjZndG5ncmV6c3MybW41MnJsNDFqc3RpMm5zZzI2ZmFzZHVheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOThrY2I2Z3RuZ3JlenNzMm1uNTJybDQxanN0aTJuc2cyNmZhc2R1YXomZ2lmX2lkPTZSMm1MaTkxMEhMNFZYRndPRyZjdD1n&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nnk5M21xazh4b3hhY3R4MXVuNnJlNzNsZTRmMzd4N3kzMmhoZWdvZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nnk5M21xazh4b3hhY3R4MXVuNnJlNzNsZTRmMzd4N3kzMmhoZWdvZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nnk5M21xazh4b3hhY3R4MXVuNnJlNzNsZTRmMzd4N3kzMmhoZWdvZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nnk5M21xazh4b3hhY3R4MXVuNnJlNzNsZTRmMzd4N3kzMmhoZWdvZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6R2mLi910HL4VXFwOG/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTZ5OTNtcWs4eG94YWN0eDF1bjZyZTczbGU0ZjM3eDd5MzJoaGVnb2cmZ2lmX2lkPTZSMm1MaTkxMEhMNFZYRndPRyZjdD1n&action_type=SEEN"
       }
     },
     "social distancing": {
@@ -298,12 +298,12 @@
       "district": 3,
       "district_name": "Control",
       "gif": {
-        "id": "ZBQhoZC0nqknSviPqT",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHYzMm9hbDZ0dmk4M3l2azFybnQya2R5bWhqeTl6NmRsdDJnNmd6dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZBQhoZC0nqknSviPqT/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTR2MzJvYWw2dHZpODN5dmsxcm50MmtkeW1oank5ejZkbHQyZzZnencmZ2lmX2lkPVpCUWhvWkMwbnFrblN2aVBxVCZjdD1n&action_type=SEEN"
+        "id": "RJ2a6GQBWrgaDpCUER",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3VmMjlsdmQ5MzEwOXYxbXAycWp2bGRnZTFpNTNrZTBuMGlpdHo0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RJ2a6GQBWrgaDpCUER/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3VmMjlsdmQ5MzEwOXYxbXAycWp2bGRnZTFpNTNrZTBuMGlpdHo0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RJ2a6GQBWrgaDpCUER/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3VmMjlsdmQ5MzEwOXYxbXAycWp2bGRnZTFpNTNrZTBuMGlpdHo0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RJ2a6GQBWrgaDpCUER/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3VmMjlsdmQ5MzEwOXYxbXAycWp2bGRnZTFpNTNrZTBuMGlpdHo0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RJ2a6GQBWrgaDpCUER/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW91ZjI5bHZkOTMxMDl2MW1wMnFqdmxkZ2UxaTUza2UwbjBpaXR6NGgmZ2lmX2lkPVJKMmE2R1FCV3JnYURwQ1VFUiZjdD1n&action_type=SEEN"
       }
     },
     "stay home": {
@@ -318,11 +318,11 @@
       "district_name": "Control",
       "gif": {
         "id": "fyoSk6yqsegBH7CxxG",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cG9pcGJucHZqb3hxdzRlNDJ4a2l2amM0ZHRqbDd4NnJpa2FpaTBwMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXBvaXBibnB2am94cXc0ZTQyeGtpdmpjNGR0amw3eDZyaWthaWkwcDAmZ2lmX2lkPWZ5b1NrNnlxc2VnQkg3Q3h4RyZjdD1n&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5N2F4eG9yOWJtb25mOHRrbWdmb2N2Nmd1MnZ6ZXV4anZneWd5M2YxdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5N2F4eG9yOWJtb25mOHRrbWdmb2N2Nmd1MnZ6ZXV4anZneWd5M2YxdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5N2F4eG9yOWJtb25mOHRrbWdmb2N2Nmd1MnZ6ZXV4anZneWd5M2YxdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5N2F4eG9yOWJtb25mOHRrbWdmb2N2Nmd1MnZ6ZXV4anZneWd5M2YxdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fyoSk6yqsegBH7CxxG/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTdheHhvcjlibW9uZjh0a21nZm9jdjZndTJ2emV1eGp2Z3lneTNmMXYmZ2lmX2lkPWZ5b1NrNnlxc2VnQkg3Q3h4RyZjdD1n&action_type=SEEN"
       }
     },
     "flatten the curve": {
@@ -337,11 +337,11 @@
       "district_name": "The Body",
       "gif": {
         "id": "MpInizA3qTMYPEDwHx",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ODlmbnY0djAweHZvNDIzZmZ0aHJnaW5pNjlqbWk0cWltM3ZpczY1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTg5Zm52NHYwMHh2bzQyM2ZmdGhyZ2luaTY5am1pNHFpbTN2aXM2NXQmZ2lmX2lkPU1wSW5pekEzcVRNWVBFRHdIeCZjdD1n&action_type=SEEN"
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWwyM2Z4c29tczlheDA0NzJsdnJnMmM3MHcwNHpuaGNpenR1cmFhcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWwyM2Z4c29tczlheDA0NzJsdnJnMmM3MHcwNHpuaGNpenR1cmFhcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWwyM2Z4c29tczlheDA0NzJsdnJnMmM3MHcwNHpuaGNpenR1cmFhcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWwyM2Z4c29tczlheDA0NzJsdnJnMmM3MHcwNHpuaGNpenR1cmFhcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MpInizA3qTMYPEDwHx/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXlsMjNmeHNvbXM5YXgwNDcybHZyZzJjNzB3MDR6bmhjaXp0dXJhYXAmZ2lmX2lkPU1wSW5pekEzcVRNWVBFRHdIeCZjdD1n&action_type=SEEN"
       }
     },
     "work from home": {
@@ -355,12 +355,12 @@
       "district": 3,
       "district_name": "Control",
       "gif": {
-        "id": "l41YoUIRqzcdAQmli",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bm0waXJrYnp4ZzdjMnU4eTgxMWhqeWt0ZGh5bGQ2aTV4bDdnMjRxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YoUIRqzcdAQmli/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW5tMGlya2J6eGc3YzJ1OHk4MTFoanlrdGRoeWxkNmk1eGw3ZzI0cTkmZ2lmX2lkPWw0MVlvVUlScXpjZEFRbWxpJmN0PWc&action_type=SEEN"
+        "id": "XymXANrzgI4k6FL6zr",
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWRldXdkZGhvZWlxNG16Nmc3Njg3cG1sb250ZnExbG5uZWJ3bDMzeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XymXANrzgI4k6FL6zr/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWRldXdkZGhvZWlxNG16Nmc3Njg3cG1sb250ZnExbG5uZWJ3bDMzeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XymXANrzgI4k6FL6zr/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWRldXdkZGhvZWlxNG16Nmc3Njg3cG1sb250ZnExbG5uZWJ3bDMzeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XymXANrzgI4k6FL6zr/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eWRldXdkZGhvZWlxNG16Nmc3Njg3cG1sb250ZnExbG5uZWJ3bDMzeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XymXANrzgI4k6FL6zr/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXlkZXV3ZGRob2VpcTRtejZnNzY4N3BtbG9udGZxMWxubmVid2wzM3kmZ2lmX2lkPVh5bVhBTnJ6Z0k0azZGTDZ6ciZjdD1n&action_type=SEEN"
       }
     },
     "zoom": {
@@ -374,12 +374,12 @@
       "district": 7,
       "district_name": "The Cage",
       "gif": {
-        "id": "yDnOWUZoZJhBvMkgj2",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NTJvamo0azBmNzcxYTFseW01ZG91NW05bXBxaGFjY3hjbG1ndnlsbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yDnOWUZoZJhBvMkgj2/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTUyb2pqNGswZjc3MWExbHltNWRvdTVtOW1wcWhhY2N4Y2xtZ3Z5bG4mZ2lmX2lkPXlEbk9XVVpvWkpoQnZNa2dqMiZjdD1n&action_type=SEEN"
+        "id": "JbRiGMz415efwUYsgk",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDAxOTFzcnY4a3E3eGNvZ25uYWtxZzMwN3l4N3p0c2Z4eThwMnIyeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JbRiGMz415efwUYsgk/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDAxOTFzcnY4a3E3eGNvZ25uYWtxZzMwN3l4N3p0c2Z4eThwMnIyeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JbRiGMz415efwUYsgk/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDAxOTFzcnY4a3E3eGNvZ25uYWtxZzMwN3l4N3p0c2Z4eThwMnIyeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JbRiGMz415efwUYsgk/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDAxOTFzcnY4a3E3eGNvZ25uYWtxZzMwN3l4N3p0c2Z4eThwMnIyeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JbRiGMz415efwUYsgk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXgwMTkxc3J2OGtxN3hjb2dubmFrcWczMDd5eDd6dHNmeHk4cDJyMnomZ2lmX2lkPUpiUmlHTXo0MTVlZndVWXNnayZjdD1n&action_type=SEEN"
       }
     },
     "isolation": {
@@ -394,11 +394,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "VfyC5j7sR4cso",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y2h0MWV4aG5scWVscDRrODBkNzRhamF4c3kydnJ2Y2tneDVxNzUyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWNodDFleGhubHFlbHA0azgwZDc0YWpheHN5MnZydmNrZ3g1cTc1MjEmZ2lmX2lkPVZmeUM1ajdzUjRjc28mY3Q9Zw&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bnMzb2k0aXkwa3UwYXJqeWEyd25xbThtdm90N3EwdGNsczM3NjdwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bnMzb2k0aXkwa3UwYXJqeWEyd25xbThtdm90N3EwdGNsczM3NjdwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bnMzb2k0aXkwa3UwYXJqeWEyd25xbThtdm90N3EwdGNsczM3NjdwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bnMzb2k0aXkwa3UwYXJqeWEyd25xbThtdm90N3EwdGNsczM3NjdwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VfyC5j7sR4cso/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW5zM29pNGl5MGt1MGFyanlhMnducW04bXZvdDdxMHRjbHMzNzY3cHcmZ2lmX2lkPVZmeUM1ajdzUjRjc28mY3Q9Zw&action_type=SEEN"
       }
     },
     "fear": {
@@ -413,11 +413,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "bEVKYB487Lqxy",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dDlpdWxia2JpZHVpMGFrY3NoZGt5dnpidTR1OXpwZjJiNWcxMm12cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXQ5aXVsYmtiaWR1aTBha2NzaGRreXZ6YnU0dTl6cGYyYjVnMTJtdnEmZ2lmX2lkPWJFVktZQjQ4N0xxeHkmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OW8xMDNqMmhxbmNtYjNhcWFtdHM5czVuazN1dXJqOGNmbHFwcm05MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OW8xMDNqMmhxbmNtYjNhcWFtdHM5czVuazN1dXJqOGNmbHFwcm05MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OW8xMDNqMmhxbmNtYjNhcWFtdHM5czVuazN1dXJqOGNmbHFwcm05MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OW8xMDNqMmhxbmNtYjNhcWFtdHM5czVuazN1dXJqOGNmbHFwcm05MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bEVKYB487Lqxy/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTlvMTAzajJocW5jbWIzYXFhbXRzOXM1bmszdXVyajhjZmxxcHJtOTMmZ2lmX2lkPWJFVktZQjQ4N0xxeHkmY3Q9Zw&action_type=SEEN"
       }
     },
     "panic": {
@@ -432,11 +432,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "HUkOv6BNWc1HO",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bGtrbnE0OW5ta2o0bGYweTBlYjQ3ZmoyMzluZGFleXJ0YWE2YWtuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWxra25xNDlubWtqNGxmMHkwZWI0N2ZqMjM5bmRhZXlydGFhNmFrbjEmZ2lmX2lkPUhVa092NkJOV2MxSE8mY3Q9Zw&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZzRlNjNtbzVscG82bjM2Z2Zjcm9pNGNnY2oxOXozZ3U5Zjh3NXZ4cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZzRlNjNtbzVscG82bjM2Z2Zjcm9pNGNnY2oxOXozZ3U5Zjh3NXZ4cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZzRlNjNtbzVscG82bjM2Z2Zjcm9pNGNnY2oxOXozZ3U5Zjh3NXZ4cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZzRlNjNtbzVscG82bjM2Z2Zjcm9pNGNnY2oxOXozZ3U5Zjh3NXZ4cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWc0ZTYzbW81bHBvNm4zNmdmY3JvaTRjZ2NqMTl6M2d1OWY4dzV2eHMmZ2lmX2lkPUhVa092NkJOV2MxSE8mY3Q9Zw&action_type=SEEN"
       }
     },
     "hope": {
@@ -451,11 +451,11 @@
       "district_name": "Respite",
       "gif": {
         "id": "Qy2VKY3xlI1QyR6Ix5",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YWpkbTQxbXUwdmJ2bDB4d2dzYjhqODlhZmV0ZHZ1ZjJseGxpMmZwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWFqZG00MW11MHZidmwweHdnc2I4ajg5YWZldGR2dWYybHhsaTJmcG0mZ2lmX2lkPVF5MlZLWTN4bEkxUXlSNkl4NSZjdD1n&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTk2dXhoMDhyMjM3am5pOXF5YW53amNneXdnamo1ZnZvcHM2OXk5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTk2dXhoMDhyMjM3am5pOXF5YW53amNneXdnamo1ZnZvcHM2OXk5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTk2dXhoMDhyMjM3am5pOXF5YW53amNneXdnamo1ZnZvcHM2OXk5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTk2dXhoMDhyMjM3am5pOXF5YW53amNneXdnamo1ZnZvcHM2OXk5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Qy2VKY3xlI1QyR6Ix5/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW05NnV4aDA4cjIzN2puaTlxeWFud2pjZ3l3Z2pqNWZ2b3BzNjl5OWkmZ2lmX2lkPVF5MlZLWTN4bEkxUXlSNkl4NSZjdD1n&action_type=SEEN"
       }
     },
     "together": {
@@ -469,12 +469,12 @@
       "district": 8,
       "district_name": "Respite",
       "gif": {
-        "id": "N8HaPqnkQETss",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eHBtcDY0YndsdXFzNnl1eTJlNXIyOXdtYnhyODJhczV0em1sYnh1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/N8HaPqnkQETss/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXhwbXA2NGJ3bHVxczZ5dXkyZTVyMjl3bWJ4cjgyYXM1dHptbGJ4dXQmZ2lmX2lkPU44SGFQcW5rUUVUc3MmY3Q9Zw&action_type=SEEN"
+        "id": "4uUnISbiiBAHmwHi4d",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZnowcW0xYXNiZmg2eDRhYmY2dHR6dXRodGpvZGI3Y291MHpxZXZzbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4uUnISbiiBAHmwHi4d/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZnowcW0xYXNiZmg2eDRhYmY2dHR6dXRodGpvZGI3Y291MHpxZXZzbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4uUnISbiiBAHmwHi4d/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZnowcW0xYXNiZmg2eDRhYmY2dHR6dXRodGpvZGI3Y291MHpxZXZzbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4uUnISbiiBAHmwHi4d/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZnowcW0xYXNiZmg2eDRhYmY2dHR6dXRodGpvZGI3Y291MHpxZXZzbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4uUnISbiiBAHmwHi4d/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWZ6MHFtMWFzYmZoNng0YWJmNnR0enV0aHRqb2RiN2NvdTB6cWV2c2wmZ2lmX2lkPTR1VW5JU2JpaUJBSG13SGk0ZCZjdD1n&action_type=SEEN"
       }
     },
     "quarantine life": {
@@ -489,11 +489,11 @@
       "district_name": "Control",
       "gif": {
         "id": "VHl0ajQWjOF2NYHB02",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHdoYzZ1NjRicHBjZW1uanJoNmFldTcwMHNrcjV2Z2t5YTk3NXJmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXR3aGM2dTY0YnBwY2VtbmpyaDZhZXU3MDBza3I1dmdreWE5NzVyZmQmZ2lmX2lkPVZIbDBhalFXak9GMk5ZSEIwMiZjdD1n&action_type=SEEN"
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWUxd3hyZ3Rrb25mNWg5cncyazR6NnQzOXJnb3J5aTY3MGpraTNodCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWUxd3hyZ3Rrb25mNWg5cncyazR6NnQzOXJnb3J5aTY3MGpraTNodCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWUxd3hyZ3Rrb25mNWg5cncyazR6NnQzOXJnb3J5aTY3MGpraTNodCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWUxd3hyZ3Rrb25mNWg5cncyazR6NnQzOXJnb3J5aTY3MGpraTNodCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VHl0ajQWjOF2NYHB02/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWVlMXd4cmd0a29uZjVoOXJ3Mms0ejZ0MzlyZ29yeWk2NzBqa2kzaHQmZ2lmX2lkPVZIbDBhalFXak9GMk5ZSEIwMiZjdD1n&action_type=SEEN"
       }
     },
     "zoom memes": {
@@ -508,11 +508,11 @@
       "district_name": "The Cage",
       "gif": {
         "id": "BNlSrpW0e4nbgVZ2we",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cnBjaGZxNW4ydjhqamZ1eGR2dDd5MHpxa3Vtb2cxbDNvY2p1dGs0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXJwY2hmcTVuMnY4ampmdXhkdnQ3eTB6cWt1bW9nMWwzb2NqdXRrNGMmZ2lmX2lkPUJObFNycFcwZTRuYmdWWjJ3ZSZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NDJ2YXJ0ZDFiNWk4amFsdTM5Z3htcHl1Z3Yxd3RjZXFvc3Vvb2VjayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NDJ2YXJ0ZDFiNWk4amFsdTM5Z3htcHl1Z3Yxd3RjZXFvc3Vvb2VjayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NDJ2YXJ0ZDFiNWk4amFsdTM5Z3htcHl1Z3Yxd3RjZXFvc3Vvb2VjayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NDJ2YXJ0ZDFiNWk4amFsdTM5Z3htcHl1Z3Yxd3RjZXFvc3Vvb2VjayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BNlSrpW0e4nbgVZ2we/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTQydmFydGQxYjVpOGphbHUzOWd4bXB5dWd2MXd0Y2Vxb3N1b29lY2smZ2lmX2lkPUJObFNycFcwZTRuYmdWWjJ3ZSZjdD1n&action_type=SEEN"
       }
     },
     "doomscrolling": {
@@ -520,18 +520,18 @@
       "primary_phase": "lockdown",
       "category": "meta-digital",
       "source": "UF study 2022; coined ~2018, peak 2020",
-      "total_count": 270,
-      "codification_score": 62.57,
+      "total_count": 273,
+      "codification_score": 63.25,
       "classification": "cage",
       "district": 7,
       "district_name": "The Cage",
       "gif": {
         "id": "w4u6ZQesNWqbOLMGpI",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGoxZ3FoaTVrYnF3MTdvdTloZ2FsN2xxbzU0aHJmeTJzcDc5a2R5MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTBqMWdxaGk1a2JxdzE3b3U5aGdhbDdscW81NGhyZnkyc3A3OWtkeTImZ2lmX2lkPXc0dTZaUWVzTldxYk9MTUdwSSZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJ0ZTg0ZGt4cm1nMm13aHBrc2NidXp2bGRxcjZkeHZ2ajFzdnk2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJ0ZTg0ZGt4cm1nMm13aHBrc2NidXp2bGRxcjZkeHZ2ajFzdnk2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJ0ZTg0ZGt4cm1nMm13aHBrc2NidXp2bGRxcjZkeHZ2ajFzdnk2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dTJ0ZTg0ZGt4cm1nMm13aHBrc2NidXp2bGRxcjZkeHZ2ajFzdnk2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w4u6ZQesNWqbOLMGpI/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXUydGU4NGRreHJtZzJtd2hwa3NjYnV6dmxkcXI2ZHh2dmoxc3Z5NjEmZ2lmX2lkPXc0dTZaUWVzTldxYk9MTUdwSSZjdD1n&action_type=SEEN"
       }
     },
     "cabin fever": {
@@ -539,18 +539,18 @@
       "primary_phase": "lockdown",
       "category": "meta-digital",
       "source": "cultural observation; emotional keyword",
-      "total_count": 143,
-      "codification_score": 24.06,
+      "total_count": 142,
+      "codification_score": 23.64,
       "classification": "neutral",
       "district": 7,
       "district_name": "The Cage",
       "gif": {
         "id": "elC9MOc2s8iyY",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dHF3cndvc20xOHJ2dmY5bjlrYmxrdHY3dTNxdXJrNG40bmVmZzV5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXRxd3J3b3NtMThydnZmOW45a2Jsa3R2N3UzcXVyazRuNG5lZmc1eWMmZ2lmX2lkPWVsQzlNT2MyczhpeVkmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Z3lhMGd6Z3dxYnh5MGYxOGpqNDVvaTVjbnRmNWN0NjNueXdrbmw2bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Z3lhMGd6Z3dxYnh5MGYxOGpqNDVvaTVjbnRmNWN0NjNueXdrbmw2bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Z3lhMGd6Z3dxYnh5MGYxOGpqNDVvaTVjbnRmNWN0NjNueXdrbmw2bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Z3lhMGd6Z3dxYnh5MGYxOGpqNDVvaTVjbnRmNWN0NjNueXdrbmw2bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/elC9MOc2s8iyY/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWd5YTBnemd3cWJ4eTBmMThqajQ1b2k1Y250ZjVjdDYzbnl3a25sNm0mZ2lmX2lkPWVsQzlNT2MyczhpeVkmY3Q9Zw&action_type=SEEN"
       }
     },
     "essential worker": {
@@ -565,11 +565,11 @@
       "district_name": "Control",
       "gif": {
         "id": "TNBL4wO6Lv39e",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aXY3ejloajF5dWFjYTFibDJ2amxudzRkNXRwOGE5eGptcDVnNnRheiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWl2N3o5aGoxeXVhY2ExYmwydmpsbnc0ZDV0cDhhOXhqbXA1ZzZ0YXomZ2lmX2lkPVROQkw0d082THYzOWUmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bDF5ZHNvdXpwam41ZmplNTBrOGpjb2pkdGN3N2IyeW5pcjdnaGxlNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bDF5ZHNvdXpwam41ZmplNTBrOGpjb2pkdGN3N2IyeW5pcjdnaGxlNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bDF5ZHNvdXpwam41ZmplNTBrOGpjb2pkdGN3N2IyeW5pcjdnaGxlNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bDF5ZHNvdXpwam41ZmplNTBrOGpjb2pkdGN3N2IyeW5pcjdnaGxlNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TNBL4wO6Lv39e/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWwxeWRzb3V6cGpuNWZqZTUwazhqY29qZHRjdzdiMnluaXI3Z2hsZTUmZ2lmX2lkPVROQkw0d082THYzOWUmY3Q9Zw&action_type=SEEN"
       }
     },
     "vaccine": {
@@ -584,11 +584,11 @@
       "district_name": "The Body",
       "gif": {
         "id": "Ni78ZkxrPskwF9WWJa",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cHViZWJoMDVncGIzdDVxdnAxaHdhZGZjb3hpNzZycnQycW9qdTJjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXB1YmViaDA1Z3BiM3Q1cXZwMWh3YWRmY294aTc2cnJ0MnFvanUyY2gmZ2lmX2lkPU5pNzhaa3hyUHNrd0Y5V1dKYSZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3NoNmNhMG1uZzdlMWU5NHhrdXJyNm5oOWpsazkyOWs1OXk0NHhibSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3NoNmNhMG1uZzdlMWU5NHhrdXJyNm5oOWpsazkyOWs1OXk0NHhibSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3NoNmNhMG1uZzdlMWU5NHhrdXJyNm5oOWpsazkyOWs1OXk0NHhibSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3NoNmNhMG1uZzdlMWU5NHhrdXJyNm5oOWpsazkyOWs1OXk0NHhibSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ni78ZkxrPskwF9WWJa/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXdzaDZjYTBtbmc3ZTFlOTR4a3VycjZuaDlqbGs5MjlrNTl5NDR4Ym0mZ2lmX2lkPU5pNzhaa3hyUHNrd0Y5V1dKYSZjdD1n&action_type=SEEN"
       }
     },
     "variant": {
@@ -597,17 +597,17 @@
       "category": "epidemiological",
       "source": "cultural observation 2021",
       "total_count": 187,
-      "codification_score": 67.3,
+      "codification_score": 66.87,
       "classification": "neutral",
       "district": 2,
       "district_name": "The Body",
       "gif": {
-        "id": "7cgY2LzNLNTSnvIw89",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3Uwcm0ycDZscnh5MjdxdGJxemxmYXVmdDZwNTI4Mjk3eDByYWltcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7cgY2LzNLNTSnvIw89/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW91MHJtMnA2bHJ4eTI3cXRicXpsZmF1ZnQ2cDUyODI5N3gwcmFpbXEmZ2lmX2lkPTdjZ1kyTHpOTE5UU252SXc4OSZjdD1n&action_type=SEEN"
+        "id": "0LmKJ7dfnXCuJLlfcj",
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTUzZHIxc2Z3cGpqdjZjYTA4YmJobjY1M3MyNzlsZnYzZ2ZieHlhZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/0LmKJ7dfnXCuJLlfcj/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTUzZHIxc2Z3cGpqdjZjYTA4YmJobjY1M3MyNzlsZnYzZ2ZieHlhZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/0LmKJ7dfnXCuJLlfcj/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTUzZHIxc2Z3cGpqdjZjYTA4YmJobjY1M3MyNzlsZnYzZ2ZieHlhZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/0LmKJ7dfnXCuJLlfcj/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTUzZHIxc2Z3cGpqdjZjYTA4YmJobjY1M3MyNzlsZnYzZ2ZieHlhZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/0LmKJ7dfnXCuJLlfcj/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTE1M2RyMXNmd3BqanY2Y2EwOGJiaG42NTNzMjc5bGZ2M2dmYnh5YWYmZ2lmX2lkPTBMbUtKN2RmblhDdUpMbGZjaiZjdD1n&action_type=SEEN"
       }
     },
     "depression": {
@@ -621,12 +621,12 @@
       "district": 4,
       "district_name": "Inner Life",
       "gif": {
-        "id": "GIvajz0TlE316",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NHByMXF1MXB1aTllemoyZWg5ajJhMWtoZ2JkYmhlYmYxaWo4a2NrcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/GIvajz0TlE316/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTRwcjFxdTFwdWk5ZXpqMmVoOWoyYTFraGdiZGJoZWJmMWlqOGtja3EmZ2lmX2lkPUdJdmFqejBUbEUzMTYmY3Q9Zw&action_type=SEEN"
+        "id": "EQIkgfMCjs1kk",
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWwwMWlhNzUxNG02YmJkYXpnNXp6ODBzd3YxcmptMmkyZGQ3bzJqayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EQIkgfMCjs1kk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWwwMWlhNzUxNG02YmJkYXpnNXp6ODBzd3YxcmptMmkyZGQ3bzJqayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EQIkgfMCjs1kk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWwwMWlhNzUxNG02YmJkYXpnNXp6ODBzd3YxcmptMmkyZGQ3bzJqayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EQIkgfMCjs1kk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWwwMWlhNzUxNG02YmJkYXpnNXp6ODBzd3YxcmptMmkyZGQ3bzJqayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EQIkgfMCjs1kk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWVsMDFpYTc1MTRtNmJiZGF6ZzV6ejgwc3d2MXJqbTJpMmRkN28yamsmZ2lmX2lkPUVRSWtnZk1DanMxa2smY3Q9Zw&action_type=SEEN"
       }
     },
     "hopeless": {
@@ -641,11 +641,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "lSHpuZAfbUhqmtppZk",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5czc5NnN4OHpkMmk1d3pxeWxpZHMwdTA5M2JzcmJjZW1kbng2dTd4ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXM3OTZzeDh6ZDJpNXd6cXlsaWRzMHUwOTNic3JiY2VtZG54NnU3eGUmZ2lmX2lkPWxTSHB1WkFmYlVocW10cHBaayZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cWJnbzRudHZwZW11d2RqMGk4OGRzMDM0azB4ZnRoOTJndWsyeDh3eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cWJnbzRudHZwZW11d2RqMGk4OGRzMDM0azB4ZnRoOTJndWsyeDh3eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cWJnbzRudHZwZW11d2RqMGk4OGRzMDM0azB4ZnRoOTJndWsyeDh3eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cWJnbzRudHZwZW11d2RqMGk4OGRzMDM0azB4ZnRoOTJndWsyeDh3eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lSHpuZAfbUhqmtppZk/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXFiZ280bnR2cGVtdXdkajBpODhkczAzNGsweGZ0aDkyZ3VrMng4d3omZ2lmX2lkPWxTSHB1WkFmYlVocW10cHBaayZjdD1n&action_type=SEEN"
       }
     },
     "zoom fatigue": {
@@ -653,18 +653,18 @@
       "primary_phase": "deep_lockdown",
       "category": "meta-digital",
       "source": "Kircaburun doomscrolling study 2022",
-      "total_count": 24,
+      "total_count": 25,
       "codification_score": 0.0,
       "classification": "neutral",
       "district": 4,
       "district_name": "Inner Life",
       "gif": {
         "id": "bHXCTICeZVTP2DRMtw",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Y3ptOTNtejBkMHRmeWNmd3dqZmpnZm53YzJldG81ZWo4YTd3aXUwaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWN6bTkzbXowZDB0ZnljZnd3amZqZ2Zud2MyZXRvNWVqOGE3d2l1MGkmZ2lmX2lkPWJIWENUSUNlWlZUUDJEUk10dyZjdD1n&action_type=SEEN"
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmVjcjJyYmpkY2w5em9qMGc0bm93c2EwcXFtM2huenduZzN1Nmd0biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmVjcjJyYmpkY2w5em9qMGc0bm93c2EwcXFtM2huenduZzN1Nmd0biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmVjcjJyYmpkY2w5em9qMGc0bm93c2EwcXFtM2huenduZzN1Nmd0biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MmVjcjJyYmpkY2w5em9qMGc0bm93c2EwcXFtM2huenduZzN1Nmd0biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bHXCTICeZVTP2DRMtw/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTJlY3IycmJqZGNsOXpvajBnNG5vd3NhMHFxbTNobnp3bmczdTZndG4mZ2lmX2lkPWJIWENUSUNlWlZUUDJEUk10dyZjdD1n&action_type=SEEN"
       }
     },
     "pandemic fatigue": {
@@ -679,11 +679,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "gFUKNtpfBVmLI4N1UI",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5amt5bjJxMGs0bzJvaW9xeXRibDQ2cjQwYmFvNW5vbmk1cGc0YTMxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWpreW4ycTBrNG8yb2lvcXl0Ymw0NnI0MGJhbzVub25pNXBnNGEzMXEmZ2lmX2lkPWdGVUtOdHBmQlZtTEk0TjFVSSZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTE2Nnl1MG1iMTJ6dmQxY2hmZDB6M2YzaWs5Znl1cHJzZzQ1bnlpNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTE2Nnl1MG1iMTJ6dmQxY2hmZDB6M2YzaWs5Znl1cHJzZzQ1bnlpNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTE2Nnl1MG1iMTJ6dmQxY2hmZDB6M2YzaWs5Znl1cHJzZzQ1bnlpNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MTE2Nnl1MG1iMTJ6dmQxY2hmZDB6M2YzaWs5Znl1cHJzZzQ1bnlpNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gFUKNtpfBVmLI4N1UI/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTExNjZ5dTBtYjEyenZkMWNoZmQwejNmM2lrOWZ5dXByc2c0NW55aTUmZ2lmX2lkPWdGVUtOdHBmQlZtTEk0TjFVSSZjdD1n&action_type=SEEN"
       }
     },
     "mental health": {
@@ -698,11 +698,11 @@
       "district_name": "Respite",
       "gif": {
         "id": "RjDIwuXYPzrAEjb6HP",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c3FjaTZzOXE2NDhhbDFjbnQ5bGp2cjk2MXliNGluZ2R3NnE5MngzayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNxY2k2czlxNjQ4YWwxY250OWxqdnI5NjF5YjRpbmdkdzZxOTJ4M2smZ2lmX2lkPVJqREl3dVhZUHpyQUVqYjZIUCZjdD1n&action_type=SEEN"
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTQ2Nmt4bmlmZmkzZjlxdnd2dGk2Zm10ZmpycGd5bHR2YjhycHI2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTQ2Nmt4bmlmZmkzZjlxdnd2dGk2Zm10ZmpycGd5bHR2YjhycHI2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTQ2Nmt4bmlmZmkzZjlxdnd2dGk2Zm10ZmpycGd5bHR2YjhycHI2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YTQ2Nmt4bmlmZmkzZjlxdnd2dGk2Zm10ZmpycGd5bHR2YjhycHI2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RjDIwuXYPzrAEjb6HP/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWE0NjZreG5pZmZpM2Y5cXZ3dnRpNmZtdGZqcnBneWx0dmI4cnByNmUmZ2lmX2lkPVJqREl3dVhZUHpyQUVqYjZIUCZjdD1n&action_type=SEEN"
       }
     },
     "burnout": {
@@ -717,11 +717,11 @@
       "district_name": "Inner Life",
       "gif": {
         "id": "XtdHWMoKNGPtvZ9Z9n",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aGd5cjBtNmZwY3FwY3hvenFwZXdkYmp1ZWZkZGt1eW1mOXhqbnNueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWhneXIwbTZmcGNxcGN4b3pxcGV3ZGJqdWVmZGRrdXltZjl4am5zbnomZ2lmX2lkPVh0ZEhXTW9LTkdQdHZaOVo5biZjdD1n&action_type=SEEN"
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHRvbTFvZzU1Y2czY3ZjYnF6ejdlNG01NjZteW1lamtseWNrY3k4bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHRvbTFvZzU1Y2czY3ZjYnF6ejdlNG01NjZteW1lamtseWNrY3k4bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHRvbTFvZzU1Y2czY3ZjYnF6ejdlNG01NjZteW1lamtseWNrY3k4bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OHRvbTFvZzU1Y2czY3ZjYnF6ejdlNG01NjZteW1lamtseWNrY3k4bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XtdHWMoKNGPtvZ9Z9n/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTh0b20xb2c1NWNnM2N2Y2Jxeno3ZTRtNTY2bXltZWprbHlja2N5OGwmZ2lmX2lkPVh0ZEhXTW9LTkdQdHZaOVo5biZjdD1n&action_type=SEEN"
       }
     },
     "self care": {
@@ -736,11 +736,11 @@
       "district_name": "Respite",
       "gif": {
         "id": "H7kfFDvD9HSYGRbvid",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZmpibHNuaWJpOTg3M3lsODhlcGw1aDQ3dWJldjRiMjlsaGZwNWlxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWZqYmxzbmliaTk4NzN5bDg4ZXBsNWg0N3ViZXY0YjI5bGhmcDVpcWQmZ2lmX2lkPUg3a2ZGRHZEOUhTWUdSYnZpZCZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NW5kaG8yZ2IxMXpuYzN5YTNmOGU1ZnhwN3MwNDU5bjU3dmdwaGJ1biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NW5kaG8yZ2IxMXpuYzN5YTNmOGU1ZnhwN3MwNDU5bjU3dmdwaGJ1biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NW5kaG8yZ2IxMXpuYzN5YTNmOGU1ZnhwN3MwNDU5bjU3dmdwaGJ1biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NW5kaG8yZ2IxMXpuYzN5YTNmOGU1ZnhwN3MwNDU5bjU3dmdwaGJ1biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7kfFDvD9HSYGRbvid/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTVuZGhvMmdiMTF6bmMzeWEzZjhlNWZ4cDdzMDQ1OW41N3ZncGhidW4mZ2lmX2lkPUg3a2ZGRHZEOUhTWUdSYnZpZCZjdD1n&action_type=SEEN"
       }
     },
     "cope": {
@@ -755,11 +755,11 @@
       "district_name": "Respite",
       "gif": {
         "id": "qd0VlZ9VCvY8hbkMfq",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cGszeWMzZXdmamN2eGcweDR2cDlwdXU5d3Rwem5ya3dnM3Nla3YyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXBrM3ljM2V3ZmpjdnhnMHg0dnA5cHV1OXd0cHpucmt3ZzNzZWt2MjQmZ2lmX2lkPXFkMFZsWjlWQ3ZZOGhia01mcSZjdD1n&action_type=SEEN"
+        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWw5NnA3NWg1dWN4MzI4YTBjYWc2YzF6aTgyeDVncHAzN3J5OHkxYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w.webp",
+        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWw5NnA3NWg1dWN4MzI4YTBjYWc2YzF6aTgyeDVncHAzN3J5OHkxYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w.mp4",
+        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWw5NnA3NWg1dWN4MzI4YTBjYWc2YzF6aTgyeDVncHAzN3J5OHkxYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/200w_s.gif",
+        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWw5NnA3NWg1dWN4MzI4YTBjYWc2YzF6aTgyeDVncHAzN3J5OHkxYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qd0VlZ9VCvY8hbkMfq/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW1sOTZwNzVoNXVjeDMyOGEwY2FnNmMxemk4Mng1Z3BwMzdyeTh5MWMmZ2lmX2lkPXFkMFZsWjlWQ3ZZOGhia01mcSZjdD1n&action_type=SEEN"
       }
     },
     "conspiracy": {
@@ -774,11 +774,11 @@
       "district_name": "Power & Voice",
       "gif": {
         "id": "l0IylOPCNkiqOgMyA",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZjM3dmt4OXlnYmE2NmcyN2tvbTI3ZmNib3JqaGc2NXI3OHlxMWZxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWYzN3ZreDl5Z2JhNjZnMjdrb20yN2ZjYm9yamhnNjVyNzh5cTFmcTkmZ2lmX2lkPWwwSXlsT1BDTmtpcU9nTXlBJmN0PWc&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGdwaHVlcjFsdGcyYWZnam5uNmkydHdnemVkMTBtMDE1d2RvbnFqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGdwaHVlcjFsdGcyYWZnam5uNmkydHdnemVkMTBtMDE1d2RvbnFqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGdwaHVlcjFsdGcyYWZnam5uNmkydHdnemVkMTBtMDE1d2RvbnFqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MGdwaHVlcjFsdGcyYWZnam5uNmkydHdnemVkMTBtMDE1d2RvbnFqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IylOPCNkiqOgMyA/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTBncGh1ZXIxbHRnMmFmZ2pubjZpMnR3Z3plZDEwbTAxNXdkb25xamUmZ2lmX2lkPWwwSXlsT1BDTmtpcU9nTXlBJmN0PWc&action_type=SEEN"
       }
     },
     "misinformation": {
@@ -786,18 +786,18 @@
       "primary_phase": "deep_lockdown",
       "category": "political",
       "source": "gif-city original set + research",
-      "total_count": 450,
-      "codification_score": 96.49,
+      "total_count": 449,
+      "codification_score": 96.37,
       "classification": "neutral",
       "district": 5,
       "district_name": "Power & Voice",
       "gif": {
         "id": "gYyAnYhxT1xqRxFD7W",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d3VocWsxemdhYzdjNnZleGljMnJoYzd4M2lkNWFpYXhtNThoZmttZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXd1aHFrMXpnYWM3YzZ2ZXhpYzJyaGM3eDNpZDVhaWF4bTU4aGZrbWUmZ2lmX2lkPWdZeUFuWWh4VDF4cVJ4RkQ3VyZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3V2OXR6bThjYjliOXV4bXpzNnBrMjR4Z2w3MzF1M2g4d3NzajNmNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3V2OXR6bThjYjliOXV4bXpzNnBrMjR4Z2w3MzF1M2g4d3NzajNmNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3V2OXR6bThjYjliOXV4bXpzNnBrMjR4Z2w3MzF1M2g4d3NzajNmNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b3V2OXR6bThjYjliOXV4bXpzNnBrMjR4Z2w3MzF1M2g4d3NzajNmNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gYyAnYhxT1xqRxFD7W/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW91djl0em04Y2I5Yjl1eG16czZwazI0eGdsNzMxdTNoOHdzc2ozZjUmZ2lmX2lkPWdZeUFuWWh4VDF4cVJ4RkQ3VyZjdD1n&action_type=SEEN"
       }
     },
     "censorship": {
@@ -806,17 +806,17 @@
       "category": "political",
       "source": "gif-city original set",
       "total_count": 204,
-      "codification_score": 70.19,
+      "codification_score": 69.8,
       "classification": "neutral",
       "district": 5,
       "district_name": "Power & Voice",
       "gif": {
         "id": "XP95CPLn7dkVMlXXF5",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bTRmYmRsMzB5ajJtczZ6MTZ0aTZzYzN0amoydjVieXU3cHNvMW04cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW00ZmJkbDMweWoybXM2ejE2dGk2c2MzdGpqMnY1Ynl1N3BzbzFtOHEmZ2lmX2lkPVhQOTVDUExuN2RrVk1sWFhGNSZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OTlmNnY3dm00dmFhN3BoZzdzZm5rOGY3M2ppaHU5b3Y0ZWwzcDEyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OTlmNnY3dm00dmFhN3BoZzdzZm5rOGY3M2ppaHU5b3Y0ZWwzcDEyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OTlmNnY3dm00dmFhN3BoZzdzZm5rOGY3M2ppaHU5b3Y0ZWwzcDEyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5OTlmNnY3dm00dmFhN3BoZzdzZm5rOGY3M2ppaHU5b3Y0ZWwzcDEyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XP95CPLn7dkVMlXXF5/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTk5ZjZ2N3ZtNHZhYTdwaGc3c2ZuazhmNzNqaWh1OW92NGVsM3AxMmkmZ2lmX2lkPVhQOTVDUExuN2RrVk1sWFhGNSZjdD1n&action_type=SEEN"
       }
     },
     "protest": {
@@ -831,11 +831,11 @@
       "district_name": "Power & Voice",
       "gif": {
         "id": "ymwKHQ44WnAoU",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzE4aHZwbTBrMXN5MW04Yzlvam9oZXF3MWY3aHcxOHVtZjd3MGNmNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWMxOGh2cG0wazFzeTFtOGM5b2pvaGVxdzFmN2h3MTh1bWY3dzBjZjYmZ2lmX2lkPXltd0tIUTQ0V25Bb1UmY3Q9Zw&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzNjNTluOWFybnZtMmdlMjkyZ3oxcnJpOGxmYThtc3A0dzEyZWJvcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzNjNTluOWFybnZtMmdlMjkyZ3oxcnJpOGxmYThtc3A0dzEyZWJvcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzNjNTluOWFybnZtMmdlMjkyZ3oxcnJpOGxmYThtc3A0dzEyZWJvcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzNjNTluOWFybnZtMmdlMjkyZ3oxcnJpOGxmYThtc3A0dzEyZWJvcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ymwKHQ44WnAoU/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWMzYzU5bjlhcm52bTJnZTI5Mmd6MXJyaThsZmE4bXNwNHcxMmVib3EmZ2lmX2lkPXltd0tIUTQ0V25Bb1UmY3Q9Zw&action_type=SEEN"
       }
     },
     "new normal": {
@@ -850,11 +850,11 @@
       "district_name": "The Simulation",
       "gif": {
         "id": "XB3gaBJjllUtBnX8wS",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NXJkdXpqMWJleG44dGQ4MnRldmJsZm8ycXBmMDczZm9hc2VqZ3FvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTVyZHV6ajFiZXhuOHRkODJ0ZXZibGZvMnFwZjA3M2ZvYXNlamdxb3AmZ2lmX2lkPVhCM2dhQkpqbGxVdEJuWDh3UyZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWU2cXJwZWJkaGQ5MXF6NTFjY3EwNDR1MmxzcnpyOXUwYmR3cDgxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWU2cXJwZWJkaGQ5MXF6NTFjY3EwNDR1MmxzcnpyOXUwYmR3cDgxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWU2cXJwZWJkaGQ5MXF6NTFjY3EwNDR1MmxzcnpyOXUwYmR3cDgxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5bWU2cXJwZWJkaGQ5MXF6NTFjY3EwNDR1MmxzcnpyOXUwYmR3cDgxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XB3gaBJjllUtBnX8wS/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW1lNnFycGViZGhkOTFxejUxY2NxMDQ0dTJsc3J6cjl1MGJkd3A4MWYmZ2lmX2lkPVhCM2dhQkpqbGxVdEJuWDh3UyZjdD1n&action_type=SEEN"
       }
     },
     "return to office": {
@@ -869,11 +869,11 @@
       "district_name": "The Cage",
       "gif": {
         "id": "njpterp1OxZOgX7CI4",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c214ZTkyNXg3Mms2dW1sYzR6ZnE3NmNjMHhxa3VpZzlkYWM5djB4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNteGU5MjV4NzJrNnVtbGM0emZxNzZjYzB4cWt1aWc5ZGFjOXYweHkmZ2lmX2lkPW5qcHRlcnAxT3haT2dYN0NJNCZjdD1n&action_type=SEEN"
+        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aThvdzV6MnFreTQ1Nmc2aWdwNDI1a21pMnUzMDQ5anJrZnN1cWNoMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w.webp",
+        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aThvdzV6MnFreTQ1Nmc2aWdwNDI1a21pMnUzMDQ5anJrZnN1cWNoMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w.mp4",
+        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aThvdzV6MnFreTQ1Nmc2aWdwNDI1a21pMnUzMDQ5anJrZnN1cWNoMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/200w_s.gif",
+        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aThvdzV6MnFreTQ1Nmc2aWdwNDI1a21pMnUzMDQ5anJrZnN1cWNoMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/njpterp1OxZOgX7CI4/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWk4b3c1ejJxa3k0NTZnNmlncDQyNWttaTJ1MzA0OWpya2ZzdXFjaDAmZ2lmX2lkPW5qcHRlcnAxT3haT2dYN0NJNCZjdD1n&action_type=SEEN"
       }
     },
     "long covid": {
@@ -888,11 +888,11 @@
       "district_name": "The Body",
       "gif": {
         "id": "S6qDT1Mf8888gjozN8",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5NzNzcm0waWUyOWk4djEyNmRobTQzbXB0NGRvb25jam5qZ3kxNGtrdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTczc3JtMGllMjlpOHYxMjZkaG00M21wdDRkb29uY2puamd5MTRra3UmZ2lmX2lkPVM2cURUMU1mODg4OGdqb3pOOCZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aDV1NmZ2bWE2N216NWt5a3lrOXZiOTZkYmplN2J0ZWZrYjNsemJjNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aDV1NmZ2bWE2N216NWt5a3lrOXZiOTZkYmplN2J0ZWZrYjNsemJjNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aDV1NmZ2bWE2N216NWt5a3lrOXZiOTZkYmplN2J0ZWZrYjNsemJjNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aDV1NmZ2bWE2N216NWt5a3lrOXZiOTZkYmplN2J0ZWZrYjNsemJjNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S6qDT1Mf8888gjozN8/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWg1dTZmdm1hNjdtejVreWt5azl2Yjk2ZGJqZTdidGVma2IzbHpiYzYmZ2lmX2lkPVM2cURUMU1mODg4OGdqb3pOOCZjdD1n&action_type=SEEN"
       }
     },
     "metaverse": {
@@ -907,11 +907,11 @@
       "district_name": "The Simulation",
       "gif": {
         "id": "qCOnTkTaRiAgoOEXAg",
-        "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w.webp",
-        "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w.mp4",
-        "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w_s.gif",
-        "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5MHc0bXcyM2tqaGgyMDR6NTFjNGoyN3Vpdmp5czlzM2hqc3Z0bHpzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTB3NG13MjNramhoMjA0ejUxYzRqMjd1aXZqeXM5czNoanN2dGx6c3EmZ2lmX2lkPXFDT25Ua1RhUmlBZ29PRVhBZyZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2VyMmV2YWk2dzFvcXdidWdtaTN4dmliaTcxZ2tsaGpweWNldmJyNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2VyMmV2YWk2dzFvcXdidWdtaTN4dmliaTcxZ2tsaGpweWNldmJyNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2VyMmV2YWk2dzFvcXdidWdtaTN4dmliaTcxZ2tsaGpweWNldmJyNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5c2VyMmV2YWk2dzFvcXdidWdtaTN4dmliaTcxZ2tsaGpweWNldmJyNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCOnTkTaRiAgoOEXAg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXNlcjJldmFpNncxb3F3YnVnbWkzeHZpYmk3MWdrbGhqcHljZXZicjUmZ2lmX2lkPXFDT25Ua1RhUmlBZ29PRVhBZyZjdD1n&action_type=SEEN"
       }
     },
     "AI": {
@@ -926,11 +926,11 @@
       "district_name": "The Simulation",
       "gif": {
         "id": "Rfwlp9c5bA7R3s7Y5D",
-        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w.webp",
-        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w.mp4",
-        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w_s.gif",
-        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5YzduaThwYXZ0dTk4NHFuYXp6enNld2J4NDVpaDB0bWwzenQzcWllMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWM3bmk4cGF2dHU5ODRxbmF6enpzZXdieDQ1aWgwdG1sM3p0M3FpZTAmZ2lmX2lkPVJmd2xwOWM1YkE3UjNzN1k1RCZjdD1n&action_type=SEEN"
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dG4ybzc4c25rOXZ4OTdicWx6b2wxYXFsa2lmYjZqd20wcm93MW5obiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dG4ybzc4c25rOXZ4OTdicWx6b2wxYXFsa2lmYjZqd20wcm93MW5obiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dG4ybzc4c25rOXZ4OTdicWx6b2wxYXFsa2lmYjZqd20wcm93MW5obiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dG4ybzc4c25rOXZ4OTdicWx6b2wxYXFsa2lmYjZqd20wcm93MW5obiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rfwlp9c5bA7R3s7Y5D/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXRuMm83OHNuazl2eDk3YnFsem9sMWFxbGtpZmI2andtMHJvdzFuaG4mZ2lmX2lkPVJmd2xwOWM1YkE3UjNzN1k1RCZjdD1n&action_type=SEEN"
       }
     },
     "deepfake": {
@@ -945,11 +945,11 @@
       "district_name": "The Simulation",
       "gif": {
         "id": "31UJn87m2S7r6Nnec8",
-        "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w.webp",
-        "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w.mp4",
-        "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w_s.gif",
-        "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5d210Z252MHR4OW0zNjRmZzZvNWFlMXRzeXpwbW95aXY4dHNjdzUwdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXdtdGdudjB0eDltMzY0Zmc2bzVhZTF0c3l6cG1veWl2OHRzY3c1MHcmZ2lmX2lkPTMxVUpuODdtMlM3cjZObmVjOCZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b25wdXBqM2dzZWxuZDB6cjk1aGZmb2ZjazZ6djdoNHcweXk0b3c4eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b25wdXBqM2dzZWxuZDB6cjk1aGZmb2ZjazZ6djdoNHcweXk0b3c4eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b25wdXBqM2dzZWxuZDB6cjk1aGZmb2ZjazZ6djdoNHcweXk0b3c4eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b25wdXBqM2dzZWxuZDB6cjk1aGZmb2ZjazZ6djdoNHcweXk0b3c4eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31UJn87m2S7r6Nnec8/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW9ucHVwajNnc2VsbmQwenI5NWhmZm9mY2s2enY3aDR3MHl5NG93OHomZ2lmX2lkPTMxVUpuODdtMlM3cjZObmVjOCZjdD1n&action_type=SEEN"
       }
     },
     "surveillance": {
@@ -957,18 +957,18 @@
       "primary_phase": "post_covid",
       "category": "technology",
       "source": "Elahi net art; Baudrillard hyperreal subject",
-      "total_count": 416,
-      "codification_score": 90.47,
+      "total_count": 417,
+      "codification_score": 90.6,
       "classification": "neutral",
       "district": 6,
       "district_name": "The Simulation",
       "gif": {
-        "id": "l0HUbESbGqYn8kNlC",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5b2l1d3Iwem1qMnU3cW9kcXRlc2ZhcTBsaTg2cGFyODJoYnNqOW9vZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HUbESbGqYn8kNlC/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOW9pdXdyMHptajJ1N3FvZHF0ZXNmYXEwbGk4NnBhcjgyaGJzajlvb2YmZ2lmX2lkPWwwSFViRVNiR3FZbjhrTmxDJmN0PWc&action_type=SEEN"
+        "id": "XAEfNyJgegrcC6vI58",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5azd6cXYwdnJoamhwbmRnNnhxYzNlN2gwbm8wMnJlcDB4d2J5c2g5cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XAEfNyJgegrcC6vI58/200w.webp",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5azd6cXYwdnJoamhwbmRnNnhxYzNlN2gwbm8wMnJlcDB4d2J5c2g5cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XAEfNyJgegrcC6vI58/200w.mp4",
+        "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5azd6cXYwdnJoamhwbmRnNnhxYzNlN2gwbm8wMnJlcDB4d2J5c2g5cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XAEfNyJgegrcC6vI58/200w_s.gif",
+        "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5azd6cXYwdnJoamhwbmRnNnhxYzNlN2gwbm8wMnJlcDB4d2J5c2g5cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XAEfNyJgegrcC6vI58/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWs3enF2MHZyaGpocG5kZzZ4cWMzZTdoMG5vMDJyZXAweHdieXNoOXAmZ2lmX2lkPVhBRWZOeUpnZWdyY0M2dkk1OCZjdD1n&action_type=SEEN"
       }
     },
     "reality": {
@@ -983,11 +983,11 @@
       "district_name": "The Simulation",
       "gif": {
         "id": "l0MYMe3UJsn1zCIMg",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5djV4NjQxb3p5OTdmeWh3eXZ0b2hhOTJoNjM2ZmxvMG5idjEzNDh2ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXY1eDY0MW96eTk3Znlod3l2dG9oYTkyaDYzNmZsbzBuYnYxMzQ4dmYmZ2lmX2lkPWwwTVlNZTNVSnNuMXpDSU1nJmN0PWc&action_type=SEEN"
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDFiYm85ZGg5aXpkOGpiemh0and2MHZzaGFuZHk5enlxZmxnZmRybyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDFiYm85ZGg5aXpkOGpiemh0and2MHZzaGFuZHk5enlxZmxnZmRybyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDFiYm85ZGg5aXpkOGpiemh0and2MHZzaGFuZHk5enlxZmxnZmRybyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eDFiYm85ZGg5aXpkOGpiemh0and2MHZzaGFuZHk5enlxZmxnZmRybyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0MYMe3UJsn1zCIMg/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXgxYmJvOWRoOWl6ZDhqYnpodGp3djB2c2hhbmR5OXp5cWZsZ2Zkcm8mZ2lmX2lkPWwwTVlNZTNVSnNuMXpDSU1nJmN0PWc&action_type=SEEN"
       }
     },
     "simulation": {
@@ -1002,11 +1002,11 @@
       "district_name": "The Simulation",
       "gif": {
         "id": "Fh79jxFnwpHTZnyi84",
-        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w.webp",
-        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w.mp4",
-        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w_s.gif",
-        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5dzdmYnk1YzF5dzBmbjR3b3pydTl6OHBpZWM3ZTNpaWk5YTFoeXBuMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXc3ZmJ5NWMxeXcwZm40d296cnU5ejhwaWVjN2UzaWlpOWExaHlwbjImZ2lmX2lkPUZoNzlqeEZud3BIVFpueWk4NCZjdD1n&action_type=SEEN"
+        "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aWFmNXRwbzIxdnJjaXc1cWx5YXNqZWxnbnFpdzYxczU3c2VrOXlhbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w.webp",
+        "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aWFmNXRwbzIxdnJjaXc1cWx5YXNqZWxnbnFpdzYxczU3c2VrOXlhbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w.mp4",
+        "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aWFmNXRwbzIxdnJjaXc1cWx5YXNqZWxnbnFpdzYxczU3c2VrOXlhbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/200w_s.gif",
+        "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5aWFmNXRwbzIxdnJjaXc1cWx5YXNqZWxnbnFpdzYxczU3c2VrOXlhbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fh79jxFnwpHTZnyi84/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOWlhZjV0cG8yMXZyY2l3NXFseWFzamVsZ25xaXc2MXM1N3Nlazl5YW8mZ2lmX2lkPUZoNzlqeEZud3BIVFpueWk4NCZjdD1n&action_type=SEEN"
       }
     },
     "disconnected": {
@@ -1014,18 +1014,18 @@
       "primary_phase": "post_covid",
       "category": "emotional",
       "source": "post-pandemic social research",
-      "total_count": 291,
-      "codification_score": 71.97,
+      "total_count": 295,
+      "codification_score": 72.68,
       "classification": "neutral",
       "district": 7,
       "district_name": "The Cage",
       "gif": {
         "id": "hhbsgAvBkZqkKx2ys7",
-        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w.webp",
-        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w.mp4",
-        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w_s.gif",
-        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5Nms4aDh4dDlzejIzejkzMDhuZTU4aGoydzVsMDU0ZzUyNG5kdm1oaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/100w.gif",
-        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOTZrOGg4eHQ5c3oyM3o5MzA4bmU1OGhqMnc1bDA1NGc1MjRuZHZtaGomZ2lmX2lkPWhoYnNnQXZCa1pxa0t4MnlzNyZjdD1n&action_type=SEEN"
+        "webp": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eW1xb2R2ZGhtd25qNWw2andweWtrY2YxY2dzaDBhcm82eGJheXp2byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w.webp",
+        "mp4": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eW1xb2R2ZGhtd25qNWw2andweWtrY2YxY2dzaDBhcm82eGJheXp2byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w.mp4",
+        "still": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eW1xb2R2ZGhtd25qNWw2andweWtrY2YxY2dzaDBhcm82eGJheXp2byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/200w_s.gif",
+        "small": "https://media3.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5eW1xb2R2ZGhtd25qNWw2andweWtrY2YxY2dzaDBhcm82eGJheXp2byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hhbsgAvBkZqkKx2ys7/100w.gif",
+        "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD1jN2U3YjczOXltcW9kdmRobXduajVsNmp3cHlra2NmMWNnc2gwYXJvNnhiYXl6dm8mZ2lmX2lkPWhoYnNnQXZCa1pxa0t4MnlzNyZjdD1n&action_type=SEEN"
       }
     }
   },
@@ -1251,16 +1251,16 @@
       "phase": "lockdown",
       "category": "meta-digital",
       "classification": "cage",
-      "codification_score": 62.57,
-      "total_count": 270
+      "codification_score": 63.25,
+      "total_count": 273
     },
     {
       "term": "cabin fever",
       "phase": "lockdown",
       "category": "meta-digital",
       "classification": "neutral",
-      "codification_score": 24.06,
-      "total_count": 143
+      "codification_score": 23.64,
+      "total_count": 142
     },
     {
       "term": "essential worker",
@@ -1283,7 +1283,7 @@
       "phase": "deep_lockdown",
       "category": "epidemiological",
       "classification": "neutral",
-      "codification_score": 67.3,
+      "codification_score": 66.87,
       "total_count": 187
     },
     {
@@ -1308,7 +1308,7 @@
       "category": "meta-digital",
       "classification": "neutral",
       "codification_score": 0.0,
-      "total_count": 24
+      "total_count": 25
     },
     {
       "term": "pandemic fatigue",
@@ -1371,15 +1371,15 @@
       "phase": "deep_lockdown",
       "category": "political",
       "classification": "neutral",
-      "codification_score": 96.49,
-      "total_count": 450
+      "codification_score": 96.37,
+      "total_count": 449
     },
     {
       "term": "censorship",
       "phase": "deep_lockdown",
       "category": "political",
       "classification": "neutral",
-      "codification_score": 70.19,
+      "codification_score": 69.8,
       "total_count": 204
     },
     {
@@ -1443,8 +1443,8 @@
       "phase": "post_covid",
       "category": "technology",
       "classification": "neutral",
-      "codification_score": 90.47,
-      "total_count": 416
+      "codification_score": 90.6,
+      "total_count": 417
     },
     {
       "term": "reality",
@@ -1467,8 +1467,8 @@
       "phase": "post_covid",
       "category": "emotional",
       "classification": "neutral",
-      "codification_score": 71.97,
-      "total_count": 291
+      "codification_score": 72.68,
+      "total_count": 295
     }
   ],
   "phases": {
@@ -1542,7 +1542,7 @@
         "protest"
       ],
       "phase_max_count": 500,
-      "phase_min_count": 24
+      "phase_min_count": 25
     },
     "post_covid": {
       "label": "The New Normal (Hyperreal)",
@@ -1567,51 +1567,51 @@
   "fixed_gifs": {
     "order_i": {
       "id": "34UoAM268FUBO",
-      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.webp",
-      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.mp4",
-      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w_s.gif",
-      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/100w.gif",
-      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9MzRVb0FNMjY4RlVCTyZjdD1n&action_type=SEEN"
+      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.webp",
+      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.mp4",
+      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w_s.gif",
+      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZnaWZfaWQ9MzRVb0FNMjY4RlVCTyZjdD1n&action_type=SEEN"
     },
     "order_ii": {
       "id": "tgKHdTYy9banoikIDF",
-      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w.webp",
-      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w.mp4",
-      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w_s.gif",
-      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/100w.gif",
-      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9dGdLSGRUWXk5YmFub2lrSURGJmN0PWc&action_type=SEEN"
+      "webp": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w.webp",
+      "mp4": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w.mp4",
+      "still": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/200w_s.gif",
+      "small": "https://media0.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/tgKHdTYy9banoikIDF/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZnaWZfaWQ9dGdLSGRUWXk5YmFub2lrSURGJmN0PWc&action_type=SEEN"
     },
     "order_iii": {
-      "id": "dQQCbebNkTXqdC5EJ6",
-      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/200w.webp",
-      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/200w.mp4",
-      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/200w_s.gif",
-      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/dQQCbebNkTXqdC5EJ6/100w.gif",
-      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9ZFFRQ2JlYk5rVFhxZEM1RUo2JmN0PWc&action_type=SEEN"
+      "id": "1CNsm9ZkHF0m4",
+      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/1CNsm9ZkHF0m4/200w.webp",
+      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/1CNsm9ZkHF0m4/200w.mp4",
+      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/1CNsm9ZkHF0m4/200w_s.gif",
+      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/1CNsm9ZkHF0m4/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZnaWZfaWQ9MUNOc205WmtIRjBtNCZjdD1n&action_type=SEEN"
     },
     "order_iv": {
       "id": "lXiRKE65Qp4sMrXgc",
-      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w.webp",
-      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w.mp4",
-      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w_s.gif",
-      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/100w.gif",
-      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9bFhpUktFNjVRcDRzTXJYZ2MmY3Q9Zw&action_type=SEEN"
+      "webp": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w.webp",
+      "mp4": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w.mp4",
+      "still": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/200w_s.gif",
+      "small": "https://media4.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/lXiRKE65Qp4sMrXgc/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZnaWZfaWQ9bFhpUktFNjVRcDRzTXJYZ2MmY3Q9Zw&action_type=SEEN"
     },
     "closing_together": {
       "id": "34UoAM268FUBO",
-      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.webp",
-      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.mp4",
-      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w_s.gif",
-      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/100w.gif",
-      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9MzRVb0FNMjY4RlVCTyZjdD1n&action_type=SEEN"
+      "webp": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.webp",
+      "mp4": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w.mp4",
+      "still": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/200w_s.gif",
+      "small": "https://media1.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/34UoAM268FUBO/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZnaWZfaWQ9MzRVb0FNMjY4RlVCTyZjdD1n&action_type=SEEN"
     },
     "closing_loneliness": {
       "id": "ISOckXUybVfQ4",
-      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w.webp",
-      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w.mp4",
-      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w_s.gif",
-      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/100w.gif",
-      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5ZWE4MWRqdGFqMmN1dmU4eHJ3aGU5eWcybmdsY3cxY2lteHp6YTY2cyZnaWZfaWQ9SVNPY2tYVXliVmZRNCZjdD1n&action_type=SEEN"
+      "webp": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w.webp",
+      "mp4": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w.mp4",
+      "still": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/200w_s.gif",
+      "small": "https://media2.giphy.com/media/v1.Y2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZlcD12MV9naWZzJmN0PWc/ISOckXUybVfQ4/100w.gif",
+      "onload_ping": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZXZlbnRfdHlwZT1HSUZfQllfSUQmY2lkPWM3ZTdiNzM5cDZsNHRqeHg1Y2JwcG9nZXJhaDMxNTAwYnJ4OHc0MTdmZzhtdHRscCZnaWZfaWQ9SVNPY2tYVXliVmZRNCZjdD1n&action_type=SEEN"
     }
   }
 }

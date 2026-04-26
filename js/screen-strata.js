@@ -43,8 +43,8 @@ const CATEGORY_CHIP_COLOR = 'rgba(255, 255, 255, 0.85)';
 
 const MIN_R = 22;
 const MAX_R = 68;
-const MIN_BAND_H = 260;   /* fits the centred header + breathing room for bubbles */
-const COLLISION_PAD = 18;
+const MIN_BAND_H = 260;
+const COLLISION_PAD = 6;   /* tight gap in band layout — was 18 */
 const LABEL_VISIBLE_R = 22;
 const LABEL_FULL_R = 30;
 const SIM_TICKS = 450;
@@ -56,8 +56,8 @@ const TARGET_CANVAS_H = 1700;
 const PER_KEYWORD_H   = 110;   /* floor: every keyword gets ~110px band slice */
 
 /* Bubble exclusion zones (px) */
-const SIDE_PAD      = 48;      /* keep bubbles off the left/right edges + arrows */
-const BAND_TOP_PAD  = 88;      /* reserves top of band for centred phase label   */
+const SIDE_PAD      = 48;
+const BAND_TOP_PAD  = 110;     /* matches CSS padding-top + label height */
 const BAND_BOT_PAD  = 32;
 
 let sectionEl = null;
@@ -259,9 +259,9 @@ function layout() {
   };
 
   const sim = window.d3.forceSimulation(nodes)
-    .force('x', window.d3.forceX(d => d.homeX).strength(0.08))
-    .force('y', window.d3.forceY(d => d.homeY).strength(0.38))
-    .force('collide', window.d3.forceCollide(d => d.r + COLLISION_PAD).strength(1.0))
+    .force('x', window.d3.forceX(d => d.homeX).strength(0.18))
+    .force('y', window.d3.forceY(d => d.homeY).strength(0.42))
+    .force('collide', window.d3.forceCollide(d => d.r + COLLISION_PAD).strength(1.0).iterations(3))
     .stop();
 
   for (let i = 0; i < SIM_TICKS; i++) {

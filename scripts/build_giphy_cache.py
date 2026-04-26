@@ -80,7 +80,7 @@ DISTRICT_NAMES = {
 FIXED_GIF_IDS = {
     "order_i":            "34UoAM268FUBO",
     "order_ii":           "tgKHdTYy9banoikIDF",
-    "order_iii":          "dQQCbebNkTXqdC5EJ6",
+    "order_iii":          "1CNsm9ZkHF0m4",      # Keanu / Matrix — "the network is the message"
     "order_iv":           "lXiRKE65Qp4sMrXgc",
     "closing_together":   "34UoAM268FUBO",
     "closing_loneliness": "ISOckXUybVfQ4",
